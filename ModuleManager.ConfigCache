@@ -1500,6 +1500,817 @@ UrlConfig
 }
 UrlConfig
 {
+	name = CITY_LIGHTS
+	type = CITY_LIGHTS
+	parentUrl = BoulderCo/CityLights/cityLights
+	url = BoulderCo/CityLights/cityLights/CITY_LIGHTS
+	CITY_LIGHTS
+	{
+		altitude = 100
+		fadeDistance = 0
+		pqsFadeDistance = 500
+		main_texture
+		{
+			file = BoulderCo/CityLights/Textures/main
+			offset
+			{
+				x = 0
+				y = 0
+			}
+		}
+		detail_texture
+		{
+			file = BoulderCo/CityLights/Textures/detail
+			scale = 60
+			offset
+			{
+				x = 0
+				y = 0
+			}
+		}
+	}
+}
+UrlConfig
+{
+	name = CLOUD_LAYER_PACK
+	type = CLOUD_LAYER_PACK
+	parentUrl = BoulderCo/Clouds/cloudLayers-PlanetFactory
+	url = BoulderCo/Clouds/cloudLayers-PlanetFactory/CLOUD_LAYER_PACK
+	CLOUD_LAYER_PACK
+	{
+		volume = True
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Skelton
+				altitude = 5000
+				volume = True
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/duna1
+					offset
+					{
+						x = .3
+						y = 0
+					}
+					speed
+					{
+						x = .000030
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detail1
+					scale = 100
+					offset
+					{
+						x = .3
+						y = 0
+					}
+					speed
+					{
+						x = .000030
+						y = 0
+					}
+				}
+				color
+				{
+					r = 0.694
+					g = 0.62
+					b = 0.567
+					a = 1
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Erin
+				altitude = 4000
+				volume = True
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/kerbin1
+					offset
+					{
+						x = .3
+						y = 0
+					}
+					speed
+					{
+						x = .000025
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detail1
+					scale = 100
+					offset
+					{
+						x = .3
+						y = 0
+					}
+					speed
+					{
+						x = .000025
+						y = 0
+					}
+				}
+				bump_texture
+				{
+					file = BoulderCo/Clouds/Textures/bump1
+					scale = 90
+					offset
+					{
+						x = .3
+						y = 0
+					}
+					speed
+					{
+						x = .000025
+						y = 0
+					}
+				}
+				color
+				{
+					r = 1
+					g = 1
+					b = 1
+					a = 1
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Sentar
+				altitude = 45000
+				volume = True
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/jool1
+					offset
+					{
+						x = 0
+						y = 0
+					}
+					speed
+					{
+						x = .000005
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detaileve1
+					scale = 1000
+					offset
+					{
+						x = 0
+						y = 0
+					}
+					speed
+					{
+						x = .000005
+						y = 0
+					}
+				}
+				color
+				{
+					r = 0.102
+					g = 0.169
+					b = 0.063
+					a = 1
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Sentar
+				altitude = 45000
+				volume = True
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/joolLayers1
+					offset
+					{
+						x = 0
+						y = 0
+					}
+					speed
+					{
+						x = .000065
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detaileve1
+					scale = 1000
+					offset
+					{
+						x = .25
+						y = 0
+					}
+					speed
+					{
+						x = .000065
+						y = 0
+					}
+				}
+				color
+				{
+					r = 0.102
+					g = 0.169
+					b = 0.063
+					a = 1
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Sentar
+				altitude = 45000
+				volume = True
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/joolLayers2
+					offset
+					{
+						x = 0
+						y = 0
+					}
+					speed
+					{
+						x = .00002
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detaileve1
+					scale = 1000
+					offset
+					{
+						x = .25
+						y = 0
+					}
+					speed
+					{
+						x = .00002
+						y = 0
+					}
+				}
+				color
+				{
+					r = 0.102
+					g = 0.169
+					b = 0.063
+					a = 1
+				}
+			}
+		}
+	}
+}
+UrlConfig
+{
+	name = CLOUDS_SETTINGS
+	type = CLOUDS_SETTINGS
+	parentUrl = BoulderCo/Clouds/cloudLayers
+	url = BoulderCo/Clouds/cloudLayers/CLOUDS_SETTINGS
+	CLOUDS_SETTINGS
+	{
+		GUI_KEYCODE = N
+	}
+}
+UrlConfig
+{
+	name = CLOUD_LAYER_PACK
+	type = CLOUD_LAYER_PACK
+	parentUrl = BoulderCo/Clouds/cloudLayers
+	url = BoulderCo/Clouds/cloudLayers/CLOUD_LAYER_PACK
+	CLOUD_LAYER_PACK
+	{
+		volume = True
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Laythe
+				altitude = 6000
+				volume = True
+				color
+				{
+					r = 0.4
+					g = 0.4
+					b = 0.6
+					a = 1
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/kerbin1
+					scale = 1
+					offset
+					{
+						x = 0.002109109
+						y = 0
+					}
+					speed
+					{
+						x = 1E-05
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detail1
+					scale = 100
+					offset
+					{
+						x = 0.002109109
+						y = 0
+					}
+					speed
+					{
+						x = 1.1E-05
+						y = 0
+					}
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Duna
+				altitude = 8000
+				volume = True
+				color
+				{
+					r = 0.38
+					g = 0.16
+					b = 0.098
+					a = 1
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/duna1
+					scale = 1
+					offset
+					{
+						x = 0.3063397
+						y = 0
+					}
+					speed
+					{
+						x = 3E-05
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detail1
+					scale = 100
+					offset
+					{
+						x = 0.3063397
+						y = 0
+					}
+					speed
+					{
+						x = 3.1E-05
+						y = 0
+					}
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Kerbin
+				altitude = 4000
+				volume = True
+				color
+				{
+					r = 1
+					g = 1
+					b = 1
+					a = 1
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/kerbin1
+					scale = 1
+					offset
+					{
+						x = 0.3052678
+						y = 0
+					}
+					speed
+					{
+						x = -2.5E-05
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detail1
+					scale = 100
+					offset
+					{
+						x = 0.3052678
+						y = 0
+					}
+					speed
+					{
+						x = 2.6E-05
+						y = 0
+					}
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Eve
+				altitude = 4000
+				volume = True
+				color
+				{
+					r = 0.314
+					g = 0.216
+					b = 0.435
+					a = 1
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/eve1
+					scale = 1
+					offset
+					{
+						x = 0.9218211
+						y = 0
+					}
+					speed
+					{
+						x = -2E-05
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detaileve1
+					scale = 100
+					offset
+					{
+						x = 0.9218211
+						y = 0
+					}
+					speed
+					{
+						x = -0.0001
+						y = -0.0001
+					}
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Eve
+				altitude = 6000
+				volume = True
+				color
+				{
+					r = 0.314
+					g = 0.216
+					b = 0.435
+					a = 1
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/eve1
+					scale = 1
+					offset
+					{
+						x = 0.8436421
+						y = 0
+					}
+					speed
+					{
+						x = -4E-05
+						y = 1E-05
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detaileve1
+					scale = 100
+					offset
+					{
+						x = 0.8436421
+						y = 0
+					}
+					speed
+					{
+						x = -1E-05
+						y = 1E-05
+					}
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			SAVED
+			{
+				body = Eve
+				altitude = 8000
+				volume = True
+				color
+				{
+					r = 0.411
+					g = 0.204
+					b = 0.663
+					a = 1
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/eve1
+					scale = 1
+					offset
+					{
+						x = 0.4609106
+						y = 0
+					}
+					speed
+					{
+						x = -1E-05
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detaileve1
+					scale = 100
+					offset
+					{
+						x = 0.4609106
+						y = 0
+					}
+					speed
+					{
+						x = -1E-05
+						y = 0
+					}
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Eve
+				altitude = 10000
+				volume = True
+				color
+				{
+					r = 0.411
+					g = 0.204
+					b = 0.663
+					a = 1
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/eve1
+					scale = 1
+					offset
+					{
+						x = 0.1718219
+						y = 0
+					}
+					speed
+					{
+						x = -2E-05
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detaileve1
+					scale = 100
+					offset
+					{
+						x = 0.1718219
+						y = 0
+					}
+					speed
+					{
+						x = -2E-05
+						y = 0
+					}
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Eve
+				altitude = 12000
+				volume = True
+				color
+				{
+					r = 0.643
+					g = 0.424
+					b = 0.914
+					a = 1
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/eve1
+					scale = 1
+					offset
+					{
+						x = 0.08436437
+						y = 0.5
+					}
+					speed
+					{
+						x = -4E-06
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detaileve1
+					scale = 100
+					offset
+					{
+						x = 0.08436437
+						y = 0.5
+					}
+					speed
+					{
+						x = -4E-06
+						y = 0
+					}
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Jool
+				altitude = 45000
+				volume = True
+				color
+				{
+					r = 0.102
+					g = 0.169
+					b = 0.063
+					a = 1
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/jool1
+					scale = 1
+					offset
+					{
+						x = 0.001054554
+						y = 0
+					}
+					speed
+					{
+						x = 5E-06
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detaileve1
+					scale = 1000
+					offset
+					{
+						x = 0.001054554
+						y = 0
+					}
+					speed
+					{
+						x = 5E-06
+						y = 0
+					}
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Jool
+				altitude = 45000
+				volume = True
+				color
+				{
+					r = 0.102
+					g = 0.169
+					b = 0.063
+					a = 1
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/joolLayers1
+					scale = 1
+					offset
+					{
+						x = 0.01370921
+						y = 0
+					}
+					speed
+					{
+						x = 6.5E-05
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detaileve1
+					scale = 1000
+					offset
+					{
+						x = 0.2637106
+						y = 0
+					}
+					speed
+					{
+						x = 6.5E-05
+						y = 0
+					}
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Jool
+				altitude = 45000
+				volume = True
+				color
+				{
+					r = 0.102
+					g = 0.169
+					b = 0.063
+					a = 1
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/joolLayers2
+					scale = 1
+					offset
+					{
+						x = 0.004218218
+						y = 0
+					}
+					speed
+					{
+						x = 2E-05
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detaileve1
+					scale = 1000
+					offset
+					{
+						x = 0.2541884
+						y = 0
+					}
+					speed
+					{
+						x = 2E-05
+						y = 0
+					}
+				}
+			}
+		}
+	}
+}
+UrlConfig
+{
 	name = Engineer7500
 	type = PART
 	parentUrl = Engineer/Engineer7500/part
@@ -1674,6 +2485,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+	}
+}
+UrlConfig
+{
+	name = ENVIRONMENTAL_VISUAL_ENHANCEMENTS
+	type = ENVIRONMENTAL_VISUAL_ENHANCEMENTS
+	parentUrl = EnvironmentalVisualEnhancements/settings
+	url = EnvironmentalVisualEnhancements/settings/ENVIRONMENTAL_VISUAL_ENHANCEMENTS
+	ENVIRONMENTAL_VISUAL_ENHANCEMENTS
+	{
+		volumeHexRadius = 12000
+		volumeSegmentDiv = 3
 	}
 }
 UrlConfig
