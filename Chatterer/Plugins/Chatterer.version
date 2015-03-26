@@ -1,0 +1,23 @@
+{
+	"NAME":"Chatterer",
+	"URL":"http://ksp-avc.cybutek.net/version.php?id=27",
+	"VERSION":
+	{
+		"MAJOR":0,
+		"MINOR":8,
+		"PATCH":1,
+		"BUILD":86
+	},
+	"KSP_VERSION":
+	{
+		"MAJOR":0,
+		"MINOR":90,
+		"PATCH":0
+	},
+	"KSP_VERSION_MIN":
+    {
+        "MAJOR":0,
+        "MINOR":25,
+        "PATCH":0
+    },
+}
