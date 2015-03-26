@@ -1,4 +1,4 @@
-patchedNodeCount = 253
+patchedNodeCount = 306
 catEatenCount = 0
 UrlConfig
 {
@@ -1665,6 +1665,1604 @@ UrlConfig
 		MODULE
 		{
 			name = FlightEngineer
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = GrabModule
+	type = GrabModule
+	parentUrl = KAS/settings
+	url = KAS/settings/GrabModule
+	GrabModule
+	{
+		grabPartKey = p
+		grabConnectorKey = y
+	}
+}
+UrlConfig
+{
+	name = AttachPointer
+	type = AttachPointer
+	parentUrl = KAS/settings
+	url = KAS/settings/AttachPointer
+	AttachPointer
+	{
+		attachKey = h
+		rotateLeftKey = b
+		rotateRightKey = n
+	}
+}
+UrlConfig
+{
+	name = WinchModule
+	type = WinchModule
+	parentUrl = KAS/settings
+	url = KAS/settings/WinchModule
+	WinchModule
+	{
+		extendKey = [2]
+		retractKey = [5]
+		connectorLeftKey = [1]
+		connectorRightKey = [3]
+		hookKey = [0]
+		ejectKey = [8]
+		evaExtendKey = K
+		evaRetractKey = I
+	}
+}
+UrlConfig
+{
+	name = WinchGUI
+	type = WinchGUI
+	parentUrl = KAS/settings
+	url = KAS/settings/WinchGUI
+	WinchGUI
+	{
+		toogleKey = p
+		height = 500
+	}
+}
+UrlConfig
+{
+	name = Rotor
+	type = Rotor
+	parentUrl = KAS/settings
+	url = KAS/settings/Rotor
+	Rotor
+	{
+		rotorNegativeKey = [4]
+		rotorPositiveKey = [6]
+	}
+}
+UrlConfig
+{
+	name = TelescopicArm
+	type = TelescopicArm
+	parentUrl = KAS/settings
+	url = KAS/settings/TelescopicArm
+	TelescopicArm
+	{
+		extendKey = [9]
+		retractKey = [7]
+	}
+}
+UrlConfig
+{
+	name = KAS_Container1
+	type = PART
+	parentUrl = KAS/Parts/container1/container1
+	url = KAS/Parts/container1/container1/KAS_Container1
+	PART
+	{
+		name = KAS_Container1
+		module = Part
+		author = zzz
+		mesh = container1.mu
+		scale = 1
+		rescaleFactor = 0.50
+		node_stack_bottom = 0.0, -0.3968, 0.0, 0.0, 1.0, 0.0, 0
+		cost = 550
+		category = Utility
+		subcategory = 0
+		title = Container Type A
+		manufacturer = Sklifosovsky Labs
+		description = A KAS dedicated container for storing grabbable parts. Right click on it to edit content.
+		TechRequired = specializedConstruction
+		entryCost = 50
+		attachRules = 1,0,1,0,1
+		mass = 0.02
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.3
+		angularDrag = 2
+		crashTolerance = 20
+		maxTemp = 3400
+		fuelCrossFeed = False
+		breakingForce = 15
+		breakingTorque = 15
+		MODULE
+		{
+			name = KASModuleContainer
+			maxSize = 40
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.10, -0.15)
+			evaPartDir = (0,0,-1)
+			attachNodeName = bottom
+			customGroundPos = true
+			dropPartPos = (0.0, 0.0, -0.55)
+			dropPartRot = (-10.0, 0.0, 0.0)
+			bayType = containerA
+			bayNode = bottom
+			bayRot = (0.0, 0.0, 0.0)
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_Container2
+	type = PART
+	parentUrl = KAS/Parts/container2/container2
+	url = KAS/Parts/container2/container2/KAS_Container2
+	PART
+	{
+		name = KAS_Container2
+		module = Part
+		author = zzz
+		mesh = container2.mu
+		scale = 1
+		rescaleFactor = 0.50
+		node_stack_bottom = 0.0, -0.7596, 0.0, 0.0, 1.0, 0.0, 0
+		cost = 700
+		category = Utility
+		subcategory = 0
+		title = Container Type B
+		manufacturer = Sklifosovsky Labs
+		description = A KAS dedicated container for storing grabbable parts. Right click on it to edit content.
+		TechRequired = composites
+		entryCost = 50
+		attachRules = 1,0,1,0,1
+		mass = 0.04
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.3
+		angularDrag = 2
+		crashTolerance = 20
+		maxTemp = 3400
+		fuelCrossFeed = False
+		breakingForce = 15
+		breakingTorque = 15
+		MODULE
+		{
+			name = KASModuleContainer
+			maxSize = 80
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.10, -0.15)
+			evaPartDir = (0,0,-1)
+			attachNodeName = bottom
+			customGroundPos = true
+			dropPartPos = (0.0, 0.0, -0.55)
+			dropPartRot = (-10.0, 0.0, 0.0)
+			bayType = containerB
+			bayNode = bottom
+			bayRot = (0.0, 0.0, 0.0)
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_ContainerBay1
+	type = PART
+	parentUrl = KAS/Parts/containerBay1/containerBay1
+	url = KAS/Parts/containerBay1/containerBay1/KAS_ContainerBay1
+	PART
+	{
+		name = KAS_ContainerBay1
+		module = Part
+		author = zzz
+		mesh = containerBay1.mu
+		scale = 1
+		rescaleFactor = 0.50
+		node_stack_top = 0.0, -0.7125, 0.0, 0.0, 1.0, 0.0, 0
+		node_stack_bottom = 0.0, -0.8050, 0.0, 0.0, 1.0, 0.0, 0
+		node_attach = 0.0, -0.8050, 0.0, 0.0, -1.0, 0.0
+		cost = 200
+		category = Utility
+		subcategory = 0
+		title = Container Bay Type A/B
+		manufacturer = K.A.S. Manufacturing
+		description = Support for mounting a container type A or B.
+		TechRequired = specializedConstruction
+		entryCost = 50
+		attachRules = 1,1,1,0,1
+		mass = 0.01
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		maxTemp = 3200
+		crashTolerance = 12
+		fuelCrossFeed = False
+		MODULE
+		{
+			name = KASModulePartBay
+			BAY
+			{
+				attachNode = top
+				type = containerA
+				type = containerB
+			}
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.40, -0.10)
+			evaPartDir = (0,0,-1)
+			attachNodeName = bottom
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = True
+			attachSendMsgOnly = False
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_CPort1
+	type = PART
+	parentUrl = KAS/Parts/cPort1/cPort1
+	url = KAS/Parts/cPort1/cPort1/KAS_CPort1
+	PART
+	{
+		name = KAS_CPort1
+		module = Part
+		author = KospY
+		mesh = portRadial1.mu
+		node_stack_top = 0.0, 0.0362, 0.0, 0.0, 1.0, 0.0, 0
+		node_stack_bottom = 0.0, -0.0400, 0.0, 0.0, 1.0, 0.0, 0
+		node_attach = 0.0, -0.04, 0.0, 0.0, -1.0, 0.0
+		cost = 350
+		category = Utility
+		subcategory = 0
+		title = Radial connector port
+		manufacturer = K.A.S. Manufacturing
+		description = A port for connecting a winch connector. Can be used for ressource transfer or towing.
+		attachRules = 1,1,0,0,1
+		TechRequired = advConstruction
+		entryCost = 50
+		mass = 0.01
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 12
+		maxTemp = 3200
+		fuelCrossFeed = True
+		MODULE
+		{
+			name = KASModulePort
+			attachNode = top
+			nodeType = kasplug
+			breakForce = 30
+			nodeTransformName = plugNode
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.0, -0.15)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 4
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = True
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_CPort2
+	type = PART
+	parentUrl = KAS/Parts/cPort2/cPort2
+	url = KAS/Parts/cPort2/cPort2/KAS_CPort2
+	PART
+	{
+		name = KAS_CPort2
+		module = Part
+		author = KospY
+		mesh = portStack1.mu
+		node_stack_top = 0.0, 0.00082, 0.0, 0.0, 1.0, 0.0, 0
+		node_stack_bottom = 0.0, -0.0424, 0.0, 0.0, 1.0, 0.0, 0
+		cost = 450
+		category = Utility
+		subcategory = 0
+		title = Stack connector port (0.5m)
+		manufacturer = K.A.S. Manufacturing
+		description = A destination port for a connector. Use it for ressource transfer or towing heavy objects. Can also be used to lock parts when a winch cable is fully retracted.
+		attachRules = 1,0,1,1,0
+		TechRequired = advMetalworks
+		entryCost = 50
+		mass = 0.02
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 12
+		maxTemp = 3200
+		fuelCrossFeed = True
+		MODULE
+		{
+			name = KASModulePort
+			attachNode = top
+			nodeType = kasplug
+			breakForce = 40
+			nodeTransformName = plugNode
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_HookSupport
+	type = PART
+	parentUrl = KAS/Parts/hookSupport/hookSupport
+	url = KAS/Parts/hookSupport/hookSupport/KAS_HookSupport
+	PART
+	{
+		name = KAS_HookSupport
+		module = Part
+		author = KospY
+		mesh = hookSupport.mu
+		node_stack_top = 0.0, 0.0264, 0, 0.0, 1.0, 0.0, 0
+		node_stack_bottom = 0.0, -0.1493, 0, 0.0, 1.0, 0.0, 0
+		cost = 150
+		category = Utility
+		subcategory = 0
+		title = Hook Support
+		manufacturer = K.A.S. Manufacturing
+		description = A support for mounting a magnet in a fixed position. Can be exchanged later with another hook if needed. (placeholder model)
+		TechRequired = specializedConstruction
+		entryCost = 50
+		attachRules = 1,0,1,0,0
+		mass = 0.04
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		maxTemp = 3200
+		crashTolerance = 12
+		fuelCrossFeed = False
+		MODULE
+		{
+			name = KASModulePartBay
+			BAY
+			{
+				attachNode = bottom
+				type = hookBay
+			}
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_Hook_Anchor
+	type = PART
+	parentUrl = KAS/Parts/hook_anchor/anchor
+	url = KAS/Parts/hook_anchor/anchor/KAS_Hook_Anchor
+	PART
+	{
+		name = KAS_Hook_Anchor
+		module = Part
+		author = KospY
+		mesh = anchor.mu
+		node_stack_top = -0.0, 0.05606, -0.0, 0.0, 1.0, 0.0, 0
+		cost = 250
+		category = Utility
+		subcategory = 0
+		title = Anchor
+		manufacturer = K.A.S. Manufacturing
+		description = An anchor to be used for boat, airship or everything else. In addition to its weight, it also provide drag and friction when touching the ground.
+		TechRequired = specializedControl
+		entryCost = 50
+		attachRules = 1,0,1,0,1
+		mass = 1
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 200
+		maxTemp = 3200
+		fuelCrossFeed = False
+		MODULE
+		{
+			name = KASModuleAnchor
+			groundDrag = 500
+			bounciness = 0
+			dynamicFriction = 0.8
+			staticFriction = 0.8
+		}
+		MODULE
+		{
+			name = KASModulePort
+			attachNode = top
+			nodeType = kasplug
+			breakForce = 30
+			nodeTransformName = plugNode
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.0, -0.15)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 14
+			bayType = hookBay
+			bayNode = top
+			bayRot = (0.0, 0.0, 0.0)
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_Hook_GrapplingHook
+	type = PART
+	parentUrl = KAS/Parts/hook_grapplingHook/grapplingHook
+	url = KAS/Parts/hook_grapplingHook/grapplingHook/KAS_Hook_GrapplingHook
+	PART
+	{
+		name = KAS_Hook_GrapplingHook
+		module = Part
+		author = KospY
+		mesh = grapplingHook.mu
+		scale = 1
+		node_stack_top = -0.0, 0.05606, -0.0, 0.0, 1.0, 0.0, 0
+		node_attach = 0.0, -0.0651, 0.0, 0.0, -1.0, 0.0
+		cost = 700
+		category = Utility
+		subcategory = 0
+		title = Grappling hook
+		manufacturer = K.A.S. Manufacturing
+		description = This hook will attach to everything it collide, as long as the impact is strong enough. Can be mounted on a winch. To be used with the winch eject function.
+		TechRequired = metaMaterials
+		entryCost = 50
+		attachRules = 1,0,1,0,1
+		mass = 0.01
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 200
+		maxTemp = 3200
+		fuelCrossFeed = False
+		MODULE
+		{
+			name = KASModuleGrapplingHook
+			partBreakForce = 6
+			staticBreakForce = 15
+			aboveDist = 0.05
+			forceNeeded = 4
+			attachToPart = true
+			rayDir = (0,-1,0)
+			rayLenght = 0.8
+		}
+		MODULE
+		{
+			name = KASModulePort
+			attachNode = top
+			nodeType = kasplug
+			breakForce = 30
+			nodeTransformName = plugNode
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.0, -0.15)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 14
+			bayType = hookBay
+			bayNode = top
+			bayRot = (0.0, 0.0, 0.0)
+			attachOnPart = False
+			attachOnEva = False
+			attachOnStatic = true
+			attachSendMsgOnly = true
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_Hook_Magnet
+	type = PART
+	parentUrl = KAS/Parts/hook_magnet/magnet
+	url = KAS/Parts/hook_magnet/magnet/KAS_Hook_Magnet
+	PART
+	{
+		name = KAS_Hook_Magnet
+		module = Part
+		author = KospY
+		mesh = magnet.mu
+		scale = 1
+		node_stack_top = -0.0, 0.1005, -0.0, 0.0, 1.0, 0.0, 0
+		node_attach = 0.0, -0.0021, 0.0, 0.0, -1.0, 0.0
+		cost = 1100
+		category = Utility
+		subcategory = 0
+		title = Electro-Magnet
+		manufacturer = K.A.S. Manufacturing
+		description = This electro-magnet is perfect for grabing heavy objects without a connector or a docking port. Can be mounted on a winch or on a hook support.
+		TechRequired = nanolathing
+		entryCost = 50
+		attachRules = 1,0,1,0,1
+		mass = 0.04
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 200
+		maxTemp = 3200
+		fuelCrossFeed = False
+		MODULE
+		{
+			name = KASModuleMagnet
+			breakForce = 10
+			attachToEva = False
+			minFwdDot = 0.998
+			powerDrain = 4
+		}
+		MODULE
+		{
+			name = KASModulePort
+			attachNode = top
+			nodeType = kasplug
+			breakForce = 30
+			nodeTransformName = plugNode
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.0, -0.15)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 16
+			bayType = hookBay
+			bayNode = top
+			bayRot = (0.0, 0.0, 0.0)
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = true
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_Pipe1
+	type = PART
+	parentUrl = KAS/Parts/pipe1/pipe1
+	url = KAS/Parts/pipe1/pipe1/KAS_Pipe1
+	PART
+	{
+		name = KAS_Pipe1
+		module = Part
+		author = zzz
+		mesh = pipe1.mu
+		node_stack_bottom = 0.0, -0.0578, 0.0, 0.0, 1.0, 0.0, 0
+		node_attach = 0.0, -0.0578, 0.0, 0.0, -1.0, 0.0
+		cost = 250
+		category = Utility
+		subcategory = 0
+		title = Pipe end point
+		manufacturer = K.A.S. Manufacturing
+		description = End point for building pipes from eva. Can be used for linking different vessels. Usefull for making ground bases and transfering ressources.
+		attachRules = 1,1,0,0,1
+		TechRequired = fuelSystems
+		entryCost = 50
+		mass = 0.02
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 12
+		maxTemp = 3200
+		fuelCrossFeed = True
+		MODULE
+		{
+			name = KASModuleStrut
+			nodeTransform = pipeNode
+			type = PipeSize1
+			maxLenght = 20
+			maxAngle = 100
+			breakForce = 10
+			allowDock = true
+			allowPumpFuel = true
+			hasCollider = false
+			tubeScale = 0.15
+			jointScale = 0.15
+			textureTiling = 1
+			tubeSrcType = Joined
+			tubeTgtType = Joined
+			evaStrutPos = (0.05, 0.059, -0.21)
+			evaStrutRot = (190.0, 0.0, 0.0)
+			tubeTexPath = KAS/Textures/pipe
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.0, -0.15)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 8
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = True
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_Pylon1
+	type = PART
+	parentUrl = KAS/Parts/pylon1/pylon1
+	url = KAS/Parts/pylon1/pylon1/KAS_Pylon1
+	PART
+	{
+		name = KAS_Pylon1
+		module = Part
+		author = zzz
+		mesh = pylon.mu
+		rescaleFactor = 0.8
+		node_stack_right = 0.0621535, 0, 0, -1, 0, 0, 1
+		node_stack_left = -0.06, 0, 0, 1, 0, 0, 1
+		node_stack_back = 0, 0, 0.0621535, 0, 0,-1, 1
+		node_stack_front = 0, 0,-0.0621535, 0, 0, 1, 1
+		node_stack_top = 0, 0.6639, 0, 0,-1, 0, 1
+		node_stack_bottom = 0,-0.26207, 0, 0, 1, 0, 1
+		node_attach = 0,-0.26207, 0, 0, -1, 0, 1
+		cost = 250
+		category = Utility
+		subcategory = 0
+		title = Ground pylon
+		manufacturer = K.A.S. Manufacturing
+		description = A simple part that can be used as a support for attaching stuff (ports, pipes, etc...)
+		attachRules = 1,1,1,1,1
+		TechRequired = generalConstruction
+		entryCost = 50
+		mass = 0.1
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 40
+		maxTemp = 3200
+		fuelCrossFeed = True
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.10, -0.15)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 20
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = True
+			customGroundPos = true
+			dropPartPos = (0.0, -0.2, -0.7)
+			dropPartRot = (-10.0, 0.0, 0.0)
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_Strut1
+	type = PART
+	parentUrl = KAS/Parts/strut1/strut1
+	url = KAS/Parts/strut1/strut1/KAS_Strut1
+	PART
+	{
+		name = KAS_Strut1
+		module = Part
+		author = zzz
+		mesh = strut1.mu
+		node_attach = 0.0, -0.0315, 0.0, 0.0, -1.0, 0.0
+		cost = 150
+		category = Utility
+		subcategory = 0
+		title = Strut end point
+		manufacturer = K.A.S. Manufacturing
+		description = End point for building a strut from eva. Links are restricted to the same vessel. Usefull for strengthen a vessel.
+		attachRules = 0,1,0,0,1
+		TechRequired = advConstruction
+		entryCost = 50
+		mass = 0.0075
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 12
+		maxTemp = 3200
+		fuelCrossFeed = False
+		MODULE
+		{
+			name = KASModuleStrut
+			nodeTransform = strutNode
+			type = "StrutSize1"
+			maxLenght = 8
+			maxAngle = 100
+			breakForce = 1
+			allowDock = false
+			hasCollider = false
+			tubeScale = 0.05
+			jointScale = 0.05
+			tubeSrcType = Rounded
+			tubeTgtType = Rounded
+			textureTiling = 4
+			evaStrutPos = (0.05, 0.059, -0.21)
+			evaStrutRot = (190.0, 0.0, 0.0)
+			tubeTexPath = KAS/Textures/strut
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.0, -0.15)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 1
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_Winch1
+	type = PART
+	parentUrl = KAS/Parts/winch1/winch1
+	url = KAS/Parts/winch1/winch1/KAS_Winch1
+	PART
+	{
+		name = KAS_Winch1
+		module = Part
+		author = KospY
+		mesh = Winch_05mStackH.mu
+		node_stack_front = -0.155, 0.00, -0.241805, 0.0, 0.0, 1.0, 0
+		node_stack_top = 0.0, 0.1, 0.0, 0.0, 1.0, 0.0, 0
+		node_stack_bottom = 0.0, -0.1, 0.0, 0.0, 1.0, 0.0, 0
+		cost = 350
+		category = Utility
+		subcategory = 0
+		title = Horizontal stack winch (0.5m)
+		manufacturer = K.A.S. Manufacturing
+		description = A winch used to extend and retract a cable. A hook or a connector port can be pre-attached if needed.
+		TechRequired = advConstruction
+		entryCost = 50
+		attachRules = 1,0,1,1,0
+		mass = 0.13
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 8
+		maxTemp = 3200
+		fuelCrossFeed = True
+		MODULE
+		{
+			name = KASModuleWinch
+			maxLenght = 80
+			cableSpring = 1000
+			cableDamper = 0.1
+			cableWidth = 0.04
+			motorMaxSpeed = 1
+			motorAcceleration = 0.05
+			powerDrain = 0.3
+			headTransformName = head
+			headPortNodeName = portNode
+			connectedPortNodeName = front
+			anchorNodeName = anchorNode
+			evaGrabHeadPos = (0.05, 0.01, -0.11)
+			evaGrabHeadDir = (0,0,1)
+			evaDropHeadPos = (0.05, 0.01, -0.16)
+			evaDropHeadRot = (180.0, 0.0, 0.0)
+			lockMinDist = 0.12
+			lockMinFwdDot = 0.90
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_Winch2
+	type = PART
+	parentUrl = KAS/Parts/winch2/winch2
+	url = KAS/Parts/winch2/winch2/KAS_Winch2
+	PART
+	{
+		name = KAS_Winch2
+		module = Part
+		author = KospY
+		mesh = Winch_05mStackV.mu
+		node_stack_bottom = 0.0, -0.2850344, 0.0, 0.0, 1.0, 0.0, 0
+		node_stack_top = 0.0, 0.1, 0.0, 0.0, 1.0, 0.0, 0
+		cost = 600
+		category = Utility
+		subcategory = 0
+		title = Vertical stack winch (0.5m)
+		manufacturer = K.A.S. Manufacturing
+		description = A winch used to extend and retract a cable. A hook or a connector port can be pre-attached if needed.
+		TechRequired = advMetalworks
+		entryCost = 50
+		attachRules = 1,0,1,0,0
+		mass = 0.1
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 8
+		maxTemp = 3200
+		fuelCrossFeed = True
+		MODULE
+		{
+			name = KASModuleWinch
+			maxLenght = 50
+			cableSpring = 1000
+			cableDamper = 0.1
+			cableWidth = 0.04
+			motorMaxSpeed = 2
+			motorAcceleration = 0.05
+			powerDrain = 0.5
+			headTransformName = head
+			headPortNodeName = portNode
+			connectedPortNodeName = bottom
+			anchorNodeName = anchorNode
+			evaGrabHeadPos = (0.05, 0.01, -0.11)
+			evaGrabHeadDir = (0,0,1)
+			evaDropHeadPos = (0.05, 0.01, -0.16)
+			evaDropHeadRot = (180.0, 0.0, 0.0)
+			ejectEnabled = true
+			ejectForce = 20
+			lockMinDist = 0.12
+			lockMinFwdDot = 0.90
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_Winch3
+	type = PART
+	parentUrl = KAS/Parts/winch3/winch3
+	url = KAS/Parts/winch3/winch3/KAS_Winch3
+	PART
+	{
+		name = KAS_Winch3
+		module = Part
+		author = KospY
+		mesh = Winch_05mRadialH.mu
+		node_stack_bottom = 0.0, -0.2850344, 0.0, 0.0, 1.0, 0.0, 0
+		node_stack_top = 0.0, 0.1, 0.0, 0.0, 1.0, 0.0, 0
+		node_attach = 0.0, 0.0971, 0.0, 0.0, 1.0, 0.0, 0
+		cost = 800
+		category = Utility
+		subcategory = 0
+		title = Horizontal radial winch (0.5m)
+		manufacturer = K.A.S. Manufacturing
+		description = A winch used to extend and retract a cable. A hook or a connector port can be pre-attached if needed.
+		TechRequired = composites
+		entryCost = 50
+		attachRules = 1,1,1,0,0
+		mass = 0.08
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 8
+		maxTemp = 3200
+		fuelCrossFeed = True
+		MODULE
+		{
+			name = KASModuleWinch
+			maxLenght = 50
+			cableSpring = 1000
+			cableDamper = 0.1
+			cableWidth = 0.04
+			motorMaxSpeed = 2
+			motorAcceleration = 0.05
+			powerDrain = 0.5
+			headTransformName = head
+			headPortNodeName = portNode
+			connectedPortNodeName = bottom
+			anchorNodeName = anchorNode
+			evaGrabHeadPos = (0.05, 0.01, -0.11)
+			evaGrabHeadDir = (0,0,1)
+			evaDropHeadPos = (0.05, 0.01, -0.16)
+			evaDropHeadRot = (180.0, 0.0, 0.0)
+			ejectEnabled = true
+			ejectForce = 20
+			lockMinDist = 0.12
+			lockMinFwdDot = 0.90
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_Winch4
+	type = PART
+	parentUrl = KAS/Parts/winch4/winch4
+	url = KAS/Parts/winch4/winch4/KAS_Winch4
+	PART
+	{
+		name = KAS_Winch4
+		module = Part
+		author = KospY
+		mesh = Winch_05mRadialV.mu
+		node_stack_bottom = 0.0, -0.2850344, 0.0, 0.0, 1.0, 0.0, 0
+		node_attach = 0.0, -0.0655, 0.3764, 0.0, 0.0, -1.0, 0
+		cost = 800
+		category = Utility
+		subcategory = 0
+		title = Vertical radial winch (0.5m)
+		manufacturer = K.A.S. Manufacturing
+		description = A winch used to extend and retract a cable. A hook or a connector port can be pre-attached if needed.
+		TechRequired = composites
+		entryCost = 50
+		attachRules = 0,1,1,0,0
+		mass = 0.08
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 8
+		maxTemp = 3200
+		fuelCrossFeed = True
+		MODULE
+		{
+			name = KASModuleWinch
+			maxLenght = 50
+			cableSpring = 1000
+			cableDamper = 0.1
+			cableWidth = 0.04
+			motorMaxSpeed = 2
+			motorAcceleration = 0.05
+			powerDrain = 0.5
+			headTransformName = head
+			headPortNodeName = portNode
+			connectedPortNodeName = bottom
+			anchorNodeName = anchorNode
+			evaGrabHeadPos = (0.05, 0.01, -0.11)
+			evaGrabHeadDir = (0,0,1)
+			evaDropHeadPos = (0.05, 0.01, -0.16)
+			evaDropHeadRot = (180.0, 0.0, 0.0)
+			ejectEnabled = true
+			ejectForce = 20
+			lockMinDist = 0.12
+			lockMinFwdDot = 0.90
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = Global
+	type = Global
+	parentUrl = KIS/settings
+	url = KIS/settings/Global
+	Global
+	{
+		itemDebug = false
+	}
+}
+UrlConfig
+{
+	name = EvaInventory
+	type = EvaInventory
+	parentUrl = KIS/settings
+	url = KIS/settings/EvaInventory
+	EvaInventory
+	{
+		inventoryKey = tab
+		rightHandKey = x
+		slotsX = 2
+		slotsY = 4
+		slotSize = 50
+		itemIconResolution = 128
+		selfIconResolution = 128
+		maxVolume = 0.3
+		openSndPath = KIS/Sounds/inventoryOpen
+		closeSndPath = KIS/Sounds/inventoryClose
+	}
+}
+UrlConfig
+{
+	name = EvaPickup
+	type = EvaPickup
+	parentUrl = KIS/settings
+	url = KIS/settings/EvaPickup
+	EvaPickup
+	{
+		grabKey = g
+		canDetach = false
+		maxDistance = 2
+		maxMass = 1
+		dropSndPath = KIS/Sounds/drop
+		attachSndPath = KIS/Sounds/attach
+		draggedIconResolution = 64
+	}
+}
+UrlConfig
+{
+	name = StackableModule
+	type = StackableModule
+	parentUrl = KIS/settings
+	url = KIS/settings/StackableModule
+	StackableModule
+	{
+		moduleName = ModuleLight
+		moduleName = ModuleDockingNode
+		moduleName = ModuleAlternator
+		moduleName = ModuleTestSubject
+		moduleName = ModuleAerodynamicLift
+		moduleName = ModuleControlSurface
+		moduleName = ModuleDataTransmitter
+		moduleName = ModuleLiftingSurface
+		moduleName = ModuleSAS
+		moduleName = ModuleTripLogger
+		moduleName = KASModuleStrut
+		moduleName = KASModulePort
+		moduleName = KASModuleMagnet
+		moduleName = KASModuleGrapplingHook
+		moduleName = KASModuleGrab
+		moduleName = KASModuleAnchor
+	}
+}
+UrlConfig
+{
+	name = StackableItemOverride
+	type = StackableItemOverride
+	parentUrl = KIS/settings
+	url = KIS/settings/StackableItemOverride
+	StackableItemOverride
+	{
+		partName = addWhatYouWantHere1
+		partName = addWhatYouWantHere2
+	}
+}
+UrlConfig
+{
+	name = KIS_bomb1
+	type = PART
+	parentUrl = KIS/Parts/bomb1/part
+	url = KIS/Parts/bomb1/part/KIS_bomb1
+	PART
+	{
+		name = KIS_bomb1
+		module = Part
+		mesh = model.mu
+		scale = 1
+		node_attach = 0, -0.050327, 0.0, 0.0, -1.0, 0.0, 1
+		TechRequired = precisionEngineering
+		entryCost = 1200
+		cost = 400
+		category = none
+		subcategory = 0
+		title = Explosives
+		manufacturer = KIS
+		description = Need to get rid of those anoying debris without deorbiting? We got what you need. Remember, timer is set to [ERROR : CORRUPTED DATA]! (right click on it when dropped to activate and RUN)
+		attachRules = 0,1,0,0,0
+		mass = 0.01
+		dragModelType = default
+		maximum_drag = 0.1
+		minimum_drag = 0.1
+		angularDrag = 2
+		crashTolerance = 999
+		maxTemp = 9999
+		fuelCrossFeed = False
+		explosionPotential = 0
+		MODULE
+		{
+			name = ModuleKISItemBomb
+			shortcutKeyAction = equip
+			equipable = true
+			equipSlot = leftHand
+			stackable = true
+			equipMeshName = body01
+			equipBoneName = bn_r_mid_a01
+			equipPos = (0.06,0.07,0)
+			equipDir = (0,0,0)
+			delay = 10
+			explosionRadius = 10
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KIS_Container1
+	type = PART
+	parentUrl = KIS/Parts/container1/container1
+	url = KIS/Parts/container1/container1/KIS_Container1
+	PART
+	{
+		name = KIS_Container1
+		module = Part
+		mesh = model.mu
+		scale = 1
+		node_stack_bottom = 0.0, -0.2477, 0.0, 0.0, 1.0, 0.0, 0
+		cost = 200
+		category = Utility
+		subcategory = 0
+		title = SC-62 Container
+		manufacturer = KIS
+		description = A small container for storing smaller parts. Kerbal engineers realized that having a place to store spare parts is way better than have them floating around the command pods.
+		TechRequired = generalConstruction
+		entryCost = 600
+		attachRules = 1,0,1,1,1
+		mass = 0.02
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.3
+		angularDrag = 2
+		crashTolerance = 20
+		maxTemp = 3400
+		fuelCrossFeed = False
+		breakingForce = 15
+		breakingTorque = 15
+		MODULE
+		{
+			name = ModuleKISInventory
+			maxVolume = 1
+			externalAccess = true
+			internalAccess = false
+			slotsX = 6
+			slotsY = 4
+			slotSize = 50
+			itemIconResolution = 128
+			selfIconResolution = 128
+			openSndPath = KIS/Sounds/containerOpen
+			closeSndPath = KIS/Sounds/containerClose
+			defaultMoveSndPath = KIS/Sounds/itemMove
+		}
+		MODULE
+		{
+			name = ModuleKISItem
+			volumeOverride = 1.1
+			editorItemsCategory = false
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KIS_ContainerMount1
+	type = PART
+	parentUrl = KIS/Parts/containerMount1/containerMount1
+	url = KIS/Parts/containerMount1/containerMount1/KIS_ContainerMount1
+	PART
+	{
+		name = KIS_ContainerMount1
+		module = Part
+		mesh = model.mu
+		scale = 1
+		node_stack_top = 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0
+		node_attach = 0.0, -0.041799, 0.0, 0.0, -1.0, 0.0, 0
+		cost = 200
+		category = Utility
+		subcategory = 0
+		title = SM-62 Container mount
+		manufacturer = KIS
+		description = A small mount to attach, detach and reattach SC-62 containers. The best solution over struts, decoupler or duct tape.
+		TechRequired = generalConstruction
+		entryCost = 600
+		attachRules = 1,1,1,0,1
+		mass = 0.05
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		maxTemp = 3200
+		crashTolerance = 12
+		fuelCrossFeed = False
+		MODULE
+		{
+			name = ModuleKISPartMount
+			bayNodeName = top
+			allowedPartName = KIS_Container1
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KIS_electricScrewdriver
+	type = PART
+	parentUrl = KIS/Parts/electricScrewdriver/part
+	url = KIS/Parts/electricScrewdriver/part/KIS_electricScrewdriver
+	PART
+	{
+		name = KIS_electricScrewdriver
+		module = Part
+		mesh = model.mu
+		scale = 1
+		node_stack_bottom = 0, -0.094404, 0, 0.0, 1.0, 0.0, 0
+		node_attach = -0.021623, 0, 0.0, 0.0, 0.0, -1.0, 1
+		TechRequired = advElectrics
+		entryCost = 400
+		cost = 500
+		category = none
+		subcategory = 0
+		title = E-SD80 Screwdriver
+		manufacturer = KIS
+		description = A tool to attach or detach parts to your vehicles. The E-SD80 as been designed to give more autonomy for our "out there" engineers.
+		attachRules = 0,0,0,0,0
+		mass = 0.004
+		dragModelType = default
+		maximum_drag = 0.1
+		minimum_drag = 0.1
+		angularDrag = 2
+		crashTolerance = 999
+		maxTemp = 9999
+		fuelCrossFeed = False
+		explosionPotential = 0
+		MODULE
+		{
+			name = ModuleKISItemAttachTool
+			shortcutKeyAction = equip
+			equipable = true
+			equipTrait = Engineer
+			equipSlot = rightHand
+			equipMeshName = body01
+			equipBoneName = bn_r_mid_a01
+			equipPos = (0,0.05,0)
+			equipDir = (270,0,0)
+			attachMaxMass = 100
+			attachSndPath = KIS/Sounds/attachScrewdriver
+			detachSndPath = KIS/Sounds/detachScrewdriver
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KIS_evapropellant
+	type = PART
+	parentUrl = KIS/Parts/evapropellant1/part
+	url = KIS/Parts/evapropellant1/part/KIS_evapropellant
+	PART
+	{
+		name = KIS_evapropellant
+		module = Part
+		mesh = model.mu
+		scale = 1
+		node_attach = 0, 0, 0.0508, 0.0, 0.0, -1.0, 1
+		TechRequired = advExploration
+		entryCost = 150
+		cost = 300
+		category = none
+		subcategory = 0
+		title = Eva Propellant
+		manufacturer = KIS
+		description = An usefull EVA propellant backup tank for long missions. Can be refueled from any pod.
+		attachRules = 0,1,0,0,0
+		mass = 0.008
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.3
+		angularDrag = 2
+		crashTolerance = 6
+		maxTemp = 2900
+		breakingForce = 1
+		breakingTorque = 1
+		MODULE
+		{
+			name = ModuleKISItemEvaPropellant
+			shortcutKeyAction = equip
+			equipable = true
+			equipSlot = jetpack
+			usableFromEva = true
+			usableFromContainer = false
+			usableFromPod = true
+			usableFromEditor = false
+			useName = Refuel
+			equipMeshName = jetpack_base01
+			equipBoneName = bn_jetpack01
+			equipPos = (0.06,0.04,-0.09)
+			equipDir = (10,0,0)
+		}
+		RESOURCE
+		{
+			name = EVA Propellant
+			amount = 10
+			maxAmount = 10
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KIS_guide
+	type = PART
+	parentUrl = KIS/Parts/guide/part
+	url = KIS/Parts/guide/part/KIS_guide
+	PART
+	{
+		name = KIS_guide
+		module = Part
+		mesh = model.mu
+		scale = 1
+		node_attach = 0, -0.01988, 0.0, 0.0, -1.0, 0.0, 1
+		TechRequired = spaceExploration
+		entryCost = 150
+		cost = 50
+		category = none
+		subcategory = 0
+		title = KIS user guide
+		manufacturer = KIS
+		description = Everything you need to know about Inventory system without complicated computer manoeuvre. (right click on it from inventory to read it)
+		attachRules = 0,0,0,0,0
+		mass = 0.001
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.3
+		angularDrag = 2
+		crashTolerance = 6
+		maxTemp = 2900
+		breakingForce = 1
+		breakingTorque = 1
+		MODULE
+		{
+			name = ModuleKISItemBook
+			shortcutKeyAction = equip
+			usableFromEva = true
+			usableFromContainer = true
+			usableFromPod = true
+			usableFromEditor = true
+			equipSlot = leftHand
+			equipable = true
+			useName = Read
+			equipMeshName = body01
+			equipBoneName = bn_l_mid_a01
+			equipPos = (0.00,-0.02,0)
+			equipDir = (0,0,0)
+			pageWidth = 574
+			pageHeight = 800
+			page = KIS/Parts/guide/page1
+			page = KIS/Parts/guide/page2
+			page = KIS/Parts/guide/page3
+			page = KIS/Parts/guide/page4
+			page = KIS/Parts/guide/page5
+			page = KIS/Parts/guide/page6
+			page = KIS/Parts/guide/page7
+			page = KIS/Parts/guide/page8
+			page = KIS/Parts/guide/page9
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KIS_wrench
+	type = PART
+	parentUrl = KIS/Parts/wrench/part
+	url = KIS/Parts/wrench/part/KIS_wrench
+	PART
+	{
+		name = KIS_wrench
+		module = Part
+		mesh = model.mu
+		scale = 1
+		node_attach = 0, -0.011116, 0.0, 0.0, 1.0, 0.0, 1
+		TechRequired = scienceTech
+		entryCost = 400
+		cost = 150
+		category = none
+		subcategory = 0
+		title = Wrench
+		manufacturer = KIS
+		description = A tool to attach or detach smallest parts to your vehicles. Nothing complicaded, just a simple wrench really.
+		attachRules = 0,0,0,0,0
+		mass = 0.001
+		dragModelType = default
+		maximum_drag = 0.1
+		minimum_drag = 0.1
+		angularDrag = 2
+		crashTolerance = 999
+		maxTemp = 9999
+		fuelCrossFeed = False
+		explosionPotential = 0
+		MODULE
+		{
+			name = ModuleKISItemAttachTool
+			shortcutKeyAction = equip
+			equipable = true
+			equipTrait = Engineer
+			equipSlot = rightHand
+			equipMeshName = body01
+			equipBoneName = bn_r_mid_a01
+			equipPos = (0,0.03,0)
+			equipDir = (0,90,0)
+			attachMaxMass = 0.5
+			attachSndPath = KIS/Sounds/attachWrench
+			detachSndPath = KIS/Sounds/detachWrench
 		}
 		MODULE
 		{
@@ -6027,6 +7625,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.15)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 20
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -8416,6 +10026,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.22)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 10
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -8469,6 +10091,18 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.22)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 10
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
 		}
 	}
 }
@@ -8524,6 +10158,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.22)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 10
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -8577,6 +10223,18 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.22)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 10
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
 		}
 	}
 }
@@ -8691,6 +10349,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.12, -0.14)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 10
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -8744,6 +10414,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.10)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 20
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -8790,6 +10472,19 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.15)
+			evaPartDir = (0,0,-1)
+			storable = true
+			stateless = false
+			storedSize = 10
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
 		}
 	}
 }
@@ -9426,6 +11121,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.12, -0.14)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 15
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -9816,6 +11523,18 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.15)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 10
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
 		}
 	}
 }
@@ -12574,6 +14293,19 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.29)
+			evaPartDir = (0,0,-1)
+			storable = true
+			stateless = false
+			storedSize = 30
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -12713,6 +14445,19 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.15)
+			evaPartDir = (0,0,-1)
+			storable = true
+			stateless = false
+			storedSize = 25
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
 		}
 	}
 }
@@ -14772,6 +16517,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.11)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 5
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -15121,6 +16878,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.35)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 10
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -15189,6 +16958,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.15, -0.18)
+			evaPartDir = (0,-0.15,-1)
+			storable = true
+			storedSize = 8
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -15249,6 +17030,18 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.09)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 5
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
 		}
 	}
 }
@@ -16077,6 +17870,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, -0.03, -0.1)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 5
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -16126,6 +17931,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, -0.07, -0.34)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 25
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -16174,6 +17991,18 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, -0.07, -0.34)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 30
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
 		}
 	}
 }
@@ -16559,6 +18388,22 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.21)
+			evaPartDir = (0,0,-1)
+			dropAtGroundPos = false
+			dropPartPos = (0.0, -0.1, -0.65)
+			dropPartRot = (0.0, 90.0, 0.0)
+			addPartMass = true
+			storable = true
+			storedSize = 4
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -16756,6 +18601,19 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.09, -0.23)
+			evaPartDir = (0,0,-1)
+			physicJoint = true
+			storable = true
+			storedSize = 5
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
 		}
 	}
 }
@@ -16977,6 +18835,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.18)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 6
+			attachOnPart = True
+			attachOnEva = True
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -17087,6 +18957,19 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.12)
+			evaPartDir = (0,0,-1)
+			storable = true
+			stateless = false
+			storedSize = 5
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -17147,6 +19030,19 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.12)
+			evaPartDir = (0,0,-1)
+			storable = true
+			stateless = false
+			storedSize = 5
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
 		}
 	}
 }
@@ -17209,6 +19105,19 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.12)
+			evaPartDir = (0,0,-1)
+			storable = true
+			stateless = false
+			storedSize = 5
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -17270,6 +19179,19 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.12)
+			evaPartDir = (0,0,-1)
+			storable = true
+			stateless = false
+			storedSize = 5
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -17322,6 +19244,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.15)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 8
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
 	}
 }
 UrlConfig
@@ -17373,6 +19307,18 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.15)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 8
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
 		}
 	}
 }
@@ -17728,6 +19674,18 @@ UrlConfig
 				targetName = steering
 				moversName = lateral
 			}
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.48, -0.14)
+			evaPartDir = (0,-0.3,-1)
+			storable = true
+			storedSize = 30
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
 		}
 	}
 }
