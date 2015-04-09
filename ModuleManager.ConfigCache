@@ -1,4 +1,4 @@
-patchedNodeCount = 306
+patchedNodeCount = 491
 catEatenCount = 0
 UrlConfig
 {
@@ -231,6 +231,20 @@ UrlConfig
 				scale = 1
 				max_size = 0
 				make_not_readable = false
+			}
+			TextureReplacer/EnvMap/.*
+			{
+				make_not_readable = false
+				mipmaps = false
+				compress = false
+				scale = 1
+				max_size = 0
+			}
+			TextureReplacer/Default/
+			{
+				mipmaps = false
+				scale = 1
+				max_size = 0
 			}
 		}
 		###
@@ -1790,6 +1804,7 @@ UrlConfig
 	CLOUDS_SETTINGS
 	{
 		GUI_KEYCODE = N
+		CLOUD_PACK = BoulderCo/Clouds/cloudLayers/CLOUD_LAYER_PACK
 	}
 }
 UrlConfig
@@ -1810,9 +1825,9 @@ UrlConfig
 				volume = True
 				color
 				{
-					r = 0.4
-					g = 0.4
-					b = 0.6
+					r = 1
+					g = 1
+					b = 1
 					a = 1
 				}
 				main_texture
@@ -1856,10 +1871,10 @@ UrlConfig
 				volume = True
 				color
 				{
-					r = 0.38
-					g = 0.16
-					b = 0.098
-					a = 1
+					r = 1
+					g = 0.9
+					b = 0.8
+					a = 0.2
 				}
 				main_texture
 				{
@@ -1889,6 +1904,190 @@ UrlConfig
 					{
 						x = 3.1E-05
 						y = 0
+					}
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Duna
+				altitude = 3725
+				volume = True
+				color
+				{
+					r = 0.43
+					g = 0.16
+					b = 0.098
+					a = 0.25
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/duna2
+					scale = 1
+					offset
+					{
+						x = 0.4063397
+						y = 0
+					}
+					speed
+					{
+						x = 6E-05
+						y = 1E-06
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detail1
+					scale = 100
+					offset
+					{
+						x = 0.4063397
+						y = 0
+					}
+					speed
+					{
+						x = 6.2E-05
+						y = 1.2E-06
+					}
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Duna
+				altitude = 2525
+				volume = True
+				color
+				{
+					r = 0.43
+					g = 0.16
+					b = 0.098
+					a = 0.5
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/duna2
+					scale = 1
+					offset
+					{
+						x = 0.4063397
+						y = 0
+					}
+					speed
+					{
+						x = 6E-05
+						y = 1E-06
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detail1
+					scale = 100
+					offset
+					{
+						x = 0.4063397
+						y = 0
+					}
+					speed
+					{
+						x = 6.3E-05
+						y = 1.3E-06
+					}
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Duna
+				altitude = 1325
+				volume = True
+				color
+				{
+					r = 0.43
+					g = 0.16
+					b = 0.098
+					a = 0.75
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/duna2
+					scale = 1
+					offset
+					{
+						x = 0.4063397
+						y = 0
+					}
+					speed
+					{
+						x = 6E-05
+						y = 1E-06
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detail1
+					scale = 100
+					offset
+					{
+						x = 0.4063397
+						y = 0
+					}
+					speed
+					{
+						x = 6.1E-05
+						y = 1.1E-06
+					}
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Duna
+				altitude = 125
+				volume = True
+				color
+				{
+					r = 0.43
+					g = 0.16
+					b = 0.098
+					a = 1
+				}
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/duna2
+					scale = 1
+					offset
+					{
+						x = 0.4063397
+						y = 0
+					}
+					speed
+					{
+						x = 6E-05
+						y = 1E-06
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detail1
+					scale = 100
+					offset
+					{
+						x = 0.4063397
+						y = 0
+					}
+					speed
+					{
+						x = 6.1E-05
+						y = 1.1E-06
 					}
 				}
 			}
@@ -2128,7 +2327,7 @@ UrlConfig
 			DEFAULTS
 			{
 				body = Eve
-				altitude = 12000
+				altitude = 15000
 				volume = True
 				color
 				{
@@ -2174,7 +2373,7 @@ UrlConfig
 			DEFAULTS
 			{
 				body = Jool
-				altitude = 45000
+				altitude = 50000
 				volume = True
 				color
 				{
@@ -2266,7 +2465,7 @@ UrlConfig
 			DEFAULTS
 			{
 				body = Jool
-				altitude = 45000
+				altitude = 40000
 				volume = True
 				color
 				{
@@ -2307,6 +2506,483 @@ UrlConfig
 				}
 			}
 		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Skelton
+				altitude = 5000
+				volume = True
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/duna1
+					offset
+					{
+						x = .3
+						y = 0
+					}
+					speed
+					{
+						x = .000030
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detail1
+					scale = 100
+					offset
+					{
+						x = .3
+						y = 0
+					}
+					speed
+					{
+						x = .000030
+						y = 0
+					}
+				}
+				color
+				{
+					r = 0.694
+					g = 0.62
+					b = 0.567
+					a = 1
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Erin
+				altitude = 4000
+				volume = True
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/kerbin1
+					offset
+					{
+						x = .3
+						y = 0
+					}
+					speed
+					{
+						x = .000025
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detail1
+					scale = 100
+					offset
+					{
+						x = .3
+						y = 0
+					}
+					speed
+					{
+						x = .000025
+						y = 0
+					}
+				}
+				bump_texture
+				{
+					file = BoulderCo/Clouds/Textures/bump1
+					scale = 90
+					offset
+					{
+						x = .3
+						y = 0
+					}
+					speed
+					{
+						x = .000025
+						y = 0
+					}
+				}
+				color
+				{
+					r = 1
+					g = 1
+					b = 1
+					a = 1
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Sentar
+				altitude = 4000
+				volume = True
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/jool1
+					offset
+					{
+						x = 0
+						y = 0
+					}
+					speed
+					{
+						x = .000005
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detaileve1
+					scale = 1000
+					offset
+					{
+						x = 0
+						y = 0
+					}
+					speed
+					{
+						x = .000005
+						y = 0
+					}
+				}
+				color
+				{
+					r = 0.102
+					g = 0.169
+					b = 0.063
+					a = 1
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Sentar
+				altitude = 4000
+				volume = True
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/joolLayers1
+					offset
+					{
+						x = 0
+						y = 0
+					}
+					speed
+					{
+						x = .000065
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detaileve1
+					scale = 1000
+					offset
+					{
+						x = .25
+						y = 0
+					}
+					speed
+					{
+						x = .000065
+						y = 0
+					}
+				}
+				color
+				{
+					r = 0.102
+					g = 0.169
+					b = 0.063
+					a = 1
+				}
+			}
+		}
+		CLOUD_LAYER
+		{
+			DEFAULTS
+			{
+				body = Sentar
+				altitude = 4000
+				volume = True
+				main_texture
+				{
+					file = BoulderCo/Clouds/Textures/joolLayers2
+					offset
+					{
+						x = 0
+						y = 0
+					}
+					speed
+					{
+						x = .00002
+						y = 0
+					}
+				}
+				detail_texture
+				{
+					file = BoulderCo/Clouds/Textures/detaileve1
+					scale = 1000
+					offset
+					{
+						x = .25
+						y = 0
+					}
+					speed
+					{
+						x = .00002
+						y = 0
+					}
+				}
+				color
+				{
+					r = 0.102
+					g = 0.169
+					b = 0.063
+					a = 1
+				}
+			}
+		}
+	}
+}
+UrlConfig
+{
+	name = Moho
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Moho
+	CelestialBodyColor
+	{
+		name = Moho
+		color = 124,102,88
+	}
+}
+UrlConfig
+{
+	name = Eve
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Eve
+	CelestialBodyColor
+	{
+		name = Eve
+		color = 104,76,141
+	}
+}
+UrlConfig
+{
+	name = Gilly
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Gilly
+	CelestialBodyColor
+	{
+		name = Gilly
+		color = 134,119,103
+	}
+}
+UrlConfig
+{
+	name = Kerbin
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Kerbin
+	CelestialBodyColor
+	{
+		name = Kerbin
+		color = 73,99,121
+	}
+}
+UrlConfig
+{
+	name = Mun
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Mun
+	CelestialBodyColor
+	{
+		name = Mun
+		color = 80,82,81
+	}
+}
+UrlConfig
+{
+	name = Minmus
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Minmus
+	CelestialBodyColor
+	{
+		name = Minmus
+		color = 187,253,228
+	}
+}
+UrlConfig
+{
+	name = Duna
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Duna
+	CelestialBodyColor
+	{
+		name = Duna
+		color = 165,72,41
+	}
+}
+UrlConfig
+{
+	name = Ike
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Ike
+	CelestialBodyColor
+	{
+		name = Ike
+		color = 64,64,64
+	}
+}
+UrlConfig
+{
+	name = Dres
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Dres
+	CelestialBodyColor
+	{
+		name = Dres
+		color = 128,128,128
+	}
+}
+UrlConfig
+{
+	name = Jool
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Jool
+	CelestialBodyColor
+	{
+		name = Jool
+		color = 117,173,78
+	}
+}
+UrlConfig
+{
+	name = Laythe
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Laythe
+	CelestialBodyColor
+	{
+		name = Laythe
+		color = 88,92,106
+	}
+}
+UrlConfig
+{
+	name = Vall
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Vall
+	CelestialBodyColor
+	{
+		name = Vall
+		color = 140,158,160
+	}
+}
+UrlConfig
+{
+	name = Tylo
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Tylo
+	CelestialBodyColor
+	{
+		name = Tylo
+		color = 188,180,168
+	}
+}
+UrlConfig
+{
+	name = Bop
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Bop
+	CelestialBodyColor
+	{
+		name = Bop
+		color = 100,86,76
+	}
+}
+UrlConfig
+{
+	name = Pol
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Pol
+	CelestialBodyColor
+	{
+		name = Pol
+		color = 238,206,152
+	}
+}
+UrlConfig
+{
+	name = Eeloo
+	type = CelestialBodyColor
+	parentUrl = DistantObject/PlanetColors
+	url = DistantObject/PlanetColors/Eeloo
+	CelestialBodyColor
+	{
+		name = Eeloo
+		color = 200,205,201
+	}
+}
+UrlConfig
+{
+	name = DistantFlare
+	type = DistantFlare
+	parentUrl = DistantObject/Settings
+	url = DistantObject/Settings/DistantFlare
+	DistantFlare
+	{
+		flaresEnabled = True
+		flareSaturation = 0.65
+		flareSize = 1
+		flareBrightness = 1
+		ignoreDebrisFlare = False
+		debrisBrightness = 0.15
+		situations = ORBITING,SUB_ORBITAL,ESCAPING,DOCKED
+		debugMode = False
+	}
+}
+UrlConfig
+{
+	name = DistantVessel
+	type = DistantVessel
+	parentUrl = DistantObject/Settings
+	url = DistantObject/Settings/DistantVessel
+	DistantVessel
+	{
+		renderVessels = True
+		maxDistance = 750000
+		renderMode = 1
+		ignoreDebris = False
+		debugMode = False
+	}
+}
+UrlConfig
+{
+	name = SkyboxBrightness
+	type = SkyboxBrightness
+	parentUrl = DistantObject/Settings
+	url = DistantObject/Settings/SkyboxBrightness
+	SkyboxBrightness
+	{
+		changeSkybox = True
+		maxBrightness = 0.25
 	}
 }
 UrlConfig
@@ -4668,6 +5344,26 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableJettison
+		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
+		}
+		MODULE
+		{
+			name = ModuleTweakableRCS
+		}
+		MODULE
+		{
+			name = ModuleTweakableSAS
+		}
 	}
 }
 UrlConfig
@@ -5315,6 +6011,15 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
+		}
 	}
 }
 UrlConfig
@@ -5504,6 +6209,14 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableJettison
+		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
+		}
 	}
 }
 UrlConfig
@@ -5558,6 +6271,18 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleDecouple
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
 		}
 	}
 }
@@ -5733,6 +6458,10 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
+		}
 	}
 }
 UrlConfig
@@ -5788,6 +6517,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
 		}
 	}
 }
@@ -5845,6 +6579,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -5900,6 +6639,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
 		}
 	}
 }
@@ -8226,6 +8970,10 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableReactionWheel
+		}
 	}
 }
 UrlConfig
@@ -8327,6 +9075,15 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
 		}
 		MODULE
 		{
@@ -8590,6 +9347,10 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableReactionWheel
+		}
 	}
 }
 UrlConfig
@@ -8642,6 +9403,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableReactionWheel
 		}
 	}
 }
@@ -8745,6 +9510,15 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
 		}
 		MODULE
 		{
@@ -8917,6 +9691,15 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
 		}
 		MODULE
 		{
@@ -9094,6 +9877,15 @@ UrlConfig
 		}
 		MODULE
 		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
+		}
+		MODULE
+		{
 			name = MechJebCore
 			MechJebLocalSettings
 			{
@@ -9264,6 +10056,15 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
 		}
 		MODULE
 		{
@@ -9441,6 +10242,15 @@ UrlConfig
 		}
 		MODULE
 		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
+		}
+		MODULE
+		{
 			name = MechJebCore
 			MechJebLocalSettings
 			{
@@ -9615,6 +10425,15 @@ UrlConfig
 		}
 		MODULE
 		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
+		}
+		MODULE
+		{
 			name = MechJebCore
 			MechJebLocalSettings
 			{
@@ -9747,6 +10566,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableSAS
 		}
 		MODULE
 		{
@@ -9898,6 +10721,14 @@ UrlConfig
 		}
 		MODULE
 		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableSAS
+		}
+		MODULE
+		{
 			name = MechJebCore
 			MechJebLocalSettings
 			{
@@ -10045,6 +10876,14 @@ UrlConfig
 		}
 		MODULE
 		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableSAS
+		}
+		MODULE
+		{
 			name = MechJebCore
 			MechJebLocalSettings
 			{
@@ -10178,6 +11017,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableSAS
 		}
 		MODULE
 		{
@@ -10329,6 +11172,14 @@ UrlConfig
 		}
 		MODULE
 		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableSAS
+		}
+		MODULE
+		{
 			name = MechJebCore
 			MechJebLocalSettings
 			{
@@ -10474,6 +11325,14 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableSAS
 		}
 		MODULE
 		{
@@ -10861,6 +11720,10 @@ UrlConfig
 			attachOnStatic = False
 			attachSendMsgOnly = False
 		}
+		MODULE
+		{
+			name = ModuleTweakableSolarPanel
+		}
 	}
 }
 UrlConfig
@@ -10926,6 +11789,10 @@ UrlConfig
 			attachOnEva = False
 			attachOnStatic = False
 			attachSendMsgOnly = False
+		}
+		MODULE
+		{
+			name = ModuleTweakableSolarPanel
 		}
 	}
 }
@@ -10993,6 +11860,10 @@ UrlConfig
 			attachOnStatic = False
 			attachSendMsgOnly = False
 		}
+		MODULE
+		{
+			name = ModuleTweakableSolarPanel
+		}
 	}
 }
 UrlConfig
@@ -11059,6 +11930,10 @@ UrlConfig
 			attachOnStatic = False
 			attachSendMsgOnly = False
 		}
+		MODULE
+		{
+			name = ModuleTweakableSolarPanel
+		}
 	}
 }
 UrlConfig
@@ -11113,6 +11988,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableSolarPanel
 		}
 	}
 }
@@ -11183,6 +12062,10 @@ UrlConfig
 			attachOnEva = False
 			attachOnStatic = False
 			attachSendMsgOnly = False
+		}
+		MODULE
+		{
+			name = ModuleTweakableSolarPanel
 		}
 	}
 }
@@ -11698,6 +12581,10 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
+		}
 	}
 }
 UrlConfig
@@ -11818,6 +12705,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
 		}
 	}
 }
@@ -11956,6 +12847,10 @@ UrlConfig
 			attachOnStatic = False
 			attachSendMsgOnly = False
 		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
+		}
 	}
 }
 UrlConfig
@@ -12091,6 +12986,14 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableJettison
+		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
 		}
 	}
 }
@@ -12462,6 +13365,14 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableJettison
+		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
+		}
 	}
 }
 UrlConfig
@@ -12593,6 +13504,14 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableJettison
+		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
+		}
 	}
 }
 UrlConfig
@@ -12700,6 +13619,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableJettison
 		}
 	}
 }
@@ -12821,6 +13744,14 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableJettison
+		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
 		}
 	}
 }
@@ -12960,6 +13891,14 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableJettison
+		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
+		}
 	}
 }
 UrlConfig
@@ -13047,6 +13986,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
 		}
 	}
 }
@@ -13170,6 +14113,14 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableJettison
+		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
+		}
 	}
 }
 UrlConfig
@@ -13292,6 +14243,14 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableJettison
+		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
 		}
 	}
 }
@@ -13618,6 +14577,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableGimbal
 		}
 	}
 }
@@ -13960,6 +14923,10 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableRCS
+		}
 	}
 }
 UrlConfig
@@ -14017,6 +14984,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
 		}
 	}
 }
@@ -14076,6 +15048,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -14133,6 +15110,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
 		}
 	}
 }
@@ -14192,6 +15174,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -14249,6 +15236,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
 		}
 	}
 }
@@ -14308,6 +15300,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -14366,6 +15363,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -14422,6 +15424,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -14476,6 +15483,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
 		}
 	}
 }
@@ -14533,6 +15545,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -14588,6 +15605,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
 		}
 	}
 }
@@ -14645,6 +15667,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -14701,6 +15728,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -14755,6 +15787,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
 		}
 	}
 }
@@ -14812,6 +15849,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -14867,6 +15909,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
 		}
 	}
 }
@@ -14924,6 +15971,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -14970,6 +16022,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
 		}
 	}
 }
@@ -15022,6 +16079,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
+		}
 	}
 }
 UrlConfig
@@ -15069,6 +16131,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
 		}
 	}
 }
@@ -15129,6 +16196,11 @@ UrlConfig
 			attachOnStatic = False
 			attachSendMsgOnly = False
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
+		}
 	}
 }
 UrlConfig
@@ -15173,6 +16245,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
 		}
 	}
 }
@@ -15223,6 +16300,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = XenonGas
 		}
 	}
 }
@@ -15282,6 +16364,11 @@ UrlConfig
 			attachOnStatic = False
 			attachSendMsgOnly = False
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = XenonGas
+		}
 	}
 }
 UrlConfig
@@ -15335,6 +16422,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel
 		}
 	}
 }
@@ -15398,6 +16490,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableResourceIntake
 		}
 	}
 }
@@ -15504,6 +16600,10 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+		}
 	}
 }
 UrlConfig
@@ -15561,6 +16661,10 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+		}
 	}
 }
 UrlConfig
@@ -15617,6 +16721,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
 		}
 	}
 }
@@ -15729,6 +16837,19 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
 		}
 		MODULE
 		{
@@ -15881,6 +17002,10 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+		}
 	}
 }
 UrlConfig
@@ -15938,6 +17063,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
 		}
 	}
 }
@@ -15997,6 +17127,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -16055,6 +17190,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -16106,6 +17246,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel
 		}
 	}
 }
@@ -16159,6 +17304,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel
+		}
 	}
 }
 UrlConfig
@@ -16211,6 +17361,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel
+		}
 	}
 }
 UrlConfig
@@ -16262,6 +17417,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
 		}
 	}
 }
@@ -16381,6 +17541,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
 		}
 	}
 }
@@ -16524,6 +17688,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
 		}
 	}
 }
@@ -16816,6 +17984,15 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel
+		}
+		MODULE
+		{
+			name = ModuleTweakableResourceIntake
+		}
 	}
 }
 UrlConfig
@@ -16879,6 +18056,15 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel
+		}
+		MODULE
+		{
+			name = ModuleTweakableResourceIntake
 		}
 	}
 }
@@ -17296,6 +18482,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleDecouple
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
+		}
 	}
 }
 UrlConfig
@@ -17583,6 +18781,10 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableResourceIntake
+		}
 	}
 }
 UrlConfig
@@ -17639,6 +18841,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableResourceIntake
 		}
 	}
 }
@@ -17712,6 +18918,12 @@ UrlConfig
 			attachOnEva = False
 			attachOnStatic = False
 			attachSendMsgOnly = False
+		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+			fieldEnabledText = Deployed
+			fieldDisabledText = Retracted
 		}
 	}
 }
@@ -17793,6 +19005,12 @@ UrlConfig
 			attachOnStatic = False
 			attachSendMsgOnly = False
 		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+			fieldEnabledText = Deployed
+			fieldDisabledText = Retracted
+		}
 	}
 }
 UrlConfig
@@ -17866,6 +19084,12 @@ UrlConfig
 			attachOnStatic = False
 			attachSendMsgOnly = False
 		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+			fieldEnabledText = Extended
+			fieldDisabledText = Retracted
+		}
 	}
 }
 UrlConfig
@@ -17924,6 +19148,23 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleAnchoredDecoupler
+		}
+		MODULE
+		{
+			name = ModuleTweakableCrossFeed
+			fuelCrossFeed = false
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
 		}
 	}
 }
@@ -17985,6 +19226,23 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleAnchoredDecoupler
+		}
+		MODULE
+		{
+			name = ModuleTweakableCrossFeed
+			fuelCrossFeed = false
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
+		}
 	}
 }
 UrlConfig
@@ -18044,6 +19302,23 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleAnchoredDecoupler
+		}
+		MODULE
+		{
+			name = ModuleTweakableCrossFeed
+			fuelCrossFeed = false
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
 		}
 	}
 }
@@ -18105,6 +19380,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleDecouple
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
+		}
 	}
 }
 UrlConfig
@@ -18163,6 +19450,18 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleDecouple
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
 		}
 	}
 }
@@ -18223,6 +19522,18 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleDecouple
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
 		}
 	}
 }
@@ -18285,6 +19596,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleDecouple
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
+		}
 	}
 }
 UrlConfig
@@ -18345,6 +19668,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleDecouple
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
+		}
 	}
 }
 UrlConfig
@@ -18404,6 +19739,18 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleDecouple
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
+		}
 	}
 }
 UrlConfig
@@ -18451,6 +19798,17 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = true
+			activeInFlight = false
+			activeInEditor = true
+		}
+		MODULE
+		{
+			name = ModuleTweakableDockingNode
+		}
 	}
 }
 UrlConfig
@@ -18467,7 +19825,6 @@ UrlConfig
 		mesh = model.mu
 		rescaleFactor = 1
 		node_stack_top = 0.0, 0.5753132, 0.0, 0.0, 1.0, 0.0, 1
-		node_stack_bottom = 0.0, -0.5753132, 0.0, 0.0, 1.0, 0.0, 1
 		TechRequired = metaMaterials
 		entryCost = 9800
 		cost = 700
@@ -18483,20 +19840,23 @@ UrlConfig
 		angularDrag = 0.2
 		crashTolerance = 10
 		maxTemp = 3400
+		node_stack_tdn = 0, 0, -.671, 0, 0, 1, 1
+		node_stack_bottom = 0.0, -0.5753132, 0.0, 0.0, 1.0, 0.0, 1
 		MODULE
 		{
 			name = ModuleDockingNode
 			deployAnimationController = 1
 			nodeType = size1
 			controlTransformName = controlNode
+			referenceAttachNode = tdn
 		}
 		MODULE
 		{
 			name = ModuleAnimateGeneric
 			animationName = dockingporthull
 			actionGUIName = Toggle
-			startEventGUIName = Open
-			endEventGUIName = Close
+			startEventGUIName = Open Shield
+			endEventGUIName = Close Shield
 		}
 		MODULE
 		{
@@ -18505,6 +19865,24 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = true
+			activeInFlight = false
+			activeInEditor = true
+		}
+		MODULE
+		{
+			name = ModuleTweakableDockingNode
+			TDNnodeName = tdn
+			AlwaysAllowStack = True
+			deployAnimationControllerName = dockingporthull
 		}
 	}
 }
@@ -18553,6 +19931,17 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = true
+			activeInFlight = false
+			activeInEditor = true
+		}
+		MODULE
+		{
+			name = ModuleTweakableDockingNode
+		}
 	}
 }
 UrlConfig
@@ -18584,11 +19973,13 @@ UrlConfig
 		angularDrag = 0.5
 		crashTolerance = 10
 		maxTemp = 3400
+		node_stack_tdn = 0, .333, 0, 0, 1, 0, 1
 		MODULE
 		{
 			name = ModuleDockingNode
 			deployAnimationController = 1
 			nodeType = size1
+			referenceAttachNode = tdn
 		}
 		MODULE
 		{
@@ -18605,6 +19996,23 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = true
+			activeInFlight = false
+			activeInEditor = true
+		}
+		MODULE
+		{
+			name = ModuleTweakableDockingNode
+			TDNnodeName = tdn
+			deployAnimationControllerName = dockingring
 		}
 	}
 }
@@ -18651,6 +20059,17 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = true
+			activeInFlight = false
+			activeInEditor = true
+		}
+		MODULE
+		{
+			name = ModuleTweakableDockingNode
 		}
 	}
 }
@@ -18766,6 +20185,10 @@ UrlConfig
 			attachOnStatic = False
 			attachSendMsgOnly = False
 		}
+		MODULE
+		{
+			name = ModuleTweakableLadder
+		}
 	}
 }
 UrlConfig
@@ -18826,6 +20249,10 @@ UrlConfig
 			attachOnEva = False
 			attachOnStatic = False
 			attachSendMsgOnly = False
+		}
+		MODULE
+		{
+			name = ModuleTweakableLadder
 		}
 	}
 }
@@ -19227,6 +20654,10 @@ UrlConfig
 			attachOnStatic = False
 			attachSendMsgOnly = False
 		}
+		MODULE
+		{
+			name = ModuleTweakableRCS
+		}
 	}
 }
 UrlConfig
@@ -19291,6 +20722,12 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableParachute
+			deploymentFactor = 20
+			semiDeploymentFactor = 1
 		}
 	}
 }
@@ -19358,6 +20795,12 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableParachute
+			deploymentFactor = 20
+			semiDeploymentFactor = 1
 		}
 	}
 }
@@ -19438,6 +20881,12 @@ UrlConfig
 			attachOnStatic = False
 			attachSendMsgOnly = False
 		}
+		MODULE
+		{
+			name = ModuleTweakableParachute
+			deploymentFactor = 20
+			semiDeploymentFactor = 1
+		}
 	}
 }
 UrlConfig
@@ -19504,6 +20953,12 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableParachute
+			deploymentFactor = 20
+			semiDeploymentFactor = 1
 		}
 	}
 }
@@ -19604,6 +21059,10 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableResourceIntake
+		}
 	}
 }
 UrlConfig
@@ -19669,6 +21128,10 @@ UrlConfig
 			attachOnEva = True
 			attachOnStatic = False
 			attachSendMsgOnly = False
+		}
+		MODULE
+		{
+			name = ModuleTweakableRCS
 		}
 	}
 }
@@ -24380,6 +25843,10 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableResourceIntake
+		}
 	}
 }
 UrlConfig
@@ -24450,6 +25917,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -24516,6 +25988,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
 		}
 	}
 }
@@ -24584,6 +26061,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -24648,6 +26130,10 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+		}
 	}
 }
 UrlConfig
@@ -24711,6 +26197,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
 		}
 	}
 }
@@ -24828,6 +26318,19 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
 		}
 		MODULE
 		{
@@ -26453,6 +27956,19 @@ UrlConfig
 		}
 		MODULE
 		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
+		}
+		MODULE
+		{
 			name = MechJebCore
 			MechJebLocalSettings
 			{
@@ -26603,6 +28119,10 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+		}
 	}
 }
 UrlConfig
@@ -26672,6 +28192,26 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = true
+			activeInFlight = false
+			activeInEditor = true
+		}
+		MODULE
+		{
+			name = ModuleTweakableDockingNode
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
 		}
 	}
 }
@@ -26749,6 +28289,14 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableSAS
 		}
 		MODULE
 		{
@@ -26888,6 +28436,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -26948,6 +28501,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel
 		}
 	}
 }
@@ -27016,6 +28574,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel, Oxidizer
+		}
 	}
 }
 UrlConfig
@@ -27076,6 +28639,11 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = LiquidFuel
 		}
 	}
 }
@@ -27138,6 +28706,11 @@ UrlConfig
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
+		}
 	}
 }
 UrlConfig
@@ -27193,6 +28766,10 @@ UrlConfig
 			collisionSound = CollisionFX/Sounds/Bang1
 			scrapeSound = CollisionFX/Sounds/GroundSkid
 			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableResourceIntake
 		}
 	}
 }
@@ -28558,5 +30135,338 @@ UrlConfig
 			minValue = 1.05
 			maxValue = 1.15
 		}
+	}
+}
+UrlConfig
+{
+	name = TextureReplacer
+	type = TextureReplacer
+	parentUrl = TextureReplacer/@Default
+	url = TextureReplacer/@Default/TextureReplacer
+	TextureReplacer
+	{
+		isCompressionEnabled = auto
+		isMipmapGenEnabled = auto
+		generateMipmaps = /FX/ /Parts/ /Props/ /Spaces/ ^ART/ ^ASET(_Props)?/ ^FASA/
+		generateMipmaps = ^KAS/Textures/ ^Lionhead_Aerospace_Inc/ ^Regolith/Assets/
+		generateMipmaps = ^RetroFuture/ ^SnacksPartsByWhyren/ ^UmbraSpaceIndustries/
+		isUnloadingEnabled = auto
+		keepLoaded = ^BoulderCo/(Clouds|Atmosphere)/ ^CommunityResourcePack/
+		keepLoaded = ^CustomBiomes/PluginData/CustomBiomes/ ^KittopiaSpace/Textures/
+		keepLoaded = ^Kopernicus/Textures/ ^Romfarer/textures/
+		keepLoaded = ^WarpPlugin/PlanetResourceData/
+		skinningQuality = auto
+		logTextures = false
+		logReflectiveMeshes = false
+		isGUIEnabled = true
+		reflectionType = real
+		reflectionResolution = 128
+		reflectionInterval = 2
+		isVisorReflectionEnabled = true
+		visorReflectionColour = 0.5 0.5 0.5
+		isHelmetRemovalEnabled = true
+		isAtmSuitEnabled = true
+		atmSuitPressure = 0.5
+		atmSuitBodies = Kerbin Erin Sanctum
+		CustomKerbals
+		{
+		}
+		GenericKerbals
+		{
+			excludedHeads = 
+			excludedSuits = 
+			femaleHeads = 
+			femaleSuits = 
+			femaleNames = [ei][elns]$ [belmns]y$ i(ng)?$ [au]$ oe$
+			eyelessHeads = 
+			suitAssignment = random
+		}
+		CabinSuits
+		{
+		}
+		ClassSuits
+		{
+		}
+	}
+}
+UrlConfig
+{
+	name = ACTIVE_TEXTURE_MANAGER_CONFIG
+	type = ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = TextureReplacer/ATM
+	url = TextureReplacer/ATM/ACTIVE_TEXTURE_MANAGER_CONFIG
+	ACTIVE_TEXTURE_MANAGER_CONFIG
+	{
+		folder = TextureReplacer
+		enabled = true
+		OVERRIDES
+		{
+			TextureReplacer/EnvMap/.*
+			{
+				make_not_readable = false
+				mipmaps = false
+				compress = false
+				scale = 1
+				max_size = 0
+			}
+			TextureReplacer/Default/
+			{
+				mipmaps = false
+				scale = 1
+				max_size = 0
+			}
+		}
+	}
+}
+UrlConfig
+{
+	name = Settings
+	type = Settings
+	parentUrl = TriggerTech/KSPAlternateResourcePanel/settings
+	url = TriggerTech/KSPAlternateResourcePanel/settings/Settings
+	Settings
+	{
+		vectButtonPos = 1515,0,0
+		ToggleOn = False
+		DisableHover = False
+		LockLocation = True
+		WindowPosUpdatedv24 = False
+		ButtonPosUpdatedv24 = False
+		SpacerPadding = 0
+		HideEmptyResources = False
+		HideFullResources = False
+		HideAfter = 2
+		ShowRates = True
+		ShowRatesForParts = True
+		RateDisplayType = Default
+		RatesUseUT = True
+		SplitLastStage = True
+		StageBarOnRight = True
+		AlarmsEnabled = True
+		AlarmsWarningSound = _DefaultWarning
+		AlarmsWarningRepeats = 2
+		AlarmsAlertSound = _DefaultAlert
+		AlarmsAlertRepeats = 4
+		AlarmsVolumeFromUI = True
+		AlarmsVolume = 0.25
+		StagingEnabled = False
+		StagingEnabledInMapView = False
+		StagingEnabledSpaceInMapView = False
+		AutoStagingEnabled = False
+		AutoStagingDelayInTenths = 5
+		SelectedSkin = Default
+		UseBlizzyToolbarIfAvailable = False
+		ButtonStyleChosen = Launcher
+		AppLauncherMutuallyExclusive = True
+		ReplaceStockAppTimeOut = 20
+		AppLauncherSetTrueTimeOut = 6
+		DailyVersionCheck = True
+		VersionCheckDate_AttemptStored = 2015-03-27
+		VersionCheckDate_SuccessStored = 2015-03-27
+		ShowWindowOnResourceMonitor = True
+		VersionWeb = 2.6.3.0
+		WindowPositionStored
+		{
+			x = 1622
+			y = 40
+			width = 299
+			height = 20
+		}
+		lstIconOrder
+		{
+			Item = Player
+			Item = Mod
+			Item = KSPARP
+		}
+		ResourcesStorage
+		{
+			Item
+			{
+				id = 1576437329
+				name = ElectricCharge
+				IsSeparator = False
+				Visibility = AlwaysOn
+				AlarmEnabled = False
+				HideWhenEmpty = False
+				HideWhenFull = False
+				MonitorDirection = Low
+				MonitorWarningLevel = 20
+				MonitorAlertLevel = 10
+				SplitLastStage = True
+				ShowReserveLevels = False
+				DisplayValueAs = Units
+			}
+			Item
+			{
+				id = 2001413032
+				name = MonoPropellant
+				IsSeparator = False
+				Visibility = AlwaysOn
+				AlarmEnabled = False
+				HideWhenEmpty = False
+				HideWhenFull = False
+				MonitorDirection = Low
+				MonitorWarningLevel = 20
+				MonitorAlertLevel = 10
+				SplitLastStage = True
+				ShowReserveLevels = False
+				DisplayValueAs = Units
+			}
+			Item
+			{
+				id = -792463147
+				name = EVA Propellant
+				IsSeparator = False
+				Visibility = AlwaysOn
+				AlarmEnabled = False
+				HideWhenEmpty = False
+				HideWhenFull = False
+				MonitorDirection = Low
+				MonitorWarningLevel = 20
+				MonitorAlertLevel = 10
+				SplitLastStage = True
+				ShowReserveLevels = False
+				DisplayValueAs = Units
+			}
+			Item
+			{
+				id = 35
+				name = 
+				IsSeparator = True
+				Visibility = AlwaysOn
+				AlarmEnabled = False
+				HideWhenEmpty = False
+				HideWhenFull = False
+				MonitorDirection = Low
+				MonitorWarningLevel = 20
+				MonitorAlertLevel = 10
+				SplitLastStage = True
+				ShowReserveLevels = False
+				DisplayValueAs = Units
+			}
+			Item
+			{
+				id = 374119730
+				name = LiquidFuel
+				IsSeparator = False
+				Visibility = AlwaysOn
+				AlarmEnabled = False
+				HideWhenEmpty = False
+				HideWhenFull = False
+				MonitorDirection = Low
+				MonitorWarningLevel = 20
+				MonitorAlertLevel = 10
+				SplitLastStage = True
+				ShowReserveLevels = False
+				DisplayValueAs = Units
+			}
+			Item
+			{
+				id = -1823983486
+				name = Oxidizer
+				IsSeparator = False
+				Visibility = AlwaysOn
+				AlarmEnabled = False
+				HideWhenEmpty = False
+				HideWhenFull = False
+				MonitorDirection = Low
+				MonitorWarningLevel = 20
+				MonitorAlertLevel = 10
+				SplitLastStage = True
+				ShowReserveLevels = False
+				DisplayValueAs = Units
+			}
+			Item
+			{
+				id = 650317537
+				name = SolidFuel
+				IsSeparator = False
+				Visibility = AlwaysOn
+				AlarmEnabled = False
+				HideWhenEmpty = False
+				HideWhenFull = False
+				MonitorDirection = Low
+				MonitorWarningLevel = 20
+				MonitorAlertLevel = 10
+				SplitLastStage = True
+				ShowReserveLevels = False
+				DisplayValueAs = Units
+			}
+			Item
+			{
+				id = 36
+				name = 
+				IsSeparator = True
+				Visibility = AlwaysOn
+				AlarmEnabled = False
+				HideWhenEmpty = False
+				HideWhenFull = False
+				MonitorDirection = Low
+				MonitorWarningLevel = 20
+				MonitorAlertLevel = 10
+				SplitLastStage = True
+				ShowReserveLevels = False
+				DisplayValueAs = Units
+			}
+			Item
+			{
+				id = -1909417378
+				name = IntakeAir
+				IsSeparator = False
+				Visibility = AlwaysOn
+				AlarmEnabled = False
+				HideWhenEmpty = False
+				HideWhenFull = False
+				MonitorDirection = Low
+				MonitorWarningLevel = 20
+				MonitorAlertLevel = 10
+				SplitLastStage = True
+				ShowReserveLevels = False
+				DisplayValueAs = Units
+			}
+			Item
+			{
+				id = 1447111193
+				name = XenonGas
+				IsSeparator = False
+				Visibility = AlwaysOn
+				AlarmEnabled = False
+				HideWhenEmpty = False
+				HideWhenFull = False
+				MonitorDirection = Low
+				MonitorWarningLevel = 20
+				MonitorAlertLevel = 10
+				SplitLastStage = True
+				ShowReserveLevels = False
+				DisplayValueAs = Units
+			}
+			Item
+			{
+				id = -1714321982
+				name = MJPropellant
+				IsSeparator = False
+				Visibility = AlwaysOn
+				AlarmEnabled = False
+				HideWhenEmpty = False
+				HideWhenFull = False
+				MonitorDirection = Low
+				MonitorWarningLevel = 20
+				MonitorAlertLevel = 10
+				SplitLastStage = True
+				ShowReserveLevels = False
+				DisplayValueAs = Units
+			}
+		}
+	}
+}
+UrlConfig
+{
+	name = ModuleTweakableEVA
+	type = EVA_MODULE
+	parentUrl = TweakableEverything/TweakableEVA
+	url = TweakableEverything/TweakableEVA/ModuleTweakableEVA
+	EVA_MODULE
+	{
+		name = ModuleTweakableEVA
 	}
 }
