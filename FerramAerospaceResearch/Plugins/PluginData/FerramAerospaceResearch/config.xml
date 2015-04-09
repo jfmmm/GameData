@@ -69,4 +69,16 @@
     <string name="manualOverrideShielding">False</string>
     <int name="unitMode">0</int>
     <int name="velMode">0</int>
+    <string name="useBlizzyToolbar">False</string>
+    <string name="aeroFailureExplosions">True</string>
+    <string name="actionGroupSpoiler">Brakes</string>
+    <string name="actionGroupIncreaseFlapDeflection">None</string>
+    <string name="actionGroupDecreaseFlapDeflection">None</string>
+    <rect name="AeroForceTintingPos">
+        <xmin>0</xmin>
+        <xmax>0</xmax>
+        <ymin>0</ymin>
+        <ymax>0</ymax>
+    </rect>
+    <string name="k2_pitchdamper">0.06</string>
 </config>
