@@ -1,4 +1,4 @@
-patchedNodeCount = 764
+patchedNodeCount = 766
 catEatenCount = 0
 UrlConfig
 {
@@ -52,20 +52,6 @@ UrlConfig
 				scale = 1
 				max_size = 0
 			}
-			blackheart/KOSMOS/kosmos2
-			{
-				compress = true
-				mipmaps = true
-				scale = 1
-				max_size = 0
-			}
-			blackheart/KOSMOS/kosmoslong
-			{
-				compress = true
-				mipmaps = true
-				scale = 1
-				max_size = 0
-			}
 			BoulderCo/Clouds/.*
 			{
 				compress = true
@@ -111,13 +97,6 @@ UrlConfig
 				max_size = 0
 				make_not_readable = false
 			}
-			Kethane/toolbar
-			{
-				compress = true
-				mipmaps = true
-				scale = 1
-				max_size = 0
-			}
 			KSO/RPM/.*
 			{
 				compress = false
@@ -149,6 +128,13 @@ UrlConfig
 				scale = 1
 				max_size = 0
 				make_not_readable = false
+			}
+			Kethane/toolbar
+			{
+				compress = true
+				mipmaps = true
+				scale = 1
+				max_size = 0
 			}
 			MagicSmokeIndustries/Textures/icon_button
 			{
@@ -232,6 +218,20 @@ UrlConfig
 				max_size = 0
 				make_not_readable = false
 			}
+			blackheart/KOSMOS/kosmos2
+			{
+				compress = true
+				mipmaps = true
+				scale = 1
+				max_size = 0
+			}
+			blackheart/KOSMOS/kosmoslong
+			{
+				compress = true
+				mipmaps = true
+				scale = 1
+				max_size = 0
+			}
 			TextureReplacer/EnvMap/.*
 			{
 				make_not_readable = false
@@ -310,6 +310,18 @@ UrlConfig
 {
 	name = ACTIVE_TEXTURE_MANAGER_CONFIG
 	type = ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/ASET
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/ASET/ACTIVE_TEXTURE_MANAGER_CONFIG
+	ACTIVE_TEXTURE_MANAGER_CONFIG
+	{
+		folder = ASET
+		enabled = true
+	}
+}
+UrlConfig
+{
+	name = ACTIVE_TEXTURE_MANAGER_CONFIG
+	type = ACTIVE_TEXTURE_MANAGER_CONFIG
 	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/AlchemyTechnologies
 	url = ActiveTextureManagement/ActiveTextureManagerConfigs/AlchemyTechnologies/ACTIVE_TEXTURE_MANAGER_CONFIG
 	ACTIVE_TEXTURE_MANAGER_CONFIG
@@ -327,18 +339,6 @@ UrlConfig
 	ACTIVE_TEXTURE_MANAGER_CONFIG
 	{
 		folder = AmericanPack
-		enabled = true
-	}
-}
-UrlConfig
-{
-	name = ACTIVE_TEXTURE_MANAGER_CONFIG
-	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/ASET
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/ASET/ACTIVE_TEXTURE_MANAGER_CONFIG
-	ACTIVE_TEXTURE_MANAGER_CONFIG
-	{
-		folder = ASET
 		enabled = true
 	}
 }
@@ -380,18 +380,6 @@ UrlConfig
 {
 	name = ACTIVE_TEXTURE_MANAGER_CONFIG
 	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/BahamutoD
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/BahamutoD/ACTIVE_TEXTURE_MANAGER_CONFIG
-	ACTIVE_TEXTURE_MANAGER_CONFIG
-	{
-		folder = BahamutoD
-		enabled = true
-	}
-}
-UrlConfig
-{
-	name = ACTIVE_TEXTURE_MANAGER_CONFIG
-	type = ACTIVE_TEXTURE_MANAGER_CONFIG
 	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/BahaSP
 	url = ActiveTextureManagement/ActiveTextureManagerConfigs/BahaSP/ACTIVE_TEXTURE_MANAGER_CONFIG
 	ACTIVE_TEXTURE_MANAGER_CONFIG
@@ -404,37 +392,12 @@ UrlConfig
 {
 	name = ACTIVE_TEXTURE_MANAGER_CONFIG
 	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/blackheart
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/blackheart/ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/BahamutoD
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/BahamutoD/ACTIVE_TEXTURE_MANAGER_CONFIG
 	ACTIVE_TEXTURE_MANAGER_CONFIG
 	{
-		folder = blackheart
+		folder = BahamutoD
 		enabled = true
-		NORMAL_LIST
-		{
-			texture = blackheart/Castor/castormap
-			texture = blackheart/KW/1MMap
-			texture = blackheart/KW/3MMap
-			texture = blackheart/KW/BottomMap
-			texture = blackheart/KW/TopMap
-		}
-		OVERRIDES
-		{
-			blackheart/KOSMOS/kosmos2
-			{
-				compress = true
-				mipmaps = true
-				scale = 1
-				max_size = 0
-			}
-			blackheart/KOSMOS/kosmoslong
-			{
-				compress = true
-				mipmaps = true
-				scale = 1
-				max_size = 0
-			}
-		}
 	}
 }
 UrlConfig
@@ -559,11 +522,11 @@ UrlConfig
 {
 	name = ACTIVE_TEXTURE_MANAGER_CONFIG
 	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/DeadlyReentry
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/DeadlyReentry/ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/DMagic Orbital Science
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/DMagic Orbital Science/ACTIVE_TEXTURE_MANAGER_CONFIG
 	ACTIVE_TEXTURE_MANAGER_CONFIG
 	{
-		folder = DeadlyReentry
+		folder = DMagic Orbital Science
 		enabled = true
 	}
 }
@@ -571,11 +534,11 @@ UrlConfig
 {
 	name = ACTIVE_TEXTURE_MANAGER_CONFIG
 	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/DMagic Orbital Science
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/DMagic Orbital Science/ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/DeadlyReentry
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/DeadlyReentry/ACTIVE_TEXTURE_MANAGER_CONFIG
 	ACTIVE_TEXTURE_MANAGER_CONFIG
 	{
-		folder = DMagic Orbital Science
+		folder = DeadlyReentry
 		enabled = true
 	}
 }
@@ -785,40 +748,6 @@ UrlConfig
 {
 	name = ACTIVE_TEXTURE_MANAGER_CONFIG
 	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/Kethane
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/Kethane/ACTIVE_TEXTURE_MANAGER_CONFIG
-	ACTIVE_TEXTURE_MANAGER_CONFIG
-	{
-		folder = Kethane
-		enabled = true
-		OVERRIDES
-		{
-			Kethane/toolbar
-			{
-				compress = true
-				mipmaps = true
-				scale = 1
-				max_size = 0
-			}
-		}
-	}
-}
-UrlConfig
-{
-	name = ACTIVE_TEXTURE_MANAGER_CONFIG
-	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/KipEng
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/KipEng/ACTIVE_TEXTURE_MANAGER_CONFIG
-	ACTIVE_TEXTURE_MANAGER_CONFIG
-	{
-		folder = KipEng
-		enabled = true
-	}
-}
-UrlConfig
-{
-	name = ACTIVE_TEXTURE_MANAGER_CONFIG
-	type = ACTIVE_TEXTURE_MANAGER_CONFIG
 	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/KSO
 	url = ActiveTextureManagement/ActiveTextureManagerConfigs/KSO/ACTIVE_TEXTURE_MANAGER_CONFIG
 	ACTIVE_TEXTURE_MANAGER_CONFIG
@@ -890,23 +819,33 @@ UrlConfig
 {
 	name = ACTIVE_TEXTURE_MANAGER_CONFIG
 	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/LazTek
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/LazTek/ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/Kethane
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/Kethane/ACTIVE_TEXTURE_MANAGER_CONFIG
 	ACTIVE_TEXTURE_MANAGER_CONFIG
 	{
-		folder = LazTek
+		folder = Kethane
 		enabled = true
+		OVERRIDES
+		{
+			Kethane/toolbar
+			{
+				compress = true
+				mipmaps = true
+				scale = 1
+				max_size = 0
+			}
+		}
 	}
 }
 UrlConfig
 {
 	name = ACTIVE_TEXTURE_MANAGER_CONFIG
 	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/LifeSupport
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/LifeSupport/ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/KipEng
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/KipEng/ACTIVE_TEXTURE_MANAGER_CONFIG
 	ACTIVE_TEXTURE_MANAGER_CONFIG
 	{
-		folder = LifeSupport
+		folder = KipEng
 		enabled = true
 	}
 }
@@ -943,11 +882,11 @@ UrlConfig
 {
 	name = ACTIVE_TEXTURE_MANAGER_CONFIG
 	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/Lovad
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/Lovad/ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/LTech
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/LTech/ACTIVE_TEXTURE_MANAGER_CONFIG
 	ACTIVE_TEXTURE_MANAGER_CONFIG
 	{
-		folder = Lovad
+		folder = LTech
 		enabled = true
 	}
 }
@@ -955,11 +894,35 @@ UrlConfig
 {
 	name = ACTIVE_TEXTURE_MANAGER_CONFIG
 	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/LTech
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/LTech/ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/LazTek
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/LazTek/ACTIVE_TEXTURE_MANAGER_CONFIG
 	ACTIVE_TEXTURE_MANAGER_CONFIG
 	{
-		folder = LTech
+		folder = LazTek
+		enabled = true
+	}
+}
+UrlConfig
+{
+	name = ACTIVE_TEXTURE_MANAGER_CONFIG
+	type = ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/LifeSupport
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/LifeSupport/ACTIVE_TEXTURE_MANAGER_CONFIG
+	ACTIVE_TEXTURE_MANAGER_CONFIG
+	{
+		folder = LifeSupport
+		enabled = true
+	}
+}
+UrlConfig
+{
+	name = ACTIVE_TEXTURE_MANAGER_CONFIG
+	type = ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/Lovad
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/Lovad/ACTIVE_TEXTURE_MANAGER_CONFIG
+	ACTIVE_TEXTURE_MANAGER_CONFIG
+	{
+		folder = Lovad
 		enabled = true
 	}
 }
@@ -994,18 +957,6 @@ UrlConfig
 	ACTIVE_TEXTURE_MANAGER_CONFIG
 	{
 		folder = MarkIVSystem
-		enabled = true
-	}
-}
-UrlConfig
-{
-	name = ACTIVE_TEXTURE_MANAGER_CONFIG
-	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/masTerTorch
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/masTerTorch/ACTIVE_TEXTURE_MANAGER_CONFIG
-	ACTIVE_TEXTURE_MANAGER_CONFIG
-	{
-		folder = masTerTorch
 		enabled = true
 	}
 }
@@ -1081,18 +1032,6 @@ UrlConfig
 	ACTIVE_TEXTURE_MANAGER_CONFIG
 	{
 		folder = NothkeSerCom
-		enabled = true
-	}
-}
-UrlConfig
-{
-	name = ACTIVE_TEXTURE_MANAGER_CONFIG
-	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/nothke_DROMOMAN
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/nothke_DROMOMAN/ACTIVE_TEXTURE_MANAGER_CONFIG
-	ACTIVE_TEXTURE_MANAGER_CONFIG
-	{
-		folder = nothke_DROMOMAN
 		enabled = true
 	}
 }
@@ -1294,6 +1233,18 @@ UrlConfig
 {
 	name = ACTIVE_TEXTURE_MANAGER_CONFIG
 	type = ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/SXT
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/SXT/ACTIVE_TEXTURE_MANAGER_CONFIG
+	ACTIVE_TEXTURE_MANAGER_CONFIG
+	{
+		folder = SXT
+		enabled = true
+	}
+}
+UrlConfig
+{
+	name = ACTIVE_TEXTURE_MANAGER_CONFIG
+	type = ACTIVE_TEXTURE_MANAGER_CONFIG
 	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/Squad
 	url = ActiveTextureManagement/ActiveTextureManagerConfigs/Squad/ACTIVE_TEXTURE_MANAGER_CONFIG
 	ACTIVE_TEXTURE_MANAGER_CONFIG
@@ -1363,11 +1314,11 @@ UrlConfig
 {
 	name = ACTIVE_TEXTURE_MANAGER_CONFIG
 	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/SXT
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/SXT/ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/TSAS
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/TSAS/ACTIVE_TEXTURE_MANAGER_CONFIG
 	ACTIVE_TEXTURE_MANAGER_CONFIG
 	{
-		folder = SXT
+		folder = TSAS
 		enabled = true
 	}
 }
@@ -1403,18 +1354,6 @@ UrlConfig
 				max_size = 0
 			}
 		}
-	}
-}
-UrlConfig
-{
-	name = ACTIVE_TEXTURE_MANAGER_CONFIG
-	type = ACTIVE_TEXTURE_MANAGER_CONFIG
-	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/TSAS
-	url = ActiveTextureManagement/ActiveTextureManagerConfigs/TSAS/ACTIVE_TEXTURE_MANAGER_CONFIG
-	ACTIVE_TEXTURE_MANAGER_CONFIG
-	{
-		folder = TSAS
-		enabled = true
 	}
 }
 UrlConfig
@@ -1509,6 +1448,67 @@ UrlConfig
 	ACTIVE_TEXTURE_MANAGER_CONFIG
 	{
 		folder = ZWheel
+		enabled = true
+	}
+}
+UrlConfig
+{
+	name = ACTIVE_TEXTURE_MANAGER_CONFIG
+	type = ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/blackheart
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/blackheart/ACTIVE_TEXTURE_MANAGER_CONFIG
+	ACTIVE_TEXTURE_MANAGER_CONFIG
+	{
+		folder = blackheart
+		enabled = true
+		NORMAL_LIST
+		{
+			texture = blackheart/Castor/castormap
+			texture = blackheart/KW/1MMap
+			texture = blackheart/KW/3MMap
+			texture = blackheart/KW/BottomMap
+			texture = blackheart/KW/TopMap
+		}
+		OVERRIDES
+		{
+			blackheart/KOSMOS/kosmos2
+			{
+				compress = true
+				mipmaps = true
+				scale = 1
+				max_size = 0
+			}
+			blackheart/KOSMOS/kosmoslong
+			{
+				compress = true
+				mipmaps = true
+				scale = 1
+				max_size = 0
+			}
+		}
+	}
+}
+UrlConfig
+{
+	name = ACTIVE_TEXTURE_MANAGER_CONFIG
+	type = ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/masTerTorch
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/masTerTorch/ACTIVE_TEXTURE_MANAGER_CONFIG
+	ACTIVE_TEXTURE_MANAGER_CONFIG
+	{
+		folder = masTerTorch
+		enabled = true
+	}
+}
+UrlConfig
+{
+	name = ACTIVE_TEXTURE_MANAGER_CONFIG
+	type = ACTIVE_TEXTURE_MANAGER_CONFIG
+	parentUrl = ActiveTextureManagement/ActiveTextureManagerConfigs/nothke_DROMOMAN
+	url = ActiveTextureManagement/ActiveTextureManagerConfigs/nothke_DROMOMAN/ACTIVE_TEXTURE_MANAGER_CONFIG
+	ACTIVE_TEXTURE_MANAGER_CONFIG
+	{
+		folder = nothke_DROMOMAN
 		enabled = true
 	}
 }
@@ -2968,6 +2968,331 @@ UrlConfig
 }
 UrlConfig
 {
+	name = decoupler_ftr_small
+	type = PART
+	parentUrl = DeadlyReentry/Parts/UP_decoupler_2/part_1_25M
+	url = DeadlyReentry/Parts/UP_decoupler_2/part_1_25M/decoupler_ftr_small
+	PART
+	{
+		name = decoupler_ftr_small
+		module = Part
+		author = nhnifong
+		mesh = model_small.mu
+		rescaleFactor = 0.675
+		node_stack_bottom = 0.0, -0.12, 0.0, 0.0, 1.0, 0.0, 1
+		node_stack_top = 0.0, 0.1, 0.0, 0.0, 1.0, 0.0, 1
+		fx_gasBurst_white = 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, decouple
+		sound_decoupler_fire = decouple
+		cost = 200
+		category = Structural
+		subcategory = 0
+		TechRequired = basicRocketry
+		entryCost = 1200
+		title = UP13 Decoupler
+		manufacturer = 99th World
+		description = With the new heatshield for the small pod, this deoupler will fit nicely and meet flush with the pod.
+		attachRules = 1,0,1,1,0
+		mass = 0.04
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 2
+		crashTolerance = 9
+		breakingForce = 200
+		breakingTorque = 200
+		maxTemp = 1500
+		fuelCrossFeed = False
+		stageOffset = 1
+		childStageOffset = 1
+		MODULE
+		{
+			name = ModuleDecouple
+			ejectionForce = 250
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleDecouple
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
+		}
+	}
+}
+UrlConfig
+{
+	name = decoupler_ftr_2M
+	type = PART
+	parentUrl = DeadlyReentry/Parts/UP_decoupler_2/part_2M
+	url = DeadlyReentry/Parts/UP_decoupler_2/part_2M/decoupler_ftr_2M
+	PART
+	{
+		name = decoupler_ftr_2M
+		module = Part
+		author = nhnifong
+		mesh = model_small.mu
+		rescaleFactor = 1.08
+		node_stack_bottom = 0.0, -0.13523, 0.0, 0.0, 1.0, 0.0, 2
+		node_stack_top = 0.0, 0.1, 0.0, 0.0, 1.0, 0.0, 2
+		fx_gasBurst_white = 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, decouple
+		sound_decoupler_fire = decouple
+		cost = 200
+		category = Structural
+		subcategory = 0
+		TechRequired = basicRocketry
+		entryCost = 1200
+		title = UP20 Decoupler (2M)
+		manufacturer = 99th World
+		description = With the new heatshield for the small pod, this deoupler will fit nicely and meet flush with the pod.
+		attachRules = 1,0,1,1,0
+		mass = 0.18
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 2
+		crashTolerance = 9
+		breakingForce = 200
+		breakingTorque = 200
+		maxTemp = 1500
+		fuelCrossFeed = False
+		stageOffset = 1
+		childStageOffset = 1
+		MODULE
+		{
+			name = ModuleDecouple
+			ejectionForce = 250
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleDecouple
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
+		}
+	}
+}
+UrlConfig
+{
+	name = decoupler_ftr
+	type = PART
+	parentUrl = DeadlyReentry/Parts/UP_decoupler_2/part_2_5M
+	url = DeadlyReentry/Parts/UP_decoupler_2/part_2_5M/decoupler_ftr
+	PART
+	{
+		name = decoupler_ftr
+		module = Part
+		author = nhnifong
+		mesh = model.mu
+		rescaleFactor = 1.3
+		node_stack_bottom = 0.0, -0.12, 0.0, 0.0, 1.0, 0.0, 2
+		node_stack_top = 0.0, 0.05, 0.0, 0.0, 1.0, 0.0, 2
+		fx_gasBurst_white = 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, decouple
+		sound_decoupler_fire = decouple
+		cost = 200
+		category = Structural
+		subcategory = 0
+		TechRequired = specializedControl
+		entryCost = 2800
+		title = UP25 Decoupler
+		manufacturer = 99th World
+		description = With the new heatshield for the large pod, this deoupler will fit nicely and meet flush with the pod.
+		attachRules = 1,0,1,1,0
+		mass = 0.4
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 2
+		crashTolerance = 9
+		breakingForce = 900
+		breakingTorque = 900
+		maxTemp = 1500
+		fuelCrossFeed = False
+		stageOffset = 1
+		childStageOffset = 1
+		MODULE
+		{
+			name = ModuleDecouple
+			ejectionForce = 250
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleDecouple
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
+		}
+	}
+}
+UrlConfig
+{
+	name = decoupler_ftr-3m
+	type = PART
+	parentUrl = DeadlyReentry/Parts/UP_decoupler_2/part_3M
+	url = DeadlyReentry/Parts/UP_decoupler_2/part_3M/decoupler_ftr-3m
+	PART
+	{
+		name = decoupler_ftr-3m
+		module = Part
+		author = nhnifong
+		mesh = model.mu
+		rescaleFactor = 1.56
+		node_stack_bottom = 0.0, -0.12, 0.0, 0.0, 1.0, 0.0, 3
+		node_stack_top = 0.0, 0.05, 0.0, 0.0, 1.0, 0.0, 3
+		fx_gasBurst_white = 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, decouple
+		sound_decoupler_fire = decouple
+		cost = 200
+		category = Structural
+		subcategory = 0
+		TechRequired = specializedControl
+		entryCost = 2800
+		title = UP30 Decoupler (3M)
+		manufacturer = 99th World
+		description = With the new heatshield for the small pod, this deoupler will fit nicely and meet flush with the pod.
+		attachRules = 1,0,1,1,0
+		mass = 0.7
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 2
+		crashTolerance = 9
+		breakingForce = 1000
+		breakingTorque = 1000
+		maxTemp = 1500
+		fuelCrossFeed = False
+		stageOffset = 1
+		childStageOffset = 1
+		MODULE
+		{
+			name = ModuleDecouple
+			ejectionForce = 250
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleDecouple
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
+		}
+	}
+}
+UrlConfig
+{
+	name = decoupler_ftr_4m
+	type = PART
+	parentUrl = DeadlyReentry/Parts/UP_decoupler_2/part_4m
+	url = DeadlyReentry/Parts/UP_decoupler_2/part_4m/decoupler_ftr_4m
+	PART
+	{
+		name = decoupler_ftr_4m
+		module = Part
+		author = nhnifong
+		mesh = model.mu
+		rescaleFactor = 2.08
+		node_stack_bottom = 0.0, -0.12, 0.0, 0.0, 1.0, 0.0, 4
+		node_stack_top = 0.0, 0.05, 0.0, 0.0, 1.0, 0.0, 4
+		fx_gasBurst_white = 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, decouple
+		sound_decoupler_fire = decouple
+		cost = 200
+		category = Structural
+		subcategory = 0
+		TechRequired = specializedControl
+		entryCost = 2800
+		title = UP40 Decoupler (4M)
+		manufacturer = 99th World
+		description = With the new heatshield for the small pod, this deoupler will fit nicely and meet flush with the pod.
+		attachRules = 1,0,1,1,0
+		mass = 0.7
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 2
+		crashTolerance = 9
+		breakingForce = 1000
+		breakingTorque = 1000
+		maxTemp = 1500
+		fuelCrossFeed = False
+		stageOffset = 1
+		childStageOffset = 1
+		MODULE
+		{
+			name = ModuleDecouple
+			ejectionForce = 250
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableDecouple
+			decouplerModuleName = ModuleDecouple
+		}
+		MODULE
+		{
+			name = ModuleStagingToggle
+			defaultDisabled = false
+			activeInFlight = true
+			activeInEditor = true
+		}
+	}
+}
+UrlConfig
+{
 	name = 1.25_Heatshield
 	type = PART
 	parentUrl = DeadlyReentry/Parts/deadlyReentry_1.25Heatshield/part
@@ -3359,331 +3684,6 @@ UrlConfig
 		MODULE
 		{
 			name = ModuleTweakableJettison
-		}
-		MODULE
-		{
-			name = ModuleStagingToggle
-			defaultDisabled = false
-			activeInFlight = true
-			activeInEditor = true
-		}
-	}
-}
-UrlConfig
-{
-	name = decoupler_ftr_small
-	type = PART
-	parentUrl = DeadlyReentry/Parts/UP_decoupler_2/part_1_25M
-	url = DeadlyReentry/Parts/UP_decoupler_2/part_1_25M/decoupler_ftr_small
-	PART
-	{
-		name = decoupler_ftr_small
-		module = Part
-		author = nhnifong
-		mesh = model_small.mu
-		rescaleFactor = 0.675
-		node_stack_bottom = 0.0, -0.12, 0.0, 0.0, 1.0, 0.0, 1
-		node_stack_top = 0.0, 0.1, 0.0, 0.0, 1.0, 0.0, 1
-		fx_gasBurst_white = 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, decouple
-		sound_decoupler_fire = decouple
-		cost = 200
-		category = Structural
-		subcategory = 0
-		TechRequired = basicRocketry
-		entryCost = 1200
-		title = UP13 Decoupler
-		manufacturer = 99th World
-		description = With the new heatshield for the small pod, this deoupler will fit nicely and meet flush with the pod.
-		attachRules = 1,0,1,1,0
-		mass = 0.04
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 2
-		crashTolerance = 9
-		breakingForce = 200
-		breakingTorque = 200
-		maxTemp = 1500
-		fuelCrossFeed = False
-		stageOffset = 1
-		childStageOffset = 1
-		MODULE
-		{
-			name = ModuleDecouple
-			ejectionForce = 250
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = ModuleTweakableDecouple
-			decouplerModuleName = ModuleDecouple
-		}
-		MODULE
-		{
-			name = ModuleStagingToggle
-			defaultDisabled = false
-			activeInFlight = true
-			activeInEditor = true
-		}
-	}
-}
-UrlConfig
-{
-	name = decoupler_ftr_2M
-	type = PART
-	parentUrl = DeadlyReentry/Parts/UP_decoupler_2/part_2M
-	url = DeadlyReentry/Parts/UP_decoupler_2/part_2M/decoupler_ftr_2M
-	PART
-	{
-		name = decoupler_ftr_2M
-		module = Part
-		author = nhnifong
-		mesh = model_small.mu
-		rescaleFactor = 1.08
-		node_stack_bottom = 0.0, -0.13523, 0.0, 0.0, 1.0, 0.0, 2
-		node_stack_top = 0.0, 0.1, 0.0, 0.0, 1.0, 0.0, 2
-		fx_gasBurst_white = 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, decouple
-		sound_decoupler_fire = decouple
-		cost = 200
-		category = Structural
-		subcategory = 0
-		TechRequired = basicRocketry
-		entryCost = 1200
-		title = UP20 Decoupler (2M)
-		manufacturer = 99th World
-		description = With the new heatshield for the small pod, this deoupler will fit nicely and meet flush with the pod.
-		attachRules = 1,0,1,1,0
-		mass = 0.18
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 2
-		crashTolerance = 9
-		breakingForce = 200
-		breakingTorque = 200
-		maxTemp = 1500
-		fuelCrossFeed = False
-		stageOffset = 1
-		childStageOffset = 1
-		MODULE
-		{
-			name = ModuleDecouple
-			ejectionForce = 250
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = ModuleTweakableDecouple
-			decouplerModuleName = ModuleDecouple
-		}
-		MODULE
-		{
-			name = ModuleStagingToggle
-			defaultDisabled = false
-			activeInFlight = true
-			activeInEditor = true
-		}
-	}
-}
-UrlConfig
-{
-	name = decoupler_ftr
-	type = PART
-	parentUrl = DeadlyReentry/Parts/UP_decoupler_2/part_2_5M
-	url = DeadlyReentry/Parts/UP_decoupler_2/part_2_5M/decoupler_ftr
-	PART
-	{
-		name = decoupler_ftr
-		module = Part
-		author = nhnifong
-		mesh = model.mu
-		rescaleFactor = 1.3
-		node_stack_bottom = 0.0, -0.12, 0.0, 0.0, 1.0, 0.0, 2
-		node_stack_top = 0.0, 0.05, 0.0, 0.0, 1.0, 0.0, 2
-		fx_gasBurst_white = 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, decouple
-		sound_decoupler_fire = decouple
-		cost = 200
-		category = Structural
-		subcategory = 0
-		TechRequired = specializedControl
-		entryCost = 2800
-		title = UP25 Decoupler
-		manufacturer = 99th World
-		description = With the new heatshield for the large pod, this deoupler will fit nicely and meet flush with the pod.
-		attachRules = 1,0,1,1,0
-		mass = 0.4
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 2
-		crashTolerance = 9
-		breakingForce = 900
-		breakingTorque = 900
-		maxTemp = 1500
-		fuelCrossFeed = False
-		stageOffset = 1
-		childStageOffset = 1
-		MODULE
-		{
-			name = ModuleDecouple
-			ejectionForce = 250
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = ModuleTweakableDecouple
-			decouplerModuleName = ModuleDecouple
-		}
-		MODULE
-		{
-			name = ModuleStagingToggle
-			defaultDisabled = false
-			activeInFlight = true
-			activeInEditor = true
-		}
-	}
-}
-UrlConfig
-{
-	name = decoupler_ftr-3m
-	type = PART
-	parentUrl = DeadlyReentry/Parts/UP_decoupler_2/part_3M
-	url = DeadlyReentry/Parts/UP_decoupler_2/part_3M/decoupler_ftr-3m
-	PART
-	{
-		name = decoupler_ftr-3m
-		module = Part
-		author = nhnifong
-		mesh = model.mu
-		rescaleFactor = 1.56
-		node_stack_bottom = 0.0, -0.12, 0.0, 0.0, 1.0, 0.0, 3
-		node_stack_top = 0.0, 0.05, 0.0, 0.0, 1.0, 0.0, 3
-		fx_gasBurst_white = 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, decouple
-		sound_decoupler_fire = decouple
-		cost = 200
-		category = Structural
-		subcategory = 0
-		TechRequired = specializedControl
-		entryCost = 2800
-		title = UP30 Decoupler (3M)
-		manufacturer = 99th World
-		description = With the new heatshield for the small pod, this deoupler will fit nicely and meet flush with the pod.
-		attachRules = 1,0,1,1,0
-		mass = 0.7
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 2
-		crashTolerance = 9
-		breakingForce = 1000
-		breakingTorque = 1000
-		maxTemp = 1500
-		fuelCrossFeed = False
-		stageOffset = 1
-		childStageOffset = 1
-		MODULE
-		{
-			name = ModuleDecouple
-			ejectionForce = 250
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = ModuleTweakableDecouple
-			decouplerModuleName = ModuleDecouple
-		}
-		MODULE
-		{
-			name = ModuleStagingToggle
-			defaultDisabled = false
-			activeInFlight = true
-			activeInEditor = true
-		}
-	}
-}
-UrlConfig
-{
-	name = decoupler_ftr_4m
-	type = PART
-	parentUrl = DeadlyReentry/Parts/UP_decoupler_2/part_4m
-	url = DeadlyReentry/Parts/UP_decoupler_2/part_4m/decoupler_ftr_4m
-	PART
-	{
-		name = decoupler_ftr_4m
-		module = Part
-		author = nhnifong
-		mesh = model.mu
-		rescaleFactor = 2.08
-		node_stack_bottom = 0.0, -0.12, 0.0, 0.0, 1.0, 0.0, 4
-		node_stack_top = 0.0, 0.05, 0.0, 0.0, 1.0, 0.0, 4
-		fx_gasBurst_white = 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, decouple
-		sound_decoupler_fire = decouple
-		cost = 200
-		category = Structural
-		subcategory = 0
-		TechRequired = specializedControl
-		entryCost = 2800
-		title = UP40 Decoupler (4M)
-		manufacturer = 99th World
-		description = With the new heatshield for the small pod, this deoupler will fit nicely and meet flush with the pod.
-		attachRules = 1,0,1,1,0
-		mass = 0.7
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 2
-		crashTolerance = 9
-		breakingForce = 1000
-		breakingTorque = 1000
-		maxTemp = 1500
-		fuelCrossFeed = False
-		stageOffset = 1
-		childStageOffset = 1
-		MODULE
-		{
-			name = ModuleDecouple
-			ejectionForce = 250
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = ModuleTweakableDecouple
-			decouplerModuleName = ModuleDecouple
 		}
 		MODULE
 		{
@@ -4145,7 +4145,7 @@ UrlConfig
 			index = 0
 			specHeatRatio = 1.4
 			gasMolecularWeight = 28.96
-			viscosityAtReferenceTemp = 1.7894e-5
+			viscosityAtReferenceTemp = 1.7894E-05
 			referenceTemp = 288
 		}
 		BodyAtmosphericData
@@ -4153,7 +4153,7 @@ UrlConfig
 			index = 1
 			specHeatRatio = 1.4
 			gasMolecularWeight = 28.96
-			viscosityAtReferenceTemp = 1.7894e-5
+			viscosityAtReferenceTemp = 1.7894E-05
 			referenceTemp = 288
 		}
 		BodyAtmosphericData
@@ -4161,7 +4161,7 @@ UrlConfig
 			index = 2
 			specHeatRatio = 1.4
 			gasMolecularWeight = 28.96
-			viscosityAtReferenceTemp = 1.7894e-5
+			viscosityAtReferenceTemp = 1.7894E-05
 			referenceTemp = 288
 		}
 		BodyAtmosphericData
@@ -4169,7 +4169,7 @@ UrlConfig
 			index = 3
 			specHeatRatio = 1.4
 			gasMolecularWeight = 28.96
-			viscosityAtReferenceTemp = 1.7894e-5
+			viscosityAtReferenceTemp = 1.7894E-05
 			referenceTemp = 288
 		}
 		BodyAtmosphericData
@@ -4177,7 +4177,7 @@ UrlConfig
 			index = 4
 			specHeatRatio = 1.4
 			gasMolecularWeight = 28.96
-			viscosityAtReferenceTemp = 1.7894e-5
+			viscosityAtReferenceTemp = 1.7894E-05
 			referenceTemp = 288
 		}
 		BodyAtmosphericData
@@ -4185,7 +4185,7 @@ UrlConfig
 			index = 5
 			specHeatRatio = 1.286
 			gasMolecularWeight = 43.2102
-			viscosityAtReferenceTemp = 0.00007
+			viscosityAtReferenceTemp = 7E-05
 			referenceTemp = 194.5
 		}
 		BodyAtmosphericData
@@ -4193,7 +4193,7 @@ UrlConfig
 			index = 6
 			specHeatRatio = 1.286
 			gasMolecularWeight = 43.2102
-			viscosityAtReferenceTemp = 0.00007
+			viscosityAtReferenceTemp = 7E-05
 			referenceTemp = 194.5
 		}
 		BodyAtmosphericData
@@ -4201,7 +4201,7 @@ UrlConfig
 			index = 7
 			specHeatRatio = 1.4
 			gasMolecularWeight = 28.96
-			viscosityAtReferenceTemp = 1.7894e-5
+			viscosityAtReferenceTemp = 1.7894E-05
 			referenceTemp = 288
 		}
 		BodyAtmosphericData
@@ -4209,7 +4209,7 @@ UrlConfig
 			index = 8
 			specHeatRatio = 1.426
 			gasMolecularWeight = 2.21466
-			viscosityAtReferenceTemp = 8.63780635814725339E-6
+			viscosityAtReferenceTemp = 8.63780635814725E-06
 			referenceTemp = 288
 		}
 		BodyAtmosphericData
@@ -4217,7 +4217,7 @@ UrlConfig
 			index = 9
 			specHeatRatio = 1.309
 			gasMolecularWeight = 47.0465
-			viscosityAtReferenceTemp = 1.7894e-5
+			viscosityAtReferenceTemp = 1.7894E-05
 			referenceTemp = 288
 		}
 		BodyAtmosphericData
@@ -4225,7 +4225,7 @@ UrlConfig
 			index = 10
 			specHeatRatio = 1.4
 			gasMolecularWeight = 28.96
-			viscosityAtReferenceTemp = 1.7894e-5
+			viscosityAtReferenceTemp = 1.7894E-05
 			referenceTemp = 288
 		}
 		BodyAtmosphericData
@@ -4233,7 +4233,7 @@ UrlConfig
 			index = 11
 			specHeatRatio = 1.4
 			gasMolecularWeight = 28.96
-			viscosityAtReferenceTemp = 1.7894e-5
+			viscosityAtReferenceTemp = 1.7894E-05
 			referenceTemp = 288
 		}
 		BodyAtmosphericData
@@ -4241,7 +4241,7 @@ UrlConfig
 			index = 12
 			specHeatRatio = 1.4
 			gasMolecularWeight = 28.96
-			viscosityAtReferenceTemp = 1.7894e-5
+			viscosityAtReferenceTemp = 1.7894E-05
 			referenceTemp = 288
 		}
 		BodyAtmosphericData
@@ -4249,7 +4249,7 @@ UrlConfig
 			index = 13
 			specHeatRatio = 1.4
 			gasMolecularWeight = 28.96
-			viscosityAtReferenceTemp = 1.7894e-5
+			viscosityAtReferenceTemp = 1.7894E-05
 			referenceTemp = 288
 		}
 		BodyAtmosphericData
@@ -4257,7 +4257,7 @@ UrlConfig
 			index = 14
 			specHeatRatio = 1.4
 			gasMolecularWeight = 28.96
-			viscosityAtReferenceTemp = 1.7894e-5
+			viscosityAtReferenceTemp = 1.7894E-05
 			referenceTemp = 288
 		}
 		BodyAtmosphericData
@@ -4265,7 +4265,7 @@ UrlConfig
 			index = 15
 			specHeatRatio = 1.4
 			gasMolecularWeight = 28.96
-			viscosityAtReferenceTemp = 1.7894e-5
+			viscosityAtReferenceTemp = 1.7894E-05
 			referenceTemp = 288
 		}
 		BodyAtmosphericData
@@ -4273,7 +4273,7 @@ UrlConfig
 			index = 16
 			specHeatRatio = 1.4
 			gasMolecularWeight = 28.96
-			viscosityAtReferenceTemp = 1.7894e-5
+			viscosityAtReferenceTemp = 1.7894E-05
 			referenceTemp = 288
 		}
 	}
@@ -4292,23 +4292,40 @@ UrlConfig
 			name = structural
 			YmaxStress = 500
 			XZmaxStress = 50
+			requiresCrew = False
+			isSpecialTemplate = False
+			Resources
+			{
+				numReq = 0
+				rejectUnlistedResources = False
+				flowMode = unneeded
+			}
 		}
 		FARPartStressTemplate
 		{
 			name = crewed
 			YmaxStress = 500
 			XZmaxStress = 60
-			requiresCrew = true
+			requiresCrew = True
+			isSpecialTemplate = False
+			Resources
+			{
+				numReq = 0
+				rejectUnlistedResources = False
+				flowMode = unneeded
+			}
 		}
 		FARPartStressTemplate
 		{
 			name = rocketFuelTank
 			YmaxStress = 500
 			XZmaxStress = 15
+			requiresCrew = False
+			isSpecialTemplate = False
 			Resources
 			{
 				numReq = 1
-				rejectUnlistedResources = false
+				rejectUnlistedResources = False
 				flowMode = STACK_PRIORITY_SEARCH
 			}
 		}
@@ -4317,12 +4334,14 @@ UrlConfig
 			name = aircraftFuelTank
 			YmaxStress = 500
 			XZmaxStress = 20
+			requiresCrew = False
+			isSpecialTemplate = False
 			Resources
 			{
 				numReq = 1
+				rejectUnlistedResources = True
 				res = LiquidFuel
-				res = Kerosene
-				rejectUnlistedResources = true
+				flowMode = unneeded
 			}
 		}
 		FARPartStressTemplate
@@ -4330,27 +4349,70 @@ UrlConfig
 			name = SRB
 			YmaxStress = 500
 			XZmaxStress = 55
+			requiresCrew = False
+			isSpecialTemplate = False
 			Resources
 			{
 				numReq = 1
+				rejectUnlistedResources = True
 				res = SolidFuel
-				rejectUnlistedResources = true
+				flowMode = unneeded
 			}
 		}
 		FARPartStressTemplate
 		{
 			name = wingStress
-			isSpecialTemplate = True
 			YmaxStress = 70
 			XZmaxStress = 40
+			requiresCrew = False
+			isSpecialTemplate = True
+			Resources
+			{
+				numReq = 0
+				rejectUnlistedResources = False
+				flowMode = unneeded
+			}
 		}
 		FARPartStressTemplate
 		{
 			name = ctrlSurfStress
-			isSpecialTemplate = True
 			YmaxStress = 140
 			XZmaxStress = 60
+			requiresCrew = False
+			isSpecialTemplate = True
+			Resources
+			{
+				numReq = 0
+				rejectUnlistedResources = False
+				flowMode = unneeded
+			}
 		}
+	}
+}
+UrlConfig
+{
+	name = FARPM
+	type = RPMCVARIABLEHANDLER
+	parentUrl = FerramAerospaceResearch/FARPM
+	url = FerramAerospaceResearch/FARPM/FARPM
+	RPMCVARIABLEHANDLER
+	{
+		name = FARPM
+		method = ProcessVariable
+		variable = FARAVAILABLE,0
+		variable = FARPM_DYNAMIC_PRESSURE_Q,0
+		variable = FARPM_LIFT_COEFFICIENT_CL,0
+		variable = FARPM_DRAG_COEFFICIENT_CD,0
+		variable = FARPM_PITCHING_MOMENT_COEFFICIENT_CM,0
+		variable = FARPM_REFAREA,0
+		variable = FARPM_MACHNUMBER,0
+		variable = FARPM_TERMINALVELOCITY,0
+		variable = FARPM_BALLISTIC_COEFFICIENT,0
+		variable = FARPM_ANGLE_OF_ATTACK,0
+		variable = FARPM_SIDESLIP,0
+		variable = FARPM_THRUST_SPECIFIC_FUEL_CONSUMPTION,0
+		variable = FARPM_STALL_FRACTION,0
+		variable = FARPM_STATUS_MESSAGE,0
 	}
 }
 UrlConfig
@@ -4400,32 +4462,6 @@ UrlConfig
 			title = bomb bay
 			title = service compartment
 		}
-	}
-}
-UrlConfig
-{
-	name = FARPM
-	type = RPMCVARIABLEHANDLER
-	parentUrl = FerramAerospaceResearch/FARPM
-	url = FerramAerospaceResearch/FARPM/FARPM
-	RPMCVARIABLEHANDLER
-	{
-		name = FARPM
-		method = ProcessVariable
-		variable = FARAVAILABLE,0
-		variable = FARPM_DYNAMIC_PRESSURE_Q,0
-		variable = FARPM_LIFT_COEFFICIENT_CL,0
-		variable = FARPM_DRAG_COEFFICIENT_CD,0
-		variable = FARPM_PITCHING_MOMENT_COEFFICIENT_CM,0
-		variable = FARPM_REFAREA,0
-		variable = FARPM_MACHNUMBER,0
-		variable = FARPM_TERMINALVELOCITY,0
-		variable = FARPM_BALLISTIC_COEFFICIENT,0
-		variable = FARPM_ANGLE_OF_ATTACK,0
-		variable = FARPM_SIDESLIP,0
-		variable = FARPM_THRUST_SPECIFIC_FUEL_CONSUMPTION,0
-		variable = FARPM_STALL_FRACTION,0
-		variable = FARPM_STATUS_MESSAGE,0
 	}
 }
 UrlConfig
@@ -4505,6 +4541,116 @@ UrlConfig
 	{
 		extendKey = [9]
 		retractKey = [7]
+	}
+}
+UrlConfig
+{
+	name = KAS_CPort1
+	type = PART
+	parentUrl = KAS/Parts/cPort1/cPort1
+	url = KAS/Parts/cPort1/cPort1/KAS_CPort1
+	PART
+	{
+		name = KAS_CPort1
+		module = Part
+		author = KospY
+		mesh = portRadial1.mu
+		node_stack_top = 0.0, 0.0362, 0.0, 0.0, 1.0, 0.0, 0
+		node_stack_bottom = 0.0, -0.0400, 0.0, 0.0, 1.0, 0.0, 0
+		node_attach = 0.0, -0.04, 0.0, 0.0, -1.0, 0.0
+		cost = 350
+		category = Utility
+		subcategory = 0
+		title = Radial connector port
+		manufacturer = K.A.S. Manufacturing
+		description = A port for connecting a winch connector. Can be used for ressource transfer or towing.
+		attachRules = 1,1,0,0,1
+		TechRequired = advConstruction
+		entryCost = 50
+		mass = 0.01
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 12
+		maxTemp = 3200
+		fuelCrossFeed = True
+		MODULE
+		{
+			name = KASModulePort
+			attachNode = top
+			nodeType = kasplug
+			breakForce = 30
+			nodeTransformName = plugNode
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.0, -0.15)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 4
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = True
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = KAS_CPort2
+	type = PART
+	parentUrl = KAS/Parts/cPort2/cPort2
+	url = KAS/Parts/cPort2/cPort2/KAS_CPort2
+	PART
+	{
+		name = KAS_CPort2
+		module = Part
+		author = KospY
+		mesh = portStack1.mu
+		node_stack_top = 0.0, 0.00082, 0.0, 0.0, 1.0, 0.0, 0
+		node_stack_bottom = 0.0, -0.0424, 0.0, 0.0, 1.0, 0.0, 0
+		cost = 450
+		category = Utility
+		subcategory = 0
+		title = Stack connector port (0.5m)
+		manufacturer = K.A.S. Manufacturing
+		description = A destination port for a connector. Use it for ressource transfer or towing heavy objects. Can also be used to lock parts when a winch cable is fully retracted.
+		attachRules = 1,0,1,1,0
+		TechRequired = advMetalworks
+		entryCost = 50
+		mass = 0.02
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 12
+		maxTemp = 3200
+		fuelCrossFeed = True
+		MODULE
+		{
+			name = KASModulePort
+			attachNode = top
+			nodeType = kasplug
+			breakForce = 40
+			nodeTransformName = plugNode
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
 	}
 }
 UrlConfig
@@ -4693,116 +4839,6 @@ UrlConfig
 			attachOnEva = False
 			attachOnStatic = True
 			attachSendMsgOnly = False
-		}
-	}
-}
-UrlConfig
-{
-	name = KAS_CPort1
-	type = PART
-	parentUrl = KAS/Parts/cPort1/cPort1
-	url = KAS/Parts/cPort1/cPort1/KAS_CPort1
-	PART
-	{
-		name = KAS_CPort1
-		module = Part
-		author = KospY
-		mesh = portRadial1.mu
-		node_stack_top = 0.0, 0.0362, 0.0, 0.0, 1.0, 0.0, 0
-		node_stack_bottom = 0.0, -0.0400, 0.0, 0.0, 1.0, 0.0, 0
-		node_attach = 0.0, -0.04, 0.0, 0.0, -1.0, 0.0
-		cost = 350
-		category = Utility
-		subcategory = 0
-		title = Radial connector port
-		manufacturer = K.A.S. Manufacturing
-		description = A port for connecting a winch connector. Can be used for ressource transfer or towing.
-		attachRules = 1,1,0,0,1
-		TechRequired = advConstruction
-		entryCost = 50
-		mass = 0.01
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 1
-		crashTolerance = 12
-		maxTemp = 3200
-		fuelCrossFeed = True
-		MODULE
-		{
-			name = KASModulePort
-			attachNode = top
-			nodeType = kasplug
-			breakForce = 30
-			nodeTransformName = plugNode
-		}
-		MODULE
-		{
-			name = KASModuleGrab
-			evaPartPos = (0.0, 0.0, -0.15)
-			evaPartDir = (0,0,-1)
-			storable = true
-			storedSize = 4
-			attachOnPart = True
-			attachOnEva = False
-			attachOnStatic = True
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-	}
-}
-UrlConfig
-{
-	name = KAS_CPort2
-	type = PART
-	parentUrl = KAS/Parts/cPort2/cPort2
-	url = KAS/Parts/cPort2/cPort2/KAS_CPort2
-	PART
-	{
-		name = KAS_CPort2
-		module = Part
-		author = KospY
-		mesh = portStack1.mu
-		node_stack_top = 0.0, 0.00082, 0.0, 0.0, 1.0, 0.0, 0
-		node_stack_bottom = 0.0, -0.0424, 0.0, 0.0, 1.0, 0.0, 0
-		cost = 450
-		category = Utility
-		subcategory = 0
-		title = Stack connector port (0.5m)
-		manufacturer = K.A.S. Manufacturing
-		description = A destination port for a connector. Use it for ressource transfer or towing heavy objects. Can also be used to lock parts when a winch cable is fully retracted.
-		attachRules = 1,0,1,1,0
-		TechRequired = advMetalworks
-		entryCost = 50
-		mass = 0.02
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 1
-		crashTolerance = 12
-		maxTemp = 3200
-		fuelCrossFeed = True
-		MODULE
-		{
-			name = KASModulePort
-			attachNode = top
-			nodeType = kasplug
-			breakForce = 40
-			nodeTransformName = plugNode
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
 		}
 	}
 }
@@ -10269,6 +10305,189 @@ UrlConfig
 }
 UrlConfig
 {
+	name = Mark1-2Pod
+	type = PART
+	parentUrl = Squad/Parts/Command/Mk1-2Pod/mk1-2CommandPod
+	url = Squad/Parts/Command/Mk1-2Pod/mk1-2CommandPod/Mark1-2Pod
+	PART
+	{
+		name = Mark1-2Pod
+		module = Part
+		author = C. Jenkins
+		mesh = model.mu
+		scale = 1
+		rescaleFactor = 1
+		node_stack_bottom = 0.0, -0.47924, 0.0, 0.0, 1.0, 0.0, 2
+		node_stack_top = 0.0, 1.19319, 0.0, 0.0, 1.0, 0.0, 1
+		TechRequired = specializedControl
+		entryCost = 7600
+		cost = 3800
+		category = Pods
+		subcategory = 0
+		title = Mk1-2 Command Pod
+		manufacturer = Kerlington Model Rockets and Paper Products Inc
+		description = This modern cockpit is designed to be fully re-useable. Its spacious cabin can hold a maximum of 3 crew.
+		attachRules = 1,0,1,1,0
+		mass = 4
+		dragModelType = default
+		maximum_drag = 0.20
+		minimum_drag = 0.15
+		angularDrag = 2
+		crashTolerance = 45
+		maxTemp = 1250
+		vesselType = Ship
+		CrewCapacity = 3
+		INTERNAL
+		{
+			name = PodCockpit
+		}
+		MODULE
+		{
+			name = ModuleCommand
+			minimumCrew = 1
+		}
+		RESOURCE
+		{
+			name = ElectricCharge
+			amount = 150
+			maxAmount = 150
+		}
+		MODULE
+		{
+			name = ModuleReactionWheel
+			PitchTorque = 15
+			YawTorque = 15
+			RollTorque = 15
+			RESOURCE
+			{
+				name = ElectricCharge
+				rate = 1.2
+			}
+		}
+		MODULE
+		{
+			name = ModuleScienceExperiment
+			experimentID = crewReport
+			experimentActionName = Crew Report
+			resetActionName = Discard Crew Report
+			reviewActionName = Review Report
+			useStaging = False
+			useActionGroups = True
+			hideUIwhenUnavailable = True
+			rerunnable = True
+			xmitDataScalar = 1.0
+		}
+		MODULE
+		{
+			name = ModuleScienceContainer
+			reviewActionName = Review Stored Data
+			storeActionName = Store Experiments
+			evaOnlyStorage = True
+			storageRange = 2.0
+		}
+		RESOURCE
+		{
+			name = MonoPropellant
+			amount = 30
+			maxAmount = 30
+		}
+		MODULE
+		{
+			name = FlagDecal
+			textureQuadName = flagTransform
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
+		}
+		MODULE
+		{
+			name = MechJebCore
+			MechJebLocalSettings
+			{
+				MechJebModuleCustomWindowEditor
+				{
+					unlockTechs = flightControl
+				}
+				MechJebModuleSmartASS
+				{
+					unlockTechs = flightControl
+				}
+				MechJebModuleManeuverPlanner
+				{
+					unlockTechs = advFlightControl
+				}
+				MechJebModuleNodeEditor
+				{
+					unlockTechs = advFlightControl
+				}
+				MechJebModuleTranslatron
+				{
+					unlockTechs = advFlightControl
+				}
+				MechJebModuleWarpHelper
+				{
+					unlockTechs = advFlightControl
+				}
+				MechJebModuleAttitudeAdjustment
+				{
+					unlockTechs = advFlightControl
+				}
+				MechJebModuleThrustWindow
+				{
+					unlockTechs = advFlightControl
+				}
+				MechJebModuleRCSBalancerWindow
+				{
+					unlockTechs = advFlightControl
+				}
+				MechJebModuleRoverWindow
+				{
+					unlockTechs = fieldScience
+				}
+				MechJebModuleAscentGuidance
+				{
+					unlockTechs = unmannedTech
+				}
+				MechJebModuleLandingGuidance
+				{
+					unlockTechs = unmannedTech
+				}
+				MechJebModuleSpaceplaneGuidance
+				{
+					unlockTechs = unmannedTech
+				}
+				MechJebModuleDockingGuidance
+				{
+					unlockTechs = advUnmanned
+				}
+				MechJebModuleRendezvousAutopilotWindow
+				{
+					unlockTechs = advUnmanned
+				}
+				MechJebModuleRendezvousGuidance
+				{
+					unlockTechs = advUnmanned
+				}
+			}
+		}
+	}
+}
+UrlConfig
+{
 	name = asasmodule1-2
 	type = PART
 	parentUrl = Squad/Parts/Command/advancedSasModuleLarge/advSasModuleLarge
@@ -10756,189 +10975,6 @@ UrlConfig
 		MODULE
 		{
 			name = ModuleTweakableReactionWheel
-		}
-	}
-}
-UrlConfig
-{
-	name = Mark1-2Pod
-	type = PART
-	parentUrl = Squad/Parts/Command/Mk1-2Pod/mk1-2CommandPod
-	url = Squad/Parts/Command/Mk1-2Pod/mk1-2CommandPod/Mark1-2Pod
-	PART
-	{
-		name = Mark1-2Pod
-		module = Part
-		author = C. Jenkins
-		mesh = model.mu
-		scale = 1
-		rescaleFactor = 1
-		node_stack_bottom = 0.0, -0.47924, 0.0, 0.0, 1.0, 0.0, 2
-		node_stack_top = 0.0, 1.19319, 0.0, 0.0, 1.0, 0.0, 1
-		TechRequired = specializedControl
-		entryCost = 7600
-		cost = 3800
-		category = Pods
-		subcategory = 0
-		title = Mk1-2 Command Pod
-		manufacturer = Kerlington Model Rockets and Paper Products Inc
-		description = This modern cockpit is designed to be fully re-useable. Its spacious cabin can hold a maximum of 3 crew.
-		attachRules = 1,0,1,1,0
-		mass = 4
-		dragModelType = default
-		maximum_drag = 0.20
-		minimum_drag = 0.15
-		angularDrag = 2
-		crashTolerance = 45
-		maxTemp = 1250
-		vesselType = Ship
-		CrewCapacity = 3
-		INTERNAL
-		{
-			name = PodCockpit
-		}
-		MODULE
-		{
-			name = ModuleCommand
-			minimumCrew = 1
-		}
-		RESOURCE
-		{
-			name = ElectricCharge
-			amount = 150
-			maxAmount = 150
-		}
-		MODULE
-		{
-			name = ModuleReactionWheel
-			PitchTorque = 15
-			YawTorque = 15
-			RollTorque = 15
-			RESOURCE
-			{
-				name = ElectricCharge
-				rate = 1.2
-			}
-		}
-		MODULE
-		{
-			name = ModuleScienceExperiment
-			experimentID = crewReport
-			experimentActionName = Crew Report
-			resetActionName = Discard Crew Report
-			reviewActionName = Review Report
-			useStaging = False
-			useActionGroups = True
-			hideUIwhenUnavailable = True
-			rerunnable = True
-			xmitDataScalar = 1.0
-		}
-		MODULE
-		{
-			name = ModuleScienceContainer
-			reviewActionName = Review Stored Data
-			storeActionName = Store Experiments
-			evaOnlyStorage = True
-			storageRange = 2.0
-		}
-		RESOURCE
-		{
-			name = MonoPropellant
-			amount = 30
-			maxAmount = 30
-		}
-		MODULE
-		{
-			name = FlagDecal
-			textureQuadName = flagTransform
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = ModuleTweakableReactionWheel
-		}
-		MODULE
-		{
-			name = ModuleTweakableFuelPump
-			ResourceNames = MonoPropellant
-		}
-		MODULE
-		{
-			name = MechJebCore
-			MechJebLocalSettings
-			{
-				MechJebModuleCustomWindowEditor
-				{
-					unlockTechs = flightControl
-				}
-				MechJebModuleSmartASS
-				{
-					unlockTechs = flightControl
-				}
-				MechJebModuleManeuverPlanner
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleNodeEditor
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleTranslatron
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleWarpHelper
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleAttitudeAdjustment
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleThrustWindow
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleRCSBalancerWindow
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleRoverWindow
-				{
-					unlockTechs = fieldScience
-				}
-				MechJebModuleAscentGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleLandingGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleSpaceplaneGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleDockingGuidance
-				{
-					unlockTechs = advUnmanned
-				}
-				MechJebModuleRendezvousAutopilotWindow
-				{
-					unlockTechs = advUnmanned
-				}
-				MechJebModuleRendezvousGuidance
-				{
-					unlockTechs = advUnmanned
-				}
-			}
 		}
 	}
 }
@@ -13330,6 +13366,71 @@ UrlConfig
 }
 UrlConfig
 {
+	name = rtg
+	type = PART
+	parentUrl = Squad/Parts/Electrical/RTG/RTG
+	url = Squad/Parts/Electrical/RTG/RTG/rtg
+	PART
+	{
+		name = rtg
+		module = Part
+		author = NovaSilisko
+		mesh = model.mu
+		scale = 1
+		rescaleFactor = 1
+		node_stack_top = 0.0, 0.3268025, 0.0, 0.0, 1.0, 0.0, 0
+		node_stack_bottom = 0.0, -0.3268025, 0.0, 0.0, 1.0, 0.0, 0
+		node_attach = 0.0, -0.3268025, 0.0, 0.0, -1.0, 0.0, 0
+		TechRequired = specializedElectrics
+		entryCost = 38200
+		cost = 3300
+		category = Utility
+		subcategory = 0
+		title = PB-NUK Radioisotope Thermoelectric Generator
+		manufacturer = Ionic Symphonic Protonic Electronics
+		description = Through exploitation of the natural decay of Blutonium-238, this elegantly simple power generator can provide consistent, stable power for decades. It's also waterproof and dishwasher-safe.
+		attachRules = 1,1,1,0,0
+		mass = 0.08
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 2
+		crashTolerance = 7
+		maxTemp = 1500
+		MODULE
+		{
+			name = ModuleGenerator
+			isAlwaysActive = true
+			OUTPUT_RESOURCE
+			{
+				name = ElectricCharge
+				rate = 0.75
+			}
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.10)
+			evaPartDir = (0,0,-1)
+			storable = true
+			storedSize = 20
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
+	}
+}
+UrlConfig
+{
 	name = largeSolarPanel
 	type = PART
 	parentUrl = Squad/Parts/Electrical/gigantorXlSolarArray/gigantorXlSolarArray
@@ -13458,71 +13559,6 @@ UrlConfig
 		MODULE
 		{
 			name = ModuleTweakableSolarPanel
-		}
-	}
-}
-UrlConfig
-{
-	name = rtg
-	type = PART
-	parentUrl = Squad/Parts/Electrical/RTG/RTG
-	url = Squad/Parts/Electrical/RTG/RTG/rtg
-	PART
-	{
-		name = rtg
-		module = Part
-		author = NovaSilisko
-		mesh = model.mu
-		scale = 1
-		rescaleFactor = 1
-		node_stack_top = 0.0, 0.3268025, 0.0, 0.0, 1.0, 0.0, 0
-		node_stack_bottom = 0.0, -0.3268025, 0.0, 0.0, 1.0, 0.0, 0
-		node_attach = 0.0, -0.3268025, 0.0, 0.0, -1.0, 0.0, 0
-		TechRequired = specializedElectrics
-		entryCost = 38200
-		cost = 3300
-		category = Utility
-		subcategory = 0
-		title = PB-NUK Radioisotope Thermoelectric Generator
-		manufacturer = Ionic Symphonic Protonic Electronics
-		description = Through exploitation of the natural decay of Blutonium-238, this elegantly simple power generator can provide consistent, stable power for decades. It's also waterproof and dishwasher-safe.
-		attachRules = 1,1,1,0,0
-		mass = 0.08
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 2
-		crashTolerance = 7
-		maxTemp = 1500
-		MODULE
-		{
-			name = ModuleGenerator
-			isAlwaysActive = true
-			OUTPUT_RESOURCE
-			{
-				name = ElectricCharge
-				rate = 0.75
-			}
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = KASModuleGrab
-			evaPartPos = (0.0, 0.00, -0.10)
-			evaPartDir = (0,0,-1)
-			storable = true
-			storedSize = 20
-			attachOnPart = True
-			attachOnEva = False
-			attachOnStatic = False
-			attachSendMsgOnly = False
 		}
 	}
 }
@@ -13764,6 +13800,81 @@ UrlConfig
 			name = ElectricCharge
 			amount = 4000
 			maxAmount = 4000
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+	}
+}
+UrlConfig
+{
+	name = omsEngine
+	type = PART
+	parentUrl = Squad/Parts/Engine/OMSEngine/omsEngine
+	url = Squad/Parts/Engine/OMSEngine/omsEngine/omsEngine
+	PART
+	{
+		name = omsEngine
+		module = Part
+		author = HugoGut
+		mesh = NewModel.mu
+		scale = 1
+		rescaleFactor = 1.2
+		fx_exhaustFlame_white_tiny = 0.0, -0.2816985, 0.0, 0.0, 0.0, 0.0, running
+		sound_vent_medium = engage
+		sound_rocket_mini = running
+		sound_vent_soft = disengage
+		sound_explosion_low = flameout
+		node_attach = 0, 0, 0, 0, 0, 0
+		attachRules = 0,1,0,1,1
+		TechRequired = specializedControl
+		entryCost = 4200
+		cost = 800
+		category = Engine
+		subcategory = 0
+		title = O-10 MonoPropellant Engine
+		manufacturer = Reaction Systems Ltd
+		description = When The O-10 Engine was first unveiled, it was regarded as one of those ideas that someone should have thought of a long time ago. This made most employees at Reaction Systems Ltd feel quite awkward, as they were particularly proud of having delivered this project on schedule for once. This Engine responds to main throttle controls, but it consumes MonoPropellant instead of a Fuel+Oxidizer mix.
+		mass = 0.09
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 2
+		crashTolerance = 7
+		maxTemp = 3600
+		PhysicsSignificance = 1
+		MODEL
+		{
+			model = Squad/Parts/Engine/OMSEngine/NewModel
+			position = 0.0, 0.0, 0.035
+			rotation = 38, 0, 0
+		}
+		MODULE
+		{
+			name = ModuleEngines
+			thrustVectorTransformName = thrustTransform
+			exhaustDamage = False
+			ignitionThreshold = 0.1
+			minThrust = 0
+			maxThrust = 20
+			heatProduction = 30
+			fxOffset = 0, 0, 0.02
+			PROPELLANT
+			{
+				name = MonoPropellant
+				ratio = 0.9
+				DrawGauge = True
+			}
+			atmosphereCurve
+			{
+				key = 0 290
+				key = 1 220
+			}
 		}
 		MODULE
 		{
@@ -15649,81 +15760,6 @@ UrlConfig
 }
 UrlConfig
 {
-	name = omsEngine
-	type = PART
-	parentUrl = Squad/Parts/Engine/OMSEngine/omsEngine
-	url = Squad/Parts/Engine/OMSEngine/omsEngine/omsEngine
-	PART
-	{
-		name = omsEngine
-		module = Part
-		author = HugoGut
-		mesh = NewModel.mu
-		scale = 1
-		rescaleFactor = 1.2
-		fx_exhaustFlame_white_tiny = 0.0, -0.2816985, 0.0, 0.0, 0.0, 0.0, running
-		sound_vent_medium = engage
-		sound_rocket_mini = running
-		sound_vent_soft = disengage
-		sound_explosion_low = flameout
-		node_attach = 0, 0, 0, 0, 0, 0
-		attachRules = 0,1,0,1,1
-		TechRequired = specializedControl
-		entryCost = 4200
-		cost = 800
-		category = Engine
-		subcategory = 0
-		title = O-10 MonoPropellant Engine
-		manufacturer = Reaction Systems Ltd
-		description = When The O-10 Engine was first unveiled, it was regarded as one of those ideas that someone should have thought of a long time ago. This made most employees at Reaction Systems Ltd feel quite awkward, as they were particularly proud of having delivered this project on schedule for once. This Engine responds to main throttle controls, but it consumes MonoPropellant instead of a Fuel+Oxidizer mix.
-		mass = 0.09
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 2
-		crashTolerance = 7
-		maxTemp = 3600
-		PhysicsSignificance = 1
-		MODEL
-		{
-			model = Squad/Parts/Engine/OMSEngine/NewModel
-			position = 0.0, 0.0, 0.035
-			rotation = 38, 0, 0
-		}
-		MODULE
-		{
-			name = ModuleEngines
-			thrustVectorTransformName = thrustTransform
-			exhaustDamage = False
-			ignitionThreshold = 0.1
-			minThrust = 0
-			maxThrust = 20
-			heatProduction = 30
-			fxOffset = 0, 0, 0.02
-			PROPELLANT
-			{
-				name = MonoPropellant
-				ratio = 0.9
-				DrawGauge = True
-			}
-			atmosphereCurve
-			{
-				key = 0 290
-				key = 1 220
-			}
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-	}
-}
-UrlConfig
-{
 	name = RAPIER
 	type = PART
 	parentUrl = Squad/Parts/Engine/rapierEngine/rapierEngine
@@ -16320,6 +16356,281 @@ UrlConfig
 		MODULE
 		{
 			name = ModuleTweakableRCS
+		}
+	}
+}
+UrlConfig
+{
+	name = RCSTank1-2
+	type = PART
+	parentUrl = Squad/Parts/FuelTank/RCSFuelTankR1/RCSFuelTankR1
+	url = Squad/Parts/FuelTank/RCSFuelTankR1/RCSFuelTankR1/RCSTank1-2
+	PART
+	{
+		name = RCSTank1-2
+		module = Part
+		author = NovaSilisko
+		mesh = model.mu
+		rescaleFactor = 1
+		node_stack_top = 0.0, 0.5, 0.0, 0.0, 1.0, 0.0, 2
+		node_stack_bottom = 0.0, -0.5, 0.0, 0.0, 1.0, 0.0, 2
+		TechRequired = largeControl
+		entryCost = 11000
+		cost = 1300
+		category = FuelTank
+		subcategory = 0
+		title = FL-R1 RCS Fuel Tank
+		manufacturer = Jebediah Kerman's Junkyard and Spacecraft Parts Co
+		description = A larger-scale version of the standard RCS fuel tank.
+		attachRules = 1,0,1,1,0
+		mass = 0.4
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 2
+		crashTolerance = 12
+		maxTemp = 1450
+		RESOURCE
+		{
+			name = MonoPropellant
+			amount = 750
+			maxAmount = 750
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
+		}
+	}
+}
+UrlConfig
+{
+	name = rcsTankMini
+	type = PART
+	parentUrl = Squad/Parts/FuelTank/RCSFuelTankR10/RCSFuelTankR10
+	url = Squad/Parts/FuelTank/RCSFuelTankR10/RCSFuelTankR10/rcsTankMini
+	PART
+	{
+		name = rcsTankMini
+		module = Part
+		author = Squad
+		mesh = model.mu
+		rescaleFactor = 1.0
+		node_stack_top = 0.0, 0.1875, 0.0, 0.0, 1.0, 0.0, 0
+		node_stack_bottom = 0.0, -0.1875, 0.0, 0.0, 1.0, 0.0, 0
+		node_attach = 0.25, 0.0, 0.0, 1.0, 0.0, 0.0, 1
+		TechRequired = precisionEngineering
+		entryCost = 5400
+		cost = 400
+		category = FuelTank
+		subcategory = 0
+		title = FL-R10 RCS Fuel Tank
+		manufacturer = Jebediah Kerman's Junkyard and Spacecraft Parts Co
+		description = The FL-R10 is a miniature RCS tank for small probes and low volume monopropellant storage.
+		attachRules = 1,1,1,1,0
+		mass = 0.05
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 2
+		crashTolerance = 12
+		maxTemp = 2900
+		breakingForce = 50
+		breakingTorque = 50
+		fuelCrossFeed = True
+		RESOURCE
+		{
+			name = MonoPropellant
+			amount = 80
+			maxAmount = 80
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
+		}
+	}
+}
+UrlConfig
+{
+	name = RCSFuelTank
+	type = PART
+	parentUrl = Squad/Parts/FuelTank/RCSFuelTankR25/RCSFuelTankR25
+	url = Squad/Parts/FuelTank/RCSFuelTankR25/RCSFuelTankR25/RCSFuelTank
+	PART
+	{
+		name = RCSFuelTank
+		module = Part
+		author = NovaSilisko
+		mesh = model.mu
+		scale = 1
+		rescaleFactor = 1
+		node_stack_top = 0.0, 0.2853027, 0.0, 0.0, 1.0, 0.0
+		node_stack_bottom = 0.0, -0.2853027, 0.0, 0.0, 1.0, 0.0
+		TechRequired = advFlightControl
+		entryCost = 2400
+		cost = 800
+		category = FuelTank
+		subcategory = 0
+		title = FL-R25 RCS Fuel Tank
+		manufacturer = Jebediah Kerman's Junkyard and Spacecraft Parts Co
+		description = These fuel tanks monopropellant for RCS thrusters. New advances in plumbing technology made it possible to route RCS lines to any point in the ship. So unlike liquid fuel tanks, RCS Fuel tanks can be placed anywhere.
+		attachRules = 1,0,1,1,0
+		mass = 0.15
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 2
+		crashTolerance = 12
+		maxTemp = 1450
+		RESOURCE
+		{
+			name = MonoPropellant
+			amount = 250
+			maxAmount = 250
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
+		}
+	}
+}
+UrlConfig
+{
+	name = radialRCSTank
+	type = PART
+	parentUrl = Squad/Parts/FuelTank/RCSTankRadial/radialRCSTank
+	url = Squad/Parts/FuelTank/RCSTankRadial/radialRCSTank/radialRCSTank
+	PART
+	{
+		name = radialRCSTank
+		module = Part
+		author = NovaSilisko
+		mesh = model.mu
+		scale = 1
+		rescaleFactor = 1
+		node_attach = 0.0, 0.0, 0.22, 0.0, 0.0, -1.0
+		TechRequired = advFlightControl
+		entryCost = 6200
+		cost = 400
+		category = FuelTank
+		subcategory = 0
+		title = Stratus-V Roundified Monopropellant Tank
+		description = Despite its fanciful name, the Stratus-V is quite simple - a small, radially attachable RCS tank.
+		attachRules = 0,1,0,0,1
+		mass = 0.075
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 2
+		crashTolerance = 12
+		maxTemp = 1450
+		RESOURCE
+		{
+			name = MonoPropellant
+			amount = 60
+			maxAmount = 60
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = KASModuleGrab
+			evaPartPos = (0.0, 0.00, -0.29)
+			evaPartDir = (0,0,-1)
+			storable = true
+			stateless = false
+			storedSize = 30
+			attachOnPart = True
+			attachOnEva = False
+			attachOnStatic = False
+			attachSendMsgOnly = False
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
+		}
+	}
+}
+UrlConfig
+{
+	name = rcsTankRadialLong
+	type = PART
+	parentUrl = Squad/Parts/FuelTank/RCStankRadialLong/RCSTankRadialLong
+	url = Squad/Parts/FuelTank/RCStankRadialLong/RCSTankRadialLong/rcsTankRadialLong
+	PART
+	{
+		name = rcsTankRadialLong
+		module = Part
+		author = Squad
+		mesh = model.mu
+		rescaleFactor = 1.0
+		node_attach = 0.0, 0.0, -0.3125, 0.0, 0.0, -1.0
+		TechRequired = specializedControl
+		entryCost = 5400
+		cost = 800
+		category = FuelTank
+		subcategory = 0
+		title = Stratus-V Cylindrified Monopropellant Tank
+		description = After years of research and development, the Stratus corporation has developed a revolutionary upgrade to their Stratus-V fuel tank line. Cylinders. This tank holds a moderate supply of monopropellant for RCS thrusters.
+		attachRules = 0,1,0,0,1
+		mass = 0.15
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 2
+		crashTolerance = 12
+		maxTemp = 2900
+		RESOURCE
+		{
+			name = MonoPropellant
+			amount = 150
+			maxAmount = 150
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
 		}
 	}
 }
@@ -17369,281 +17680,6 @@ UrlConfig
 		{
 			name = ModuleTweakableFuelPump
 			ResourceNames = LiquidFuel, Oxidizer
-		}
-	}
-}
-UrlConfig
-{
-	name = RCSTank1-2
-	type = PART
-	parentUrl = Squad/Parts/FuelTank/RCSFuelTankR1/RCSFuelTankR1
-	url = Squad/Parts/FuelTank/RCSFuelTankR1/RCSFuelTankR1/RCSTank1-2
-	PART
-	{
-		name = RCSTank1-2
-		module = Part
-		author = NovaSilisko
-		mesh = model.mu
-		rescaleFactor = 1
-		node_stack_top = 0.0, 0.5, 0.0, 0.0, 1.0, 0.0, 2
-		node_stack_bottom = 0.0, -0.5, 0.0, 0.0, 1.0, 0.0, 2
-		TechRequired = largeControl
-		entryCost = 11000
-		cost = 1300
-		category = FuelTank
-		subcategory = 0
-		title = FL-R1 RCS Fuel Tank
-		manufacturer = Jebediah Kerman's Junkyard and Spacecraft Parts Co
-		description = A larger-scale version of the standard RCS fuel tank.
-		attachRules = 1,0,1,1,0
-		mass = 0.4
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 2
-		crashTolerance = 12
-		maxTemp = 1450
-		RESOURCE
-		{
-			name = MonoPropellant
-			amount = 750
-			maxAmount = 750
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = ModuleTweakableFuelPump
-			ResourceNames = MonoPropellant
-		}
-	}
-}
-UrlConfig
-{
-	name = rcsTankMini
-	type = PART
-	parentUrl = Squad/Parts/FuelTank/RCSFuelTankR10/RCSFuelTankR10
-	url = Squad/Parts/FuelTank/RCSFuelTankR10/RCSFuelTankR10/rcsTankMini
-	PART
-	{
-		name = rcsTankMini
-		module = Part
-		author = Squad
-		mesh = model.mu
-		rescaleFactor = 1.0
-		node_stack_top = 0.0, 0.1875, 0.0, 0.0, 1.0, 0.0, 0
-		node_stack_bottom = 0.0, -0.1875, 0.0, 0.0, 1.0, 0.0, 0
-		node_attach = 0.25, 0.0, 0.0, 1.0, 0.0, 0.0, 1
-		TechRequired = precisionEngineering
-		entryCost = 5400
-		cost = 400
-		category = FuelTank
-		subcategory = 0
-		title = FL-R10 RCS Fuel Tank
-		manufacturer = Jebediah Kerman's Junkyard and Spacecraft Parts Co
-		description = The FL-R10 is a miniature RCS tank for small probes and low volume monopropellant storage.
-		attachRules = 1,1,1,1,0
-		mass = 0.05
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 2
-		crashTolerance = 12
-		maxTemp = 2900
-		breakingForce = 50
-		breakingTorque = 50
-		fuelCrossFeed = True
-		RESOURCE
-		{
-			name = MonoPropellant
-			amount = 80
-			maxAmount = 80
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = ModuleTweakableFuelPump
-			ResourceNames = MonoPropellant
-		}
-	}
-}
-UrlConfig
-{
-	name = RCSFuelTank
-	type = PART
-	parentUrl = Squad/Parts/FuelTank/RCSFuelTankR25/RCSFuelTankR25
-	url = Squad/Parts/FuelTank/RCSFuelTankR25/RCSFuelTankR25/RCSFuelTank
-	PART
-	{
-		name = RCSFuelTank
-		module = Part
-		author = NovaSilisko
-		mesh = model.mu
-		scale = 1
-		rescaleFactor = 1
-		node_stack_top = 0.0, 0.2853027, 0.0, 0.0, 1.0, 0.0
-		node_stack_bottom = 0.0, -0.2853027, 0.0, 0.0, 1.0, 0.0
-		TechRequired = advFlightControl
-		entryCost = 2400
-		cost = 800
-		category = FuelTank
-		subcategory = 0
-		title = FL-R25 RCS Fuel Tank
-		manufacturer = Jebediah Kerman's Junkyard and Spacecraft Parts Co
-		description = These fuel tanks monopropellant for RCS thrusters. New advances in plumbing technology made it possible to route RCS lines to any point in the ship. So unlike liquid fuel tanks, RCS Fuel tanks can be placed anywhere.
-		attachRules = 1,0,1,1,0
-		mass = 0.15
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 2
-		crashTolerance = 12
-		maxTemp = 1450
-		RESOURCE
-		{
-			name = MonoPropellant
-			amount = 250
-			maxAmount = 250
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = ModuleTweakableFuelPump
-			ResourceNames = MonoPropellant
-		}
-	}
-}
-UrlConfig
-{
-	name = radialRCSTank
-	type = PART
-	parentUrl = Squad/Parts/FuelTank/RCSTankRadial/radialRCSTank
-	url = Squad/Parts/FuelTank/RCSTankRadial/radialRCSTank/radialRCSTank
-	PART
-	{
-		name = radialRCSTank
-		module = Part
-		author = NovaSilisko
-		mesh = model.mu
-		scale = 1
-		rescaleFactor = 1
-		node_attach = 0.0, 0.0, 0.22, 0.0, 0.0, -1.0
-		TechRequired = advFlightControl
-		entryCost = 6200
-		cost = 400
-		category = FuelTank
-		subcategory = 0
-		title = Stratus-V Roundified Monopropellant Tank
-		description = Despite its fanciful name, the Stratus-V is quite simple - a small, radially attachable RCS tank.
-		attachRules = 0,1,0,0,1
-		mass = 0.075
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 2
-		crashTolerance = 12
-		maxTemp = 1450
-		RESOURCE
-		{
-			name = MonoPropellant
-			amount = 60
-			maxAmount = 60
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = KASModuleGrab
-			evaPartPos = (0.0, 0.00, -0.29)
-			evaPartDir = (0,0,-1)
-			storable = true
-			stateless = false
-			storedSize = 30
-			attachOnPart = True
-			attachOnEva = False
-			attachOnStatic = False
-			attachSendMsgOnly = False
-		}
-		MODULE
-		{
-			name = ModuleTweakableFuelPump
-			ResourceNames = MonoPropellant
-		}
-	}
-}
-UrlConfig
-{
-	name = rcsTankRadialLong
-	type = PART
-	parentUrl = Squad/Parts/FuelTank/RCStankRadialLong/RCSTankRadialLong
-	url = Squad/Parts/FuelTank/RCStankRadialLong/RCSTankRadialLong/rcsTankRadialLong
-	PART
-	{
-		name = rcsTankRadialLong
-		module = Part
-		author = Squad
-		mesh = model.mu
-		rescaleFactor = 1.0
-		node_attach = 0.0, 0.0, -0.3125, 0.0, 0.0, -1.0
-		TechRequired = specializedControl
-		entryCost = 5400
-		cost = 800
-		category = FuelTank
-		subcategory = 0
-		title = Stratus-V Cylindrified Monopropellant Tank
-		description = After years of research and development, the Stratus corporation has developed a revolutionary upgrade to their Stratus-V fuel tank line. Cylinders. This tank holds a moderate supply of monopropellant for RCS thrusters.
-		attachRules = 0,1,0,0,1
-		mass = 0.15
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 2
-		crashTolerance = 12
-		maxTemp = 2900
-		RESOURCE
-		{
-			name = MonoPropellant
-			amount = 150
-			maxAmount = 150
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = ModuleTweakableFuelPump
-			ResourceNames = MonoPropellant
 		}
 	}
 }
@@ -18822,68 +18858,6 @@ UrlConfig
 }
 UrlConfig
 {
-	name = avionicsNoseCone
-	type = PART
-	parentUrl = Squad/Parts/Science/avionicsNoseCone/avionicsNoseCone
-	url = Squad/Parts/Science/avionicsNoseCone/avionicsNoseCone/avionicsNoseCone
-	PART
-	{
-		name = avionicsNoseCone
-		module = Part
-		author = C. Jenkins
-		mesh = model.mu
-		scale = 1
-		node_stack_bottom = 0, -0.077, 0, 0.0, 1.0, 0.0
-		TechRequired = advScienceTech
-		entryCost = 10500
-		cost = 2300
-		category = Science
-		subcategory = 0
-		title = Sensor Array Computing Nose Cone
-		manufacturer = C7 Aerospace Division
-		description = The latest in research and development enabled the development of this little marvel, The Sensor Array Computing Nose Cone. It is outfitted with many "quality" sensors and a computer salvaged from the highest quality aircraft scrap, enabling it to collect atmospheric data while in flight.
-		attachRules = 1,0,1,1,0
-		mass = 0.08
-		dragModelType = default
-		maximum_drag = 0.2
-		minimum_drag = 0.2
-		angularDrag = 2
-		crashTolerance = 9
-		maxTemp = 1250
-		MODULE
-		{
-			name = ModuleScienceExperiment
-			experimentID = atmosphereAnalysis
-			experimentActionName = Run Atmosphere Analysis
-			resetActionName = Discard Data
-			reviewActionName = Review Data
-			useStaging = False
-			useActionGroups = True
-			hideUIwhenUnavailable = True
-			rerunnable = True
-			xmitDataScalar = 0.35
-			dataIsCollectable = True
-			collectActionName = Download Data
-			interactionRange = 1.2
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = ModuleHeatShield
-			direction = 0, 0, 0
-			reflective = 0.25
-		}
-	}
-}
-UrlConfig
-{
 	name = GooExperiment
 	type = PART
 	parentUrl = Squad/Parts/Science/GooExperiment/gooExperiment
@@ -19093,6 +19067,68 @@ UrlConfig
 		MODULE
 		{
 			name = ModuleTweakableAnimateGeneric
+		}
+	}
+}
+UrlConfig
+{
+	name = avionicsNoseCone
+	type = PART
+	parentUrl = Squad/Parts/Science/avionicsNoseCone/avionicsNoseCone
+	url = Squad/Parts/Science/avionicsNoseCone/avionicsNoseCone/avionicsNoseCone
+	PART
+	{
+		name = avionicsNoseCone
+		module = Part
+		author = C. Jenkins
+		mesh = model.mu
+		scale = 1
+		node_stack_bottom = 0, -0.077, 0, 0.0, 1.0, 0.0
+		TechRequired = advScienceTech
+		entryCost = 10500
+		cost = 2300
+		category = Science
+		subcategory = 0
+		title = Sensor Array Computing Nose Cone
+		manufacturer = C7 Aerospace Division
+		description = The latest in research and development enabled the development of this little marvel, The Sensor Array Computing Nose Cone. It is outfitted with many "quality" sensors and a computer salvaged from the highest quality aircraft scrap, enabling it to collect atmospheric data while in flight.
+		attachRules = 1,0,1,1,0
+		mass = 0.08
+		dragModelType = default
+		maximum_drag = 0.2
+		minimum_drag = 0.2
+		angularDrag = 2
+		crashTolerance = 9
+		maxTemp = 1250
+		MODULE
+		{
+			name = ModuleScienceExperiment
+			experimentID = atmosphereAnalysis
+			experimentActionName = Run Atmosphere Analysis
+			resetActionName = Discard Data
+			reviewActionName = Review Data
+			useStaging = False
+			useActionGroups = True
+			hideUIwhenUnavailable = True
+			rerunnable = True
+			xmitDataScalar = 0.35
+			dataIsCollectable = True
+			collectActionName = Download Data
+			interactionRange = 1.2
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleHeatShield
+			direction = 0, 0, 0
+			reflective = 0.25
 		}
 	}
 }
@@ -20143,68 +20179,6 @@ UrlConfig
 }
 UrlConfig
 {
-	name = airScoop
-	type = PART
-	parentUrl = Squad/Parts/Utility/airIntakeRadialXM-G50/airIntakeRadialXM-G50
-	url = Squad/Parts/Utility/airIntakeRadialXM-G50/airIntakeRadialXM-G50/airScoop
-	PART
-	{
-		name = airScoop
-		module = Part
-		author = NovaSilisko
-		mesh = model.mu
-		rescaleFactor = 1
-		node_attach = 0.0, 0.3370661, 0.0, 0.0, 1.0, 0.0
-		TechRequired = aerodynamicSystems
-		entryCost = 4500
-		cost = 1000
-		category = Aero
-		subcategory = 0
-		title = XM-G50 Radial Air Intake
-		manufacturer = Vac-Co Advanced Suction Systems
-		description = A must-have for air breathing engines, this intake duct will pull in outside air to run turbine engines on, as long as there is any outside air to begin with, of course. Warranty does not cover engine flame-outs or any objects, inanimate or otherwise, sucked in by the intake.
-		attachRules = 0,1,0,0,0
-		mass = 0.01
-		dragModelType = default
-		maximum_drag = 0
-		minimum_drag = 0
-		angularDrag = 0
-		crashTolerance = 80
-		breakingForce = 200
-		breakingTorque = 200
-		maxTemp = 2500
-		MODULE
-		{
-			name = ModuleResourceIntake
-			resourceName = IntakeAir
-			checkForOxygen = true
-			area = 0.006
-			intakeSpeed = 10
-			intakeTransformName = Intake
-			useDynamicDrag = false
-		}
-		RESOURCE
-		{
-			name = IntakeAir
-			amount = 0.5
-			maxAmount = 1.0
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = ModuleTweakableResourceIntake
-		}
-	}
-}
-UrlConfig
-{
 	name = CircularIntake
 	type = PART
 	parentUrl = Squad/Parts/Utility/CircularIntake/circularIntake
@@ -20250,6 +20224,68 @@ UrlConfig
 			name = IntakeAir
 			amount = 0.2
 			maxAmount = 0.2
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleTweakableResourceIntake
+		}
+	}
+}
+UrlConfig
+{
+	name = airScoop
+	type = PART
+	parentUrl = Squad/Parts/Utility/airIntakeRadialXM-G50/airIntakeRadialXM-G50
+	url = Squad/Parts/Utility/airIntakeRadialXM-G50/airIntakeRadialXM-G50/airScoop
+	PART
+	{
+		name = airScoop
+		module = Part
+		author = NovaSilisko
+		mesh = model.mu
+		rescaleFactor = 1
+		node_attach = 0.0, 0.3370661, 0.0, 0.0, 1.0, 0.0
+		TechRequired = aerodynamicSystems
+		entryCost = 4500
+		cost = 1000
+		category = Aero
+		subcategory = 0
+		title = XM-G50 Radial Air Intake
+		manufacturer = Vac-Co Advanced Suction Systems
+		description = A must-have for air breathing engines, this intake duct will pull in outside air to run turbine engines on, as long as there is any outside air to begin with, of course. Warranty does not cover engine flame-outs or any objects, inanimate or otherwise, sucked in by the intake.
+		attachRules = 0,1,0,0,0
+		mass = 0.01
+		dragModelType = default
+		maximum_drag = 0
+		minimum_drag = 0
+		angularDrag = 0
+		crashTolerance = 80
+		breakingForce = 200
+		breakingTorque = 200
+		maxTemp = 2500
+		MODULE
+		{
+			name = ModuleResourceIntake
+			resourceName = IntakeAir
+			checkForOxygen = true
+			area = 0.006
+			intakeSpeed = 10
+			intakeTransformName = Intake
+			useDynamicDrag = false
+		}
+		RESOURCE
+		{
+			name = IntakeAir
+			amount = 0.5
+			maxAmount = 1.0
 		}
 		MODULE
 		{
@@ -23267,6 +23303,99 @@ UrlConfig
 }
 UrlConfig
 {
+	name = SmallGearBay
+	type = PART
+	parentUrl = Squad/Parts/Wheel/SmallGearBay/smallGearBay
+	url = Squad/Parts/Wheel/SmallGearBay/smallGearBay/SmallGearBay
+	PART
+	{
+		name = SmallGearBay
+		module = Part
+		author = C. Jenkins
+		mesh = model.mu
+		scale = 1.0
+		node_attach = 0.00, 0.147, 0.00, 0.0, 1.0, 0.0, 1
+		TechRequired = landing
+		entryCost = 3200
+		cost = 450
+		category = Utility
+		subcategory = 0
+		title = Small Gear Bay
+		manufacturer = C7 Aerospace Division
+		description = High performance gear designed for atmospheric use.
+		attachRules = 1,1,1,1,1
+		mass = 0.005
+		dragModelType = default
+		maximum_drag = 0.3
+		minimum_drag = 0.2
+		angularDrag = 1
+		crashTolerance = 7
+		maxTemp = 1800
+		crashTolerance = 50
+		breakingForce = 50
+		breakingTorque = 50
+		PhysicsSignificance = 1
+		MODULE
+		{
+			name = ModuleLandingGear
+			BrakeTorque = 12
+			BrakeSpeed = 3
+		}
+		MODULE
+		{
+			name = ModuleSteering
+			controlAxisType = Forward
+			steeringAxis = 0, 0, 1
+			steeringTransformName = Steering
+			steeringLocked = true
+			steeringCurve
+			{
+				key = 0 16
+				key = 10 9
+				key = 30 2
+				key = 100 1
+			}
+		}
+		MODULE
+		{
+			name = FXModuleConstrainPosition
+			matchRotation = true
+			matchPosition = false
+			CONSTRAINFX
+			{
+				targetName = Steering
+				moversName = wheelCollider
+			}
+		}
+		MODULE
+		{
+			name = ModuleLight
+			lightName = LandingLight
+			useAutoDim = true
+		}
+		MODULE
+		{
+			name = ModuleTestSubject
+			environments = 15
+			useStaging = False
+			useEvent = True
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = false
+			wheelImpactSound = CollisionFX/Sounds/TyreSqueal
+		}
+		MODULE
+		{
+			name = ModuleHeatShield
+			direction = 0, 0, 0
+			reflective = 0.25
+		}
+	}
+}
+UrlConfig
+{
 	name = roverWheel1
 	type = PART
 	parentUrl = Squad/Parts/Wheel/roverWheelM1/roverWheelM1
@@ -23678,99 +23807,6 @@ UrlConfig
 }
 UrlConfig
 {
-	name = SmallGearBay
-	type = PART
-	parentUrl = Squad/Parts/Wheel/SmallGearBay/smallGearBay
-	url = Squad/Parts/Wheel/SmallGearBay/smallGearBay/SmallGearBay
-	PART
-	{
-		name = SmallGearBay
-		module = Part
-		author = C. Jenkins
-		mesh = model.mu
-		scale = 1.0
-		node_attach = 0.00, 0.147, 0.00, 0.0, 1.0, 0.0, 1
-		TechRequired = landing
-		entryCost = 3200
-		cost = 450
-		category = Utility
-		subcategory = 0
-		title = Small Gear Bay
-		manufacturer = C7 Aerospace Division
-		description = High performance gear designed for atmospheric use.
-		attachRules = 1,1,1,1,1
-		mass = 0.005
-		dragModelType = default
-		maximum_drag = 0.3
-		minimum_drag = 0.2
-		angularDrag = 1
-		crashTolerance = 7
-		maxTemp = 1800
-		crashTolerance = 50
-		breakingForce = 50
-		breakingTorque = 50
-		PhysicsSignificance = 1
-		MODULE
-		{
-			name = ModuleLandingGear
-			BrakeTorque = 12
-			BrakeSpeed = 3
-		}
-		MODULE
-		{
-			name = ModuleSteering
-			controlAxisType = Forward
-			steeringAxis = 0, 0, 1
-			steeringTransformName = Steering
-			steeringLocked = true
-			steeringCurve
-			{
-				key = 0 16
-				key = 10 9
-				key = 30 2
-				key = 100 1
-			}
-		}
-		MODULE
-		{
-			name = FXModuleConstrainPosition
-			matchRotation = true
-			matchPosition = false
-			CONSTRAINFX
-			{
-				targetName = Steering
-				moversName = wheelCollider
-			}
-		}
-		MODULE
-		{
-			name = ModuleLight
-			lightName = LandingLight
-			useAutoDim = true
-		}
-		MODULE
-		{
-			name = ModuleTestSubject
-			environments = 15
-			useStaging = False
-			useEvent = True
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = false
-			wheelImpactSound = CollisionFX/Sounds/TyreSqueal
-		}
-		MODULE
-		{
-			name = ModuleHeatShield
-			direction = 0, 0, 0
-			reflective = 0.25
-		}
-	}
-}
-UrlConfig
-{
 	name = AltimeterThreeHands
 	type = PROP
 	parentUrl = Squad/Props/AltimeterThreeHands/prop
@@ -23885,21 +23921,6 @@ UrlConfig
 }
 UrlConfig
 {
-	name = circularButton
-	type = PROP
-	parentUrl = Squad/Props/circularButton/prop
-	url = Squad/Props/circularButton/prop/circularButton
-	PROP
-	{
-		name = circularButton
-		MODULE
-		{
-			name = internalGeneric
-		}
-	}
-}
-UrlConfig
-{
 	name = Compass
 	type = PROP
 	parentUrl = Squad/Props/Compass/prop
@@ -23916,31 +23937,28 @@ UrlConfig
 }
 UrlConfig
 {
-	name = directionalKnob
+	name = NavBall
 	type = PROP
-	parentUrl = Squad/Props/directionalKnob/prop
-	url = Squad/Props/directionalKnob/prop/directionalKnob
+	parentUrl = Squad/Props/IVANavBall/prop
+	url = Squad/Props/IVANavBall/prop/NavBall
 	PROP
 	{
-		name = directionalKnob
+		name = NavBall
 		MODULE
 		{
-			name = internalGeneric
-		}
-	}
-}
-UrlConfig
-{
-	name = directionalKnob2
-	type = PROP
-	parentUrl = Squad/Props/directionalKnob2/prop
-	url = Squad/Props/directionalKnob2/prop/directionalKnob2
-	PROP
-	{
-		name = directionalKnob2
-		MODULE
-		{
-			name = internalGeneric
+			name = InternalNavBall
+			navBallName = NavSphere
+			iconUp = 0, 1, 0
+			progradeVectorName = progradeVector
+			retrogradeVectorName = retrogradeVector
+			progradeWaypointName = progradeWaypoint
+			retrogradeWaypointName = retrogradeWaypoint
+			normalVectorName = NormalVector
+			antiNormalVectorName = antiNormalVector
+			radialInVectorName = RadialInVector
+			radialOutVectorName = RadialOutVector
+			maneuverArrowName = ManeuverArrow
+			anchorName = Anchor
 		}
 	}
 }
@@ -24050,8 +24068,8 @@ UrlConfig
 {
 	name = NavBall
 	type = PROP
-	parentUrl = Squad/Props/IVANavBall/prop
-	url = Squad/Props/IVANavBall/prop/NavBall
+	parentUrl = Squad/Props/NavBall/prop
+	url = Squad/Props/NavBall/prop/NavBall
 	PROP
 	{
 		name = NavBall
@@ -24064,12 +24082,75 @@ UrlConfig
 			retrogradeVectorName = retrogradeVector
 			progradeWaypointName = progradeWaypoint
 			retrogradeWaypointName = retrogradeWaypoint
-			normalVectorName = NormalVector
-			antiNormalVectorName = antiNormalVector
-			radialInVectorName = RadialInVector
-			radialOutVectorName = RadialOutVector
-			maneuverArrowName = ManeuverArrow
-			anchorName = Anchor
+		}
+	}
+}
+UrlConfig
+{
+	name = VSI
+	type = PROP
+	parentUrl = Squad/Props/VSI/prop
+	url = Squad/Props/VSI/prop/VSI
+	PROP
+	{
+		name = VSI
+		MODULE
+		{
+			name = InternalVSI
+			indicatorName = indicator
+			increments
+			{
+				inc = 0, 0
+				inc = 35, 5
+				inc = 70, 10
+				inc = 115, 100
+				inc = 167, 1000
+			}
+		}
+	}
+}
+UrlConfig
+{
+	name = circularButton
+	type = PROP
+	parentUrl = Squad/Props/circularButton/prop
+	url = Squad/Props/circularButton/prop/circularButton
+	PROP
+	{
+		name = circularButton
+		MODULE
+		{
+			name = internalGeneric
+		}
+	}
+}
+UrlConfig
+{
+	name = directionalKnob
+	type = PROP
+	parentUrl = Squad/Props/directionalKnob/prop
+	url = Squad/Props/directionalKnob/prop/directionalKnob
+	PROP
+	{
+		name = directionalKnob
+		MODULE
+		{
+			name = internalGeneric
+		}
+	}
+}
+UrlConfig
+{
+	name = directionalKnob2
+	type = PROP
+	parentUrl = Squad/Props/directionalKnob2/prop
+	url = Squad/Props/directionalKnob2/prop/directionalKnob2
+	PROP
+	{
+		name = directionalKnob2
+		MODULE
+		{
+			name = internalGeneric
 		}
 	}
 }
@@ -24085,27 +24166,6 @@ UrlConfig
 		MODULE
 		{
 			name = InternalSpeed
-		}
-	}
-}
-UrlConfig
-{
-	name = NavBall
-	type = PROP
-	parentUrl = Squad/Props/NavBall/prop
-	url = Squad/Props/NavBall/prop/NavBall
-	PROP
-	{
-		name = NavBall
-		MODULE
-		{
-			name = InternalNavBall
-			navBallName = NavSphere
-			iconUp = 0, 1, 0
-			progradeVectorName = progradeVector
-			retrogradeVectorName = retrogradeVector
-			progradeWaypointName = progradeWaypoint
-			retrogradeWaypointName = retrogradeWaypoint
 		}
 	}
 }
@@ -24248,30 +24308,6 @@ UrlConfig
 		MODULE
 		{
 			name = InternalLeverThrottle
-		}
-	}
-}
-UrlConfig
-{
-	name = VSI
-	type = PROP
-	parentUrl = Squad/Props/VSI/prop
-	url = Squad/Props/VSI/prop/VSI
-	PROP
-	{
-		name = VSI
-		MODULE
-		{
-			name = InternalVSI
-			indicatorName = indicator
-			increments
-			{
-				inc = 0, 0
-				inc = 35, 5
-				inc = 70, 10
-				inc = 115, 100
-				inc = 167, 1000
-			}
 		}
 	}
 }
@@ -25365,1949 +25401,6 @@ UrlConfig
 			Hasty = long story short,
 			Stern = surely, we don't need to remind you of the consequences should you fail, but
 			Stern = making sure you get it done right, no messing about,
-		}
-	}
-}
-UrlConfig
-{
-	name = crewCabinInternals
-	type = INTERNAL
-	parentUrl = Squad/Spaces/crewCabinInternals/internal
-	url = Squad/Spaces/crewCabinInternals/internal/crewCabinInternals
-	INTERNAL
-	{
-		name = crewCabinInternals
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat1
-			allowCrewHelmet = false
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat2
-			allowCrewHelmet = false
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat3
-			allowCrewHelmet = false
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat4
-			allowCrewHelmet = false
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = Window1FocusPoint
-			cameraTransformName = Window1EyeTransform
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = Window2FocusPoint
-			cameraTransformName = Window2EyeTransform
-		}
-	}
-}
-UrlConfig
-{
-	name = cupolaInternal
-	type = INTERNAL
-	parentUrl = Squad/Spaces/cupolaInternal/internal
-	url = Squad/Spaces/cupolaInternal/internal/cupolaInternal
-	INTERNAL
-	{
-		name = cupolaInternal
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = pilot_seat
-			portraitCameraName = pilot_camera
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = collider_window_center
-			cameraTransformName = transform_window_center
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = collider_window_n
-			cameraTransformName = transform_window_n
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = collider_window_ne
-			cameraTransformName = transform_window_ne
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = collider_window_nw
-			cameraTransformName = transform_window_nw
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = collider_window_se
-			cameraTransformName = transform_window_se
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = collider_window_sw
-			cameraTransformName = transform_window_sw
-		}
-		PROP
-		{
-			name = AltimeterThreeHands
-			position = -0.2137297, -0.2671343, -0.4750004
-			rotation = -0.7071068, -3.090862E-08, 3.090862E-08, -0.7071068
-			scale = 1.200001, 1.2, 1.2
-		}
-		PROP
-		{
-			name = AtmosphereDepth
-			position = 0.5476023, -0.2028794, -0.2078271
-			rotation = 0, 0, 0.7071068, 0.7071068
-			scale = 1.1, 1, 1.3
-		}
-		PROP
-		{
-			name = AxisIndicatorPitch
-			position = -0.001454057, -0.3999284, -0.5500053
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AxisIndicatorRoll
-			position = -0.1237296, -0.151666, -0.4800003
-			rotation = 0.5, 0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AxisIndicatorYaw
-			position = 0.1227971, -0.1516262, -0.4800003
-			rotation = 0.5, 0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ButtonSquare
-			position = -0.5350576, -0.274754, -0.1997484
-			rotation = -0.002419838, 0.003057017, 0.7071028, -0.7071001
-			scale = 0.9, 1, 1
-		}
-		PROP
-		{
-			name = ButtonSquare
-			position = 0.3249548, -0.3800003, -0.2237041
-			rotation = 0, 1, 0, -4.371139E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ButtonSquare
-			position = 0.3249548, -0.3800003, -0.1837041
-			rotation = 0, 1, 0, -4.371139E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ButtonSquare
-			position = 0.2838163, -0.3800003, -0.1837041
-			rotation = -3.684595E-15, 1, -8.42937E-08, -4.371139E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ButtonSquare
-			position = -0.5350577, -0.3119523, -0.1997147
-			rotation = -0.002419838, 0.003057017, 0.7071028, -0.7071001
-			scale = 0.9, 1, 1
-		}
-		PROP
-		{
-			name = ButtonSquare
-			position = 0.5675811, 0.3381009, -0.2398425
-			rotation = -0.7071068, 0.7071068, 3.090862E-08, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ButtonSquare
-			position = 0.324955, -0.3800003, -0.1413539
-			rotation = 0, 1, 0, -4.371139E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ButtonSquare
-			position = 0.5675807, 0.3381009, -0.1656069
-			rotation = -0.7071068, 0.7071068, 3.090862E-08, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ButtonSquare
-			position = 0.2838162, -0.3800003, -0.2237041
-			rotation = 0, 1, 0, -4.371139E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ButtonSquare
-			position = 0.283816, -0.3800003, -0.1413539
-			rotation = 0, 1, 0, -4.371139E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ButtonSquare
-			position = -0.535058, -0.3491441, -0.199681
-			rotation = -0.002419838, 0.003057017, 0.7071028, -0.7071001
-			scale = 0.9, 1, 1
-		}
-		PROP
-		{
-			name = ButtonSquare
-			position = 0.5675811, 0.3381009, -0.202287
-			rotation = -0.7071068, 0.7071068, 3.090862E-08, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = circularButton
-			position = 0.304621, -0.3813593, -0.09994683
-			rotation = -3.684595E-15, 1, -8.42937E-08, -4.371139E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = Compass
-			position = 0, -0.3637415, -0.4843188
-			rotation = -0.5, 0.5, 0.5, -0.5
-			scale = 0.7, 0.7, 0.7000002
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = 0.2167977, -0.2088383, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = 0.544847, -0.053803, -0.05585346
-			rotation = 0.5, -0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = -0.2171713, -0.2088376, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = -0.1888271, -0.2088377, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = 0.5448467, -0.05380317, 0.01373252
-			rotation = 0.5, -0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = 0.1884526, -0.2088383, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = IndicatorPanel
-			position = -0.1237296, -0.2425348, -0.4750004
-			rotation = -0.7071068, -3.090862E-08, 3.090862E-08, -0.7071068
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ledPanelSpeed
-			position = 0, -0.10327, -0.4368551
-			rotation = -0.7071068, -3.090862E-08, 3.090862E-08, -0.7071068
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = NavBall
-			position = 0, -0.1758259, -0.4504113
-			rotation = -0.7071068, -3.090862E-08, 3.090862E-08, -0.7071068
-			scale = 1.700001, 1.7, 1.7
-		}
-		PROP
-		{
-			name = pullSwitch
-			position = -0.11532, -0.3649464, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = pullSwitch
-			position = -0.1623341, -0.3649464, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = pullSwitch
-			position = 0.1161671, -0.3649464, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = pullSwitch
-			position = 0.1631563, -0.3649464, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = pullSwitch
-			position = 0.2101703, -0.3649464, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = pullSwitch
-			position = -0.2093231, -0.3649464, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = RadarAltimeter
-			position = 0.1227971, -0.2056892, -0.4750004
-			rotation = -0.7071068, -3.090862E-08, 3.090862E-08, -0.7071068
-			scale = 1.200001, 1.2, 1.2
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.1481605, -0.2921246, -0.4756292
-			rotation = 0.7071068, 0, 0, 0.7071068
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.097791, -0.2621858, -0.475629
-			rotation = 0.7071068, 0, 0, 0.7071068
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.1226377, -0.292125, -0.475629
-			rotation = 0.7071068, 0, 0, 0.7071068
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.0977913, -0.292125, -0.475629
-			rotation = 0.7071068, 0, 0, 0.7071068
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.122638, -0.2621858, -0.475629
-			rotation = 0.7071068, 0, 0, 0.7071068
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.5670769, 0.08873919, 0.009802967
-			rotation = 0.5, -0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.567077, 0.08873902, -0.08584943
-			rotation = 0.5, -0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.14816, -0.2621858, -0.475629
-			rotation = 0.7071068, 0, 0, 0.7071068
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.567077, 0.08873902, -0.03652668
-			rotation = 0.5, -0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switch
-			position = 0.5667698, 0.3376798, 0.009949833
-			rotation = -0.5, 0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switch
-			position = 0.5470535, -0.1556602, -0.1694855
-			rotation = -0.5, 0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switch
-			position = 0.5667701, 0.2362801, 0.02008948
-			rotation = -0.5, 0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switch
-			position = 0.547054, -0.15566, -0.2074492
-			rotation = -0.5, 0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switch
-			position = 0.547054, -0.15566, -0.2456088
-			rotation = -0.5, 0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switch
-			position = 0.5667701, 0.2367173, -0.02070355
-			rotation = -0.5, 0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchGuard
-			position = -0.138846, -0.3649464, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchGuard
-			position = 0.139644, -0.3649464, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchGuard
-			position = -0.2328461, -0.3649464, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchGuard
-			position = 0.233644, -0.3649464, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchGuard
-			position = 0.186644, -0.3649464, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchGuard
-			position = -0.09184601, -0.3649464, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchGuard
-			position = -0.1858461, -0.3649464, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchGuard
-			position = 0.092644, -0.3649464, -0.4750004
-			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = throttle
-			position = -0.3052907, -0.4100003, -0.1650002
-			rotation = -1.887379E-15, -4.371139E-08, -4.371139E-08, -1
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = VSI
-			position = 0.2127971, -0.2671343, -0.4750004
-			rotation = -0.7071068, -3.090862E-08, 3.090862E-08, -0.7071068
-			scale = 1.200001, 1.2, 1.2
-		}
-	}
-}
-UrlConfig
-{
-	name = GenericSpace1
-	type = INTERNAL
-	parentUrl = Squad/Spaces/GenericSpace1/internal
-	url = Squad/Spaces/GenericSpace1/internal/GenericSpace1
-	INTERNAL
-	{
-		name = GenericSpace1
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = CenterSeat
-			allowCrewHelmet = false
-		}
-	}
-}
-UrlConfig
-{
-	name = GenericSpace3
-	type = INTERNAL
-	parentUrl = Squad/Spaces/GenericSpace3/internal
-	url = Squad/Spaces/GenericSpace3/internal/GenericSpace3
-	INTERNAL
-	{
-		name = GenericSpace3
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = CenterSeat
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = RightSeat
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = LeftSeat
-		}
-	}
-}
-UrlConfig
-{
-	name = landerCabinInternals
-	type = INTERNAL
-	parentUrl = Squad/Spaces/landerCabinInternals/internal
-	url = Squad/Spaces/landerCabinInternals/internal/landerCabinInternals
-	INTERNAL
-	{
-		name = landerCabinInternals
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = CenterSeat
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = LeftSeat
-		}
-		PROP
-		{
-			name = NavBall
-			position = 0, -1.298121, -0.3041687
-			rotation = 0, 0, 0, 0
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = RadarAltimeter
-			position = 0.06373091, -1.276448, -0.3041687
-			rotation = 0.2248853, 0, 0, -0.9743853
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = VSI
-			position = -0.06373091, -1.276448, -0.3041687
-			rotation = 0.2248853, 0, 0, -0.9743853
-			scale = 1, 1, 1
-		}
-	}
-}
-UrlConfig
-{
-	name = landerCabinSmallInternal
-	type = INTERNAL
-	parentUrl = Squad/Spaces/landerCabinSmallInternal/internal
-	url = Squad/Spaces/landerCabinSmallInternal/internal/landerCabinSmallInternal
-	INTERNAL
-	{
-		name = landerCabinSmallInternal
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = pilot
-			portraitCameraName = camera_pilot
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = collider_window_upper
-			cameraTransformName = transform_window_upper
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = collider_window_lower
-			cameraTransformName = transform_window_lower
-		}
-		PROP
-		{
-			name = AltimeterThreeHands
-			position = -0.2780569, -0.6006569, -0.02849852
-			rotation = 0, 0, -0.190809, 0.9816272
-			scale = 1.5, 1.2, 1.5
-		}
-		PROP
-		{
-			name = AtmosphereDepth
-			position = 0.2794099, -0.6034113, 0.1037839
-			rotation = 0.1349224, -0.6941153, -0.1349224, -0.6941153
-			scale = 1.2, 1.2, 1.2
-		}
-		PROP
-		{
-			name = AxisIndicatorPitch
-			position = 0.1249481, -0.6192902, -0.0926076
-			rotation = 0.3826835, 0, 0, 0.9238796
-			scale = 1.5, 1.5, 1.5
-		}
-		PROP
-		{
-			name = AxisIndicatorRoll
-			position = -0.1260331, -0.6192902, -0.0926076
-			rotation = 0.3826835, 0, 0, 0.9238796
-			scale = 1.5, 1.5, 1.5
-		}
-		PROP
-		{
-			name = AxisIndicatorYaw
-			position = 0.2801622, -0.6042804, 0.05720528
-			rotation = 0.1349224, -0.6941153, 0.1349224, 0.6941153
-			scale = 1.2, 1, 1.2
-		}
-		PROP
-		{
-			name = circularButton
-			position = 0.3221635, -0.3651838, 0.3703527
-			rotation = 0.5735765, 0, 0, -0.8191521
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = 0.1258331, -0.5583142, -0.1476862
-			rotation = 0.3826835, 0, 0, 0.9238796
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = -0.1254815, -0.5578972, -0.1481028
-			rotation = 0.3826829, 0, 0, 0.9238797
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = -0.4854893, -0.3745706, 0.1637302
-			rotation = -0.2705981, 0.2705981, -0.6532815, 0.6532815
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = -0.4549859, -0.374571, 0.1942331
-			rotation = -0.2705978, 0.2705978, -0.6532816, 0.6532816
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = 0.5369698, -0.4321369, -0.1846917
-			rotation = 0, 0, 0.7071068, 0.7071068
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = 0.53697, -0.3862338, -0.184692
-			rotation = 0, 0, 0.7071068, 0.7071068
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = IndicatorPanel
-			position = -0.275569, -0.5963919, 0.1638915
-			rotation = 0, 0, -0.190809, 0.9816272
-			scale = 1.2, 1.2, 1.2
-		}
-		PROP
-		{
-			name = ledPanelSpeed
-			position = 0.007619729, -0.5575718, -0.1464558
-			rotation = 0.3826835, 0, 0, 0.9238796
-			scale = 1.2, 1.2, 1.2
-		}
-		PROP
-		{
-			name = NavBall
-			position = 8.996066E-09, -0.616695, -0.09291898
-			rotation = 0.258819, 1.286208E-07, -3.446384E-08, 0.9659258
-			scale = 2, 2, 2
-		}
-		PROP
-		{
-			name = RadarAltimeter
-			position = 0.2783177, -0.6006864, 0.189725
-			rotation = 0, 0, 0.190809, 0.9816272
-			scale = 1.5, 1.2, 1.5
-		}
-		PROP
-		{
-			name = squareButton
-			position = -0.2778853, -0.6031111, 0.055
-			rotation = 0, 0, -0.190809, 0.9816272
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = squareButton
-			position = -0.3100235, -0.5901328, 0.055
-			rotation = 0, 0, -0.190809, 0.9816272
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = squareButton
-			position = -0.2478573, -0.6151688, 0.055
-			rotation = 0, 0, -0.190809, 0.9816272
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = squareButton
-			position = 0.3442051, -0.4850036, 0.3223784
-			rotation = 0.5735765, 0, 0, -0.8191521
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = squareButton
-			position = 0.2995508, -0.4850036, 0.3223786
-			rotation = 0.5735762, 0, 0, -0.8191522
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = squareButton
-			position = 0.299551, -0.4437972, 0.3373771
-			rotation = 0.5735762, 0, 0, -0.8191522
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = squareButton
-			position = 0.344205, -0.4437972, 0.3373761
-			rotation = 0.5735762, 0, 0, -0.8191522
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = squareButton
-			position = 0.344205, -0.4021291, 0.3525419
-			rotation = 0.5735762, 0, 0, -0.8191522
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = squareButton
-			position = 0.299551, -0.4021291, 0.3525429
-			rotation = 0.5735762, 0, 0, -0.8191522
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = squareButton
-			position = -0.4522775, -0.4343513, 0.1923043
-			rotation = -0.2704675, 0.2733768, -0.6542933, 0.6511626
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = squareButton
-			position = -0.4207961, -0.4345951, 0.2235314
-			rotation = -0.2704675, 0.2733768, -0.6542933, 0.6511626
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = squareButton
-			position = -0.48341, -0.43411, 0.161423
-			rotation = -0.2704675, 0.2733768, -0.6542933, 0.6511626
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.08095609, -0.5593126, -0.14886
-			rotation = 0.3826835, 0, 0, 0.9238796
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.080956, -0.6132184, -0.0949544
-			rotation = 0.3826829, 0, 0, 0.9238797
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.080956, -0.6489936, -0.05917933
-			rotation = 0.3826829, 0, 0, 0.9238797
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.080956, -0.5770909, -0.1310821
-			rotation = 0.3826829, 0, 0, 0.9238797
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.080956, -0.6311265, -0.07704636
-			rotation = 0.3826829, 0, 0, 0.9238797
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.080956, -0.5952168, -0.1129563
-			rotation = 0.3826829, 0, 0, 0.9238797
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = -0.08132994, -0.595217, -0.112956
-			rotation = 0.3826829, 0, 0, 0.9238797
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = -0.08132994, -0.631127, -0.077046
-			rotation = 0.3826829, 0, 0, 0.9238797
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = -0.08132994, -0.577091, -0.131082
-			rotation = 0.3826829, 0, 0, 0.9238797
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = -0.08132994, -0.648994, -0.059179
-			rotation = 0.3826829, 0, 0, 0.9238797
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = -0.08132994, -0.613218, -0.094954
-			rotation = 0.3826829, 0, 0, 0.9238797
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = -0.08132994, -0.559313, -0.14886
-			rotation = 0.3826829, 0, 0, 0.9238797
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switch
-			position = 0.5390903, -0.1844511, -0.1849193
-			rotation = 0, 0, 0.7071068, 0.7071068
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switch
-			position = 0.53909, -0.184451, -0.09398615
-			rotation = 0, 0, 0.7071068, 0.7071068
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switch
-			position = 0.53909, -0.184451, 0.01971347
-			rotation = 0, 0, 0.7071068, 0.7071068
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switch
-			position = 0.5010625, -0.4059355, 0.148921
-			rotation = -0.2705981, -0.2705981, 0.6532815, 0.6532815
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switch
-			position = 0.501062, -0.4448726, 0.148921
-			rotation = -0.2705978, -0.2705978, 0.6532816, 0.6532816
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switch
-			position = 0.501062, -0.3649698, 0.148921
-			rotation = -0.2705978, -0.2705978, 0.6532816, 0.6532816
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = 0.5365335, -0.3534006, -0.09408252
-			rotation = 0.5, -0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = 0.536533, -0.3955121, -0.094083
-			rotation = 0.5, -0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = 0.536533, -0.4401003, -0.094083
-			rotation = 0.5, -0.5, 0.5, 0.5
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = throttle
-			position = -0.32, -0.4268568, 0.3584234
-			rotation = -0.5735762, 0, 0, 0.8191522
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = VSI
-			position = 0.2781939, -0.6007282, -0.02830147
-			rotation = 0, 0, 0.190809, 0.9816272
-			scale = 1.5, 1.2, 1.5
-		}
-	}
-}
-UrlConfig
-{
-	name = mk1CockpitInternal
-	type = INTERNAL
-	parentUrl = Squad/Spaces/mk1CockpitInternal/internal
-	url = Squad/Spaces/mk1CockpitInternal/internal/mk1CockpitInternal
-	INTERNAL
-	{
-		name = mk1CockpitInternal
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = CenterSeat
-			portraitCameraName = CockpitCam
-			allowCrewHelmet = false
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = focusCanopy
-			cameraTransformName = CanopyEyeTransform
-		}
-		PROP
-		{
-			name = ButtonSquare
-			position = -0.1184633, 0.2851815, -0.9793196
-			rotation = 0.5576651, 0, 0, 0.8300661
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob2
-			position = 0.1415246, 0.3691107, -1.013589
-			rotation = 0.5576652, 0, 0, 0.830066
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ledPanelSpeed
-			position = 0, 0.3890861, -1.014563
-			rotation = 0.5576652, 0, 0, 0.830066
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AxisIndicatorPitch
-			position = 0.1358635, 0.3265584, -0.9962139
-			rotation = 2.081698E-08, 0.8333066, 0.5528113, -3.843617E-08
-			scale = 0.5, 0.5, 0.5
-		}
-		PROP
-		{
-			name = AxisIndicatorRoll
-			position = 0.1634097, 0.3319612, -0.9984202
-			rotation = 0.3805535, -0.595969, -0.3805535, 0.595969
-			scale = 0.5, 0.5, 0.5
-		}
-		PROP
-		{
-			name = AxisIndicatorYaw
-			position = 0.1634097, 0.3185025, -0.9929256
-			rotation = 0.3805535, -0.595969, -0.3805535, 0.595969
-			scale = 0.5, 0.5, 0.5
-		}
-		PROP
-		{
-			name = IndicatorPanel
-			position = 0.0752, 0.3351225, -0.994267
-			rotation = 0.5547278, 0, 0, 0.832032
-			scale = 0.75, 0.75, 0.75
-		}
-		PROP
-		{
-			name = AltimeterThreeHands
-			position = -0.1029768, 0.3211913, -0.987247
-			rotation = 0.5693183, 0, 0, 0.8221173
-			scale = 0.75, 0.75, 0.75
-		}
-		PROP
-		{
-			name = AtmosphereDepth
-			position = -0.1674645, 0.3527832, -1.006922
-			rotation = 0.3908966, 0.5892367, 0.3908966, 0.5892367
-			scale = 0.6, 0.6, 0.6
-		}
-		PROP
-		{
-			name = Compass
-			position = 0, 0.273, -0.974
-			rotation = 0.3805538, -0.5959688, -0.3805538, 0.5959688
-			scale = 0.4, 0.4, 0.4
-		}
-		PROP
-		{
-			name = NavBall
-			position = -0.000333786, 0.3283074, -0.9969287
-			rotation = 0.5576652, 0, 0, 0.830066
-			scale = 1.33, 1.33, 1.33
-		}
-		PROP
-		{
-			name = RadarAltimeter
-			position = -0.1049209, 0.3633999, -1.01154
-			rotation = 0.5576652, 0, 0, 0.830066
-			scale = 0.75, 0.75, 0.75
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.1946828, 0.2584439, -0.8968201
-			rotation = -0.01220831, 0.1293359, 0.7207707, 0.6808913
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.1902411, 0.2537145, -0.9190431
-			rotation = -0.03401771, 0.1068558, 0.7179918, 0.6869589
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switch
-			position = 0.1430016, 0.2953996, -0.9816484
-			rotation = 0.5576651, 0, 0, 0.8300661
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchGuard
-			position = 0.1848326, 0.2948472, -0.9832668
-			rotation = 0.5576651, 0, 0, 0.8300661
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchGuard
-			position = 0.1587298, 0.2951645, -0.9833961
-			rotation = 0.5576651, 0, 0, 0.8300661
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = -0.230449, 0.2591012, -0.9510899
-			rotation = -0.018479, 0.6345649, -0.030337, 0.7720529
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = VSI
-			position = -0.1688075, 0.3212565, -0.9940495
-			rotation = 0.5528113, 0, 0, 0.8333066
-			scale = 0.75, 0.75, 0.75
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = -0.2001622, 0.2588217, -0.9446726
-			rotation = -0.01847891, 0.6345652, -0.03033708, 0.7720527
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ButtonSquare
-			position = -0.09225798, 0.2851814, -0.9793196
-			rotation = 0.5576652, 0, 0, 0.830066
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = circularButton
-			position = -0.1468208, 0.2854227, -0.9794178
-			rotation = 0.5576652, 0, 0, 0.830066
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = -0.2136493, 0.268221, -0.876173
-			rotation = -0.02046479, -0.0619312, -0.03525103, 0.9972478
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob2
-			position = 0.167, 0.365, -1.012
-			rotation = 0.5576653, 0, 0, 0.8300659
-			scale = 0.612, 0.612, 0.612
-		}
-		PROP
-		{
-			name = pullSwitch
-			position = -0.1748199, 0.2856328, -0.9795036
-			rotation = 0.5576652, 0, 0, 0.830066
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.200089, 0.263459, -0.8729463
-			rotation = -0.01274299, 0.1320612, 0.7025979, 0.6991092
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switch
-			position = 0.1701257, 0.2953994, -0.9816489
-			rotation = 0.5576652, 0, 0, 0.830066
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchGuard
-			position = 0.1253459, 0.2943485, -0.9830632
-			rotation = 0.5576652, 0, 0, 0.830066
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = throttle
-			position = -0.227, 0.261, -0.804
-			rotation = 0.004244888, 0.07983384, 0.05310115, -0.9953837
-			scale = 0.5, 0.5, 0.5
-		}
-	}
-}
-UrlConfig
-{
-	name = mk1PodCockpit
-	type = INTERNAL
-	parentUrl = Squad/Spaces/mk1PodCockpit/internal
-	url = Squad/Spaces/mk1PodCockpit/internal/mk1PodCockpit
-	INTERNAL
-	{
-		name = mk1PodCockpit
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = pilotSeat
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = WindowFocusPoint
-			cameraTransformName = WindowEyeTransform
-		}
-		PROP
-		{
-			name = AltimeterThreeHands
-			position = -0.07556272, 0.1159766, -0.1933374
-			rotation = 0.5224234, -0.02259917, 0.01240638, 0.8522964
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AtmosphereDepth
-			position = 0.09715462, 0.1835504, -0.2329795
-			rotation = -0.3883636, -0.5775291, -0.4094696, -0.5898886
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AxisIndicatorPitch
-			position = 0.04695153, 0.1676569, -0.226972
-			rotation = -0.01451988, 0.8539876, 0.5199118, 0.01363798
-			scale = 0.7576665, 0.7576665, 0.7576665
-		}
-		PROP
-		{
-			name = AxisIndicatorRoll
-			position = 0.09650087, 0.1583266, -0.2199712
-			rotation = 0.3788908, -0.6118522, -0.3563156, 0.5959178
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AxisIndicatorYaw
-			position = 0.09583187, 0.1325848, -0.20669
-			rotation = 0.3762259, -0.6162743, -0.3591281, 0.5913435
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = circularButton
-			position = -0.1307082, 0.06822944, -0.1836638
-			rotation = 0.5339533, -0.004270034, 0.009300488, 0.8454521
-			scale = 0.73, 0.73, 0.73
-		}
-		PROP
-		{
-			name = circularButton
-			position = -0.06026793, 0.01436901, -0.153614
-			rotation = 0.5483797, 0, 0, 0.8362295
-			scale = 0.75, 0.75, 0.75
-		}
-		PROP
-		{
-			name = circularButton
-			position = -0.08825064, 0.01436901, -0.153614
-			rotation = 0.5483798, 0, 0, 0.8362294
-			scale = 0.75, 0.75, 0.75
-		}
-		PROP
-		{
-			name = circularButton
-			position = -0.1196415, 0.01605415, -0.1543463
-			rotation = 0.5483798, 0, 0, 0.8362294
-			scale = 0.75, 0.75, 0.75
-		}
-		PROP
-		{
-			name = Compass
-			position = -0.002447128, 0.0224905, -0.1540784
-			rotation = 0.3760241, -0.6166065, -0.3593395, 0.590997
-			scale = 0.3725889, 0.3725889, 0.3725889
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = -0.05956459, 0.1560383, -0.2256418
-			rotation = 0.5198569, -0.01060819, 0.01636428, 0.8540308
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = -0.05953217, 0.1822026, -0.2391694
-			rotation = 0.5198569, -0.010608, 0.016364, 0.8540308
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob2
-			position = -0.1233451, 0.1288049, -0.2143644
-			rotation = 0.5190617, -0.01480024, 0.01376122, 0.8544978
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob2
-			position = -0.1236727, 0.1023681, -0.2006405
-			rotation = 0.5190619, -0.0148, 0.013761, 0.8544978
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = IndicatorPanel
-			position = 0.09509754, 0.06577349, -0.1620018
-			rotation = 0.5199545, -0.016311, 0.01289243, 0.8539409
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ledPanelSpeed
-			position = 0.009328842, 0.1286502, -0.2084537
-			rotation = 0.5349815, -0.009351482, 0.006512722, 0.8447869
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = NavBall
-			position = 0, 0.0752089, -0.1812306
-			rotation = 0.519961, -0.01674504, 0.01262825, 0.8539326
-			scale = 1.45, 1.45, 1.45
-		}
-		PROP
-		{
-			name = RadarAltimeter
-			position = -0.0889442, 0.05221152, -0.1732453
-			rotation = 0.5199315, -0.01483751, 0.01378958, 0.8539678
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = throttle
-			position = -0.2037261, 0.1435351, -0.2052736
-			rotation = 0.5409075, 0.1184557, -0.2935839, 0.7792277
-			scale = 0.5974331, 0.5974331, 0.5974331
-		}
-		PROP
-		{
-			name = VSI
-			position = -0.1136143, 0.1695364, -0.2349952
-			rotation = 0.5199462, -0.01576281, 0.0132262, 0.8539512
-			scale = 1, 1, 1
-		}
-	}
-}
-UrlConfig
-{
-	name = Placeholder
-	type = INTERNAL
-	parentUrl = Squad/Spaces/Placeholder/internal
-	url = Squad/Spaces/Placeholder/internal/Placeholder
-	INTERNAL
-	{
-		name = Placeholder
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat1
-			portraitCameraName = Cam1
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat2
-			portraitCameraName = Cam2
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat3
-			portraitCameraName = Cam3
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat4
-			portraitCameraName = Cam4
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat5
-			portraitCameraName = Cam5
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat6
-			portraitCameraName = Cam6
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat7
-			portraitCameraName = Cam7
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat8
-			portraitCameraName = Cam8
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat9
-			portraitCameraName = Cam9
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat10
-			portraitCameraName = Cam10
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat11
-			portraitCameraName = Cam11
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat12
-			portraitCameraName = Cam12
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat13
-			portraitCameraName = Cam13
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat14
-			portraitCameraName = Cam14
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat15
-			portraitCameraName = Cam15
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = Seat16
-			portraitCameraName = Cam16
-		}
-	}
-}
-UrlConfig
-{
-	name = PodCockpit
-	type = INTERNAL
-	parentUrl = Squad/Spaces/PodCockpit/internal
-	url = Squad/Spaces/PodCockpit/internal/PodCockpit
-	INTERNAL
-	{
-		name = PodCockpit
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = BottomSeat
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = RightSeat
-		}
-		MODULE
-		{
-			name = InternalSeat
-			seatTransformName = LeftSeat
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = focusLeftWindow
-			cameraTransformName = LeftEyeTransform
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = focusRightWindow
-			cameraTransformName = RightEyeTransform
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = focusLeftSideWindow
-			cameraTransformName = LeftSideEyeTransform
-		}
-		MODULE
-		{
-			name = InternalCameraSwitch
-			colliderTransformName = focusRightSideWindow
-			cameraTransformName = RightSideEyeTransform
-		}
-		PROP
-		{
-			name = AltimeterThreeHands
-			position = 0.32, 0.252, -0.645
-			rotation = 0.5416435, 0.03236297, -0.0557752, 0.8381314
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AtmosphereDepth
-			position = 0.3178381, 0.4032017, -0.7111539
-			rotation = 0.4526163, 0.5011255, 0.4909716, 0.5504168
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AxisIndicatorPitch
-			position = 0.268, 0.381, -0.69
-			rotation = -0.06244304, -0.7981341, -0.5974879, 0.0457283
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AxisIndicatorRoll
-			position = 0.3167737, 0.3749454, -0.7059368
-			rotation = 0.4330008, -0.5585735, -0.4334392, 0.559139
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AxisIndicatorYaw
-			position = 0.317, 0.348, -0.699
-			rotation = -0.402071, 0.5383534, 0.4584243, -0.5816888
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = circularButton
-			position = -0.2144681, -0.5854952, -0.3707671
-			rotation = 0.4281877, 0, -0.01088146, 0.9036244
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = Compass
-			position = 0.4057, 0.24, -0.664
-			rotation = -0.3648364, 0.5903288, 0.3887388, -0.6060433
-			scale = 0.415, 0.415, 0.415
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = -0.2156605, -0.6071028, -0.3530599
-			rotation = 0.4281877, 0, -0.01088146, 0.9036244
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = directionalKnob
-			position = -0.2159275, -0.6292968, -0.334896
-			rotation = 0.4281881, 0, -0.010881, 0.9036242
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = IndicatorPanel
-			position = 0.518, 0.2955, -0.669
-			rotation = -0.5303835, 0.0359595, -0.02298465, -0.8466829
-			scale = 1.141, 1.141, 1.141
-		}
-		PROP
-		{
-			name = IndicatorPanel
-			position = -0.153, -0.618, -0.33
-			rotation = 0.4281873, -5.258624E-05, -0.01086118, 0.9036247
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ledPanelSpeed
-			position = -0.0269, -0.5504, -0.402
-			rotation = 0.4971214, -0.003838993, -0.003243528, 0.8676665
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ledPanelSpeed
-			position = 0.4056, 0.352, -0.713
-			rotation = -0.5625392, -0.03245893, 0.03663293, -0.8253207
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = ledPanelSpeed
-			position = -0.3756353, 0.370743, -0.7096229
-			rotation = 0.5457253, -0.01199894, 0.00504086, 0.8378631
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = NavBall
-			position = 0.3999813, 0.3017742, -0.6832672
-			rotation = -0.5308632, 0.004728253, -0.005231029, -0.8474282
-			scale = 1.418, 1.418, 1.418
-		}
-		PROP
-		{
-			name = RadarAltimeter
-			position = 0.393, 0.391, -0.717
-			rotation = -0.5859929, -0.0388121, 0.04578209, -0.8080904
-			scale = 0.814, 0.814, 0.814
-		}
-		PROP
-		{
-			name = RadarAltimeter
-			position = -0.367, 0.411, -0.721
-			rotation = -0.5839309, 0.05067116, -0.05632993, -0.80826
-			scale = 0.932, 0.932, 0.932
-		}
-		PROP
-		{
-			name = RadarAltimeter
-			position = 0.052, -0.6570207, -0.3209582
-			rotation = 0.4281877, 2.586919E-06, -0.0108873, 0.9036242
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = squareButton
-			position = -0.2168316, -0.6577917, -0.311562
-			rotation = 0.4281877, 0, -0.01088146, 0.9036244
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = squareButton
-			position = -0.3221921, -0.4824741, -0.4090821
-			rotation = 0.4179344, 0.0824751, -0.2142243, 0.8789976
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.2418534, -0.5168309, -0.4121137
-			rotation = 0.3687701, -0.09851412, 0.2009933, 0.902167
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.2410091, -0.537007, -0.3918336
-			rotation = 0.36877, -0.09851401, 0.200993, 0.9021671
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.2401049, -0.5586073, -0.3701224
-			rotation = 0.36877, -0.09851401, 0.200993, 0.9021671
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = standingSwitch
-			position = 0.2392067, -0.5800631, -0.3485563
-			rotation = 0.36877, -0.09851401, 0.200993, 0.9021671
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = 0.1242301, 0.5927185, -0.6933285
-			rotation = 0.8717712, 0.002762042, -0.06714824, 0.485282
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = 0.1275585, 0.61735, -0.6781974
-			rotation = 0.8717711, 0.002762, -0.06714801, 0.4852821
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = 0.1308846, 0.6419626, -0.6630781
-			rotation = 0.8717711, 0.002762, -0.06714801, 0.4852821
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = 0.1343483, 0.6675924, -0.6473339
-			rotation = 0.8717711, 0.002762, -0.06714801, 0.4852821
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = 0.1377978, 0.6931177, -0.631654
-			rotation = 0.8717711, 0.002762, -0.06714801, 0.4852821
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = 0.1411089, 0.7176182, -0.6166036
-			rotation = 0.8717711, 0.002762, -0.06714801, 0.4852821
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = -0.2896324, -0.49391, -0.4206857
-			rotation = 0.4193391, 0.08827452, -0.2114613, 0.8784341
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = -0.09331834, 0.6239479, -0.6777508
-			rotation = 0.8743402, 0.03737177, -0.004790586, 0.4838488
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = -0.09412611, 0.6485591, -0.66229
-			rotation = 0.8743402, 0.03737177, -0.004790586, 0.4838488
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = -0.09660995, 0.7242125, -0.614765
-			rotation = 0.8743402, 0.03737177, -0.004790586, 0.4838488
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = -0.095806, 0.6997136, -0.6301562
-			rotation = 0.8743402, 0.03737177, -0.004790586, 0.4838488
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = -0.0925101, 0.5993168, -0.6932235
-			rotation = 0.8743402, 0.03737177, -0.004790586, 0.4838488
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = switchWithGuards
-			position = -0.09496725, 0.6741884, -0.6461894
-			rotation = 0.8743402, 0.03737177, -0.004790586, 0.4838488
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = VSI
-			position = 0.319, 0.311, -0.6733
-			rotation = 0.5958558, 0.01175117, -0.0209645, 0.8027318
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = throttle
-			position = 0.61, 0.281, -0.682
-			rotation = 0.6108826, -0.01242803, -0.009612965, 0.7915653
-			scale = 0.734, 0.734, 0.734
-		}
-		PROP
-		{
-			name = AltimeterThreeHands
-			position = 0.05, -0.59, -0.35
-			rotation = 0.4281873, -5.258624E-05, -0.01086118, 0.9036247
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AltimeterThreeHands
-			position = -0.291, 0.278, -0.65
-			rotation = 0.5705047, -0.01139102, -0.01697673, 0.8210399
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AtmosphereDepth
-			position = -0.1558822, -0.5166169, -0.4331783
-			rotation = 0.310603, 0.6385247, 0.2949068, 0.6394076
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AtmosphereDepth
-			position = -0.285, 0.4456999, -0.727
-			rotation = 0.3618197, 0.5429892, 0.428165, 0.6252392
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AxisIndicatorPitch
-			position = -0.209, -0.534, -0.42
-			rotation = -0.01337008, -0.9035877, -0.4281611, -0.005351045
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AxisIndicatorPitch
-			position = -0.2295212, 0.4180083, -0.7069302
-			rotation = -0.07072796, 0.8145782, 0.5695488, 0.08410811
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AxisIndicatorRoll
-			position = -0.156, -0.536, -0.412
-			rotation = -0.279288, 0.6426917, 0.2917638, -0.6510142
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AxisIndicatorRoll
-			position = -0.287, 0.417, -0.715
-			rotation = -0.4536572, 0.6022108, 0.3961868, -0.5239974
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AxisIndicatorYaw
-			position = -0.157, -0.556, -0.395
-			rotation = -0.2951375, 0.6388916, 0.3104817, -0.6389933
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = AxisIndicatorYaw
-			position = -0.287, 0.391, -0.705
-			rotation = -0.4639159, 0.5562974, 0.4476282, -0.5243513
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = Compass
-			position = -0.03, -0.64, -0.32
-			rotation = -0.2958596, 0.6373949, 0.3097606, -0.6405023
-			scale = 0.5, 0.5, 0.5
-		}
-		PROP
-		{
-			name = Compass
-			position = -0.38, 0.261, -0.654
-			rotation = -0.3678612, 0.6089225, 0.3667482, -0.5994891
-			scale = 0.415, 0.415, 0.415
-		}
-		PROP
-		{
-			name = IndicatorPanel
-			position = -0.508, 0.318, -0.659
-			rotation = 0.5449474, -0.0193059, 0.01196059, 0.8381626
-			scale = 1.141, 1.141, 1.141
-		}
-		PROP
-		{
-			name = NavBall
-			position = -0.0285337, -0.5998321, -0.3599214
-			rotation = 0.4281873, -5.258624E-05, -0.01086118, 0.9036247
-			scale = 1.415, 1.415, 1.415
-		}
-		PROP
-		{
-			name = NavBall
-			position = -0.376, 0.319, -0.676
-			rotation = 0.5552447, -1.246676E-05, -0.007153196, 0.8316563
-			scale = 1.415, 1.415, 1.415
-		}
-		PROP
-		{
-			name = throttle
-			position = -0.59, 0.306, -0.679
-			rotation = 0.6108826, -0.01242803, -0.009612965, 0.7915653
-			scale = 0.734, 0.7340001, 0.734
-		}
-		PROP
-		{
-			name = throttle
-			position = 0.13, -0.61, -0.35
-			rotation = 0.4281854, 0.0001053321, -0.01093601, 0.9036247
-			scale = 0.786, 0.786, 0.786
-		}
-		PROP
-		{
-			name = VSI
-			position = 0.05, -0.54, -0.4
-			rotation = 0.428211, -5.213628E-05, -0.01086083, 0.9036136
-			scale = 1, 1, 1
-		}
-		PROP
-		{
-			name = VSI
-			position = -0.287, 0.341, -0.675
-			rotation = 0.5949845, -0.002738691, -0.02555979, 0.803326
-			scale = 1, 1, 1
 		}
 	}
 }
@@ -29363,208 +27456,6 @@ UrlConfig
 }
 UrlConfig
 {
-	name = mk2Cockpit_Inline
-	type = PART
-	parentUrl = Squad/SPP/mk2Cockpit_Inline/part
-	url = Squad/SPP/mk2Cockpit_Inline/part/mk2Cockpit_Inline
-	PART
-	{
-		name = mk2Cockpit_Inline
-		module = Part
-		author = Porkjet
-		mesh = model.mu
-		rescaleFactor = 1
-		node_stack_top = 0.0, 1.25, 0.0, 0.0, 1.0, 0.0, 1
-		node_stack_bottom = 0.0, -1.25, 0.0, 0.0, 1.0, 0.0
-		TechRequired = highAltitudeFlight
-		entryCost = 20000
-		cost = 3500
-		category = Pods
-		subcategory = 0
-		title = Mk2 Inline Cockpit
-		manufacturer = C7 Aerospace Division
-		description = After 'accidentally' snapping the nose off of the Mk2 Cockpit, the engineers over at the C7 Aerospace Division realised that such a design looked quite functional. They quickly hammered out the following part and spruced it up for all your inline spaceplane cockpit needs!
-		attachRules = 1,0,1,1,0
-		mass = 2.0
-		dragModelType = override
-		maximum_drag = 0
-		minimum_drag = 0
-		angularDrag = 0
-		crashTolerance = 45
-		maxTemp = 1700
-		vesselType = Ship
-		CrewCapacity = 2
-		INTERNAL
-		{
-			name = mk2CockpitStandardInternals
-			offset = 0.0, 0.5, 0.0
-		}
-		MODULE
-		{
-			name = ModuleCommand
-			minimumCrew = 1
-		}
-		RESOURCE
-		{
-			name = ElectricCharge
-			amount = 150
-			maxAmount = 150
-		}
-		MODULE
-		{
-			name = ModuleReactionWheel
-			actionGUIName = Toggle RW
-			PitchTorque = 15
-			YawTorque = 15
-			RollTorque = 15
-			RESOURCE
-			{
-				name = ElectricCharge
-				rate = 0.5
-			}
-		}
-		MODULE
-		{
-			name = ModuleScienceExperiment
-			experimentID = crewReport
-			experimentActionName = Crew Report
-			resetActionName = Discard Crew Report
-			reviewActionName = Review Report
-			useStaging = False
-			useActionGroups = True
-			hideUIwhenUnavailable = True
-			rerunnable = True
-			xmitDataScalar = 1.0
-		}
-		MODULE
-		{
-			name = ModuleScienceContainer
-			reviewActionName = Review Stored Data
-			storeActionName = Store Experiments
-			evaOnlyStorage = True
-			storageRange = 3.0
-		}
-		RESOURCE
-		{
-			name = MonoPropellant
-			amount = 25
-			maxAmount = 25
-		}
-		MODULE
-		{
-			name = FlagDecal
-			textureQuadName = FLAG
-		}
-		MODULE
-		{
-			name = ModuleAnimateGeneric
-			animationName = CockpitInlineLight
-			actionGUIName = Toggle Lights
-			startEventGUIName = Lights On
-			endEventGUIName = Lights Off
-		}
-		MODULE
-		{
-			name = CollisionFX
-			scrapeSparks = true
-			collisionSound = CollisionFX/Sounds/Bang1
-			scrapeSound = CollisionFX/Sounds/GroundSkid
-			sparkSound = CollisionFX/Sounds/SparkSqueal
-		}
-		MODULE
-		{
-			name = ModuleHeatShield
-			direction = 0, 0, 1
-			reflective = 0.25
-		}
-		MODULE
-		{
-			name = ModuleTweakableReactionWheel
-		}
-		MODULE
-		{
-			name = ModuleTweakableAnimateGeneric
-		}
-		MODULE
-		{
-			name = ModuleTweakableFuelPump
-			ResourceNames = MonoPropellant
-		}
-		MODULE
-		{
-			name = MechJebCore
-			MechJebLocalSettings
-			{
-				MechJebModuleCustomWindowEditor
-				{
-					unlockTechs = flightControl
-				}
-				MechJebModuleSmartASS
-				{
-					unlockTechs = flightControl
-				}
-				MechJebModuleManeuverPlanner
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleNodeEditor
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleTranslatron
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleWarpHelper
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleAttitudeAdjustment
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleThrustWindow
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleRCSBalancerWindow
-				{
-					unlockTechs = advFlightControl
-				}
-				MechJebModuleRoverWindow
-				{
-					unlockTechs = fieldScience
-				}
-				MechJebModuleAscentGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleLandingGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleSpaceplaneGuidance
-				{
-					unlockTechs = unmannedTech
-				}
-				MechJebModuleDockingGuidance
-				{
-					unlockTechs = advUnmanned
-				}
-				MechJebModuleRendezvousAutopilotWindow
-				{
-					unlockTechs = advUnmanned
-				}
-				MechJebModuleRendezvousGuidance
-				{
-					unlockTechs = advUnmanned
-				}
-			}
-		}
-	}
-}
-UrlConfig
-{
 	name = mk2CrewCabin
 	type = PART
 	parentUrl = Squad/SPP/Mk2CrewCabin/part
@@ -31447,6 +29338,2151 @@ UrlConfig
 }
 UrlConfig
 {
+	name = mk2Cockpit_Inline
+	type = PART
+	parentUrl = Squad/SPP/mk2Cockpit_Inline/part
+	url = Squad/SPP/mk2Cockpit_Inline/part/mk2Cockpit_Inline
+	PART
+	{
+		name = mk2Cockpit_Inline
+		module = Part
+		author = Porkjet
+		mesh = model.mu
+		rescaleFactor = 1
+		node_stack_top = 0.0, 1.25, 0.0, 0.0, 1.0, 0.0, 1
+		node_stack_bottom = 0.0, -1.25, 0.0, 0.0, 1.0, 0.0
+		TechRequired = highAltitudeFlight
+		entryCost = 20000
+		cost = 3500
+		category = Pods
+		subcategory = 0
+		title = Mk2 Inline Cockpit
+		manufacturer = C7 Aerospace Division
+		description = After 'accidentally' snapping the nose off of the Mk2 Cockpit, the engineers over at the C7 Aerospace Division realised that such a design looked quite functional. They quickly hammered out the following part and spruced it up for all your inline spaceplane cockpit needs!
+		attachRules = 1,0,1,1,0
+		mass = 2.0
+		dragModelType = override
+		maximum_drag = 0
+		minimum_drag = 0
+		angularDrag = 0
+		crashTolerance = 45
+		maxTemp = 1700
+		vesselType = Ship
+		CrewCapacity = 2
+		INTERNAL
+		{
+			name = mk2CockpitStandardInternals
+			offset = 0.0, 0.5, 0.0
+		}
+		MODULE
+		{
+			name = ModuleCommand
+			minimumCrew = 1
+		}
+		RESOURCE
+		{
+			name = ElectricCharge
+			amount = 150
+			maxAmount = 150
+		}
+		MODULE
+		{
+			name = ModuleReactionWheel
+			actionGUIName = Toggle RW
+			PitchTorque = 15
+			YawTorque = 15
+			RollTorque = 15
+			RESOURCE
+			{
+				name = ElectricCharge
+				rate = 0.5
+			}
+		}
+		MODULE
+		{
+			name = ModuleScienceExperiment
+			experimentID = crewReport
+			experimentActionName = Crew Report
+			resetActionName = Discard Crew Report
+			reviewActionName = Review Report
+			useStaging = False
+			useActionGroups = True
+			hideUIwhenUnavailable = True
+			rerunnable = True
+			xmitDataScalar = 1.0
+		}
+		MODULE
+		{
+			name = ModuleScienceContainer
+			reviewActionName = Review Stored Data
+			storeActionName = Store Experiments
+			evaOnlyStorage = True
+			storageRange = 3.0
+		}
+		RESOURCE
+		{
+			name = MonoPropellant
+			amount = 25
+			maxAmount = 25
+		}
+		MODULE
+		{
+			name = FlagDecal
+			textureQuadName = FLAG
+		}
+		MODULE
+		{
+			name = ModuleAnimateGeneric
+			animationName = CockpitInlineLight
+			actionGUIName = Toggle Lights
+			startEventGUIName = Lights On
+			endEventGUIName = Lights Off
+		}
+		MODULE
+		{
+			name = CollisionFX
+			scrapeSparks = true
+			collisionSound = CollisionFX/Sounds/Bang1
+			scrapeSound = CollisionFX/Sounds/GroundSkid
+			sparkSound = CollisionFX/Sounds/SparkSqueal
+		}
+		MODULE
+		{
+			name = ModuleHeatShield
+			direction = 0, 0, 1
+			reflective = 0.25
+		}
+		MODULE
+		{
+			name = ModuleTweakableReactionWheel
+		}
+		MODULE
+		{
+			name = ModuleTweakableAnimateGeneric
+		}
+		MODULE
+		{
+			name = ModuleTweakableFuelPump
+			ResourceNames = MonoPropellant
+		}
+		MODULE
+		{
+			name = MechJebCore
+			MechJebLocalSettings
+			{
+				MechJebModuleCustomWindowEditor
+				{
+					unlockTechs = flightControl
+				}
+				MechJebModuleSmartASS
+				{
+					unlockTechs = flightControl
+				}
+				MechJebModuleManeuverPlanner
+				{
+					unlockTechs = advFlightControl
+				}
+				MechJebModuleNodeEditor
+				{
+					unlockTechs = advFlightControl
+				}
+				MechJebModuleTranslatron
+				{
+					unlockTechs = advFlightControl
+				}
+				MechJebModuleWarpHelper
+				{
+					unlockTechs = advFlightControl
+				}
+				MechJebModuleAttitudeAdjustment
+				{
+					unlockTechs = advFlightControl
+				}
+				MechJebModuleThrustWindow
+				{
+					unlockTechs = advFlightControl
+				}
+				MechJebModuleRCSBalancerWindow
+				{
+					unlockTechs = advFlightControl
+				}
+				MechJebModuleRoverWindow
+				{
+					unlockTechs = fieldScience
+				}
+				MechJebModuleAscentGuidance
+				{
+					unlockTechs = unmannedTech
+				}
+				MechJebModuleLandingGuidance
+				{
+					unlockTechs = unmannedTech
+				}
+				MechJebModuleSpaceplaneGuidance
+				{
+					unlockTechs = unmannedTech
+				}
+				MechJebModuleDockingGuidance
+				{
+					unlockTechs = advUnmanned
+				}
+				MechJebModuleRendezvousAutopilotWindow
+				{
+					unlockTechs = advUnmanned
+				}
+				MechJebModuleRendezvousGuidance
+				{
+					unlockTechs = advUnmanned
+				}
+			}
+		}
+	}
+}
+UrlConfig
+{
+	name = GenericSpace1
+	type = INTERNAL
+	parentUrl = Squad/Spaces/GenericSpace1/internal
+	url = Squad/Spaces/GenericSpace1/internal/GenericSpace1
+	INTERNAL
+	{
+		name = GenericSpace1
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = CenterSeat
+			allowCrewHelmet = false
+		}
+	}
+}
+UrlConfig
+{
+	name = GenericSpace3
+	type = INTERNAL
+	parentUrl = Squad/Spaces/GenericSpace3/internal
+	url = Squad/Spaces/GenericSpace3/internal/GenericSpace3
+	INTERNAL
+	{
+		name = GenericSpace3
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = CenterSeat
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = RightSeat
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = LeftSeat
+		}
+	}
+}
+UrlConfig
+{
+	name = Placeholder
+	type = INTERNAL
+	parentUrl = Squad/Spaces/Placeholder/internal
+	url = Squad/Spaces/Placeholder/internal/Placeholder
+	INTERNAL
+	{
+		name = Placeholder
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat1
+			portraitCameraName = Cam1
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat2
+			portraitCameraName = Cam2
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat3
+			portraitCameraName = Cam3
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat4
+			portraitCameraName = Cam4
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat5
+			portraitCameraName = Cam5
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat6
+			portraitCameraName = Cam6
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat7
+			portraitCameraName = Cam7
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat8
+			portraitCameraName = Cam8
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat9
+			portraitCameraName = Cam9
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat10
+			portraitCameraName = Cam10
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat11
+			portraitCameraName = Cam11
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat12
+			portraitCameraName = Cam12
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat13
+			portraitCameraName = Cam13
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat14
+			portraitCameraName = Cam14
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat15
+			portraitCameraName = Cam15
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat16
+			portraitCameraName = Cam16
+		}
+	}
+}
+UrlConfig
+{
+	name = PodCockpit
+	type = INTERNAL
+	parentUrl = Squad/Spaces/PodCockpit/internal
+	url = Squad/Spaces/PodCockpit/internal/PodCockpit
+	INTERNAL
+	{
+		name = PodCockpit
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = BottomSeat
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = RightSeat
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = LeftSeat
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = focusLeftWindow
+			cameraTransformName = LeftEyeTransform
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = focusRightWindow
+			cameraTransformName = RightEyeTransform
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = focusLeftSideWindow
+			cameraTransformName = LeftSideEyeTransform
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = focusRightSideWindow
+			cameraTransformName = RightSideEyeTransform
+		}
+		PROP
+		{
+			name = AltimeterThreeHands
+			position = 0.32, 0.252, -0.645
+			rotation = 0.5416435, 0.03236297, -0.0557752, 0.8381314
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AtmosphereDepth
+			position = 0.3178381, 0.4032017, -0.7111539
+			rotation = 0.4526163, 0.5011255, 0.4909716, 0.5504168
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AxisIndicatorPitch
+			position = 0.268, 0.381, -0.69
+			rotation = -0.06244304, -0.7981341, -0.5974879, 0.0457283
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AxisIndicatorRoll
+			position = 0.3167737, 0.3749454, -0.7059368
+			rotation = 0.4330008, -0.5585735, -0.4334392, 0.559139
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AxisIndicatorYaw
+			position = 0.317, 0.348, -0.699
+			rotation = -0.402071, 0.5383534, 0.4584243, -0.5816888
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = circularButton
+			position = -0.2144681, -0.5854952, -0.3707671
+			rotation = 0.4281877, 0, -0.01088146, 0.9036244
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = Compass
+			position = 0.4057, 0.24, -0.664
+			rotation = -0.3648364, 0.5903288, 0.3887388, -0.6060433
+			scale = 0.415, 0.415, 0.415
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = -0.2156605, -0.6071028, -0.3530599
+			rotation = 0.4281877, 0, -0.01088146, 0.9036244
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = -0.2159275, -0.6292968, -0.334896
+			rotation = 0.4281881, 0, -0.010881, 0.9036242
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = IndicatorPanel
+			position = 0.518, 0.2955, -0.669
+			rotation = -0.5303835, 0.0359595, -0.02298465, -0.8466829
+			scale = 1.141, 1.141, 1.141
+		}
+		PROP
+		{
+			name = IndicatorPanel
+			position = -0.153, -0.618, -0.33
+			rotation = 0.4281873, -5.258624E-05, -0.01086118, 0.9036247
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ledPanelSpeed
+			position = -0.0269, -0.5504, -0.402
+			rotation = 0.4971214, -0.003838993, -0.003243528, 0.8676665
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ledPanelSpeed
+			position = 0.4056, 0.352, -0.713
+			rotation = -0.5625392, -0.03245893, 0.03663293, -0.8253207
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ledPanelSpeed
+			position = -0.3756353, 0.370743, -0.7096229
+			rotation = 0.5457253, -0.01199894, 0.00504086, 0.8378631
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = NavBall
+			position = 0.3999813, 0.3017742, -0.6832672
+			rotation = -0.5308632, 0.004728253, -0.005231029, -0.8474282
+			scale = 1.418, 1.418, 1.418
+		}
+		PROP
+		{
+			name = RadarAltimeter
+			position = 0.393, 0.391, -0.717
+			rotation = -0.5859929, -0.0388121, 0.04578209, -0.8080904
+			scale = 0.814, 0.814, 0.814
+		}
+		PROP
+		{
+			name = RadarAltimeter
+			position = -0.367, 0.411, -0.721
+			rotation = -0.5839309, 0.05067116, -0.05632993, -0.80826
+			scale = 0.932, 0.932, 0.932
+		}
+		PROP
+		{
+			name = RadarAltimeter
+			position = 0.052, -0.6570207, -0.3209582
+			rotation = 0.4281877, 2.586919E-06, -0.0108873, 0.9036242
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = squareButton
+			position = -0.2168316, -0.6577917, -0.311562
+			rotation = 0.4281877, 0, -0.01088146, 0.9036244
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = squareButton
+			position = -0.3221921, -0.4824741, -0.4090821
+			rotation = 0.4179344, 0.0824751, -0.2142243, 0.8789976
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.2418534, -0.5168309, -0.4121137
+			rotation = 0.3687701, -0.09851412, 0.2009933, 0.902167
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.2410091, -0.537007, -0.3918336
+			rotation = 0.36877, -0.09851401, 0.200993, 0.9021671
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.2401049, -0.5586073, -0.3701224
+			rotation = 0.36877, -0.09851401, 0.200993, 0.9021671
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.2392067, -0.5800631, -0.3485563
+			rotation = 0.36877, -0.09851401, 0.200993, 0.9021671
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = 0.1242301, 0.5927185, -0.6933285
+			rotation = 0.8717712, 0.002762042, -0.06714824, 0.485282
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = 0.1275585, 0.61735, -0.6781974
+			rotation = 0.8717711, 0.002762, -0.06714801, 0.4852821
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = 0.1308846, 0.6419626, -0.6630781
+			rotation = 0.8717711, 0.002762, -0.06714801, 0.4852821
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = 0.1343483, 0.6675924, -0.6473339
+			rotation = 0.8717711, 0.002762, -0.06714801, 0.4852821
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = 0.1377978, 0.6931177, -0.631654
+			rotation = 0.8717711, 0.002762, -0.06714801, 0.4852821
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = 0.1411089, 0.7176182, -0.6166036
+			rotation = 0.8717711, 0.002762, -0.06714801, 0.4852821
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = -0.2896324, -0.49391, -0.4206857
+			rotation = 0.4193391, 0.08827452, -0.2114613, 0.8784341
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = -0.09331834, 0.6239479, -0.6777508
+			rotation = 0.8743402, 0.03737177, -0.004790586, 0.4838488
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = -0.09412611, 0.6485591, -0.66229
+			rotation = 0.8743402, 0.03737177, -0.004790586, 0.4838488
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = -0.09660995, 0.7242125, -0.614765
+			rotation = 0.8743402, 0.03737177, -0.004790586, 0.4838488
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = -0.095806, 0.6997136, -0.6301562
+			rotation = 0.8743402, 0.03737177, -0.004790586, 0.4838488
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = -0.0925101, 0.5993168, -0.6932235
+			rotation = 0.8743402, 0.03737177, -0.004790586, 0.4838488
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = -0.09496725, 0.6741884, -0.6461894
+			rotation = 0.8743402, 0.03737177, -0.004790586, 0.4838488
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = VSI
+			position = 0.319, 0.311, -0.6733
+			rotation = 0.5958558, 0.01175117, -0.0209645, 0.8027318
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = throttle
+			position = 0.61, 0.281, -0.682
+			rotation = 0.6108826, -0.01242803, -0.009612965, 0.7915653
+			scale = 0.734, 0.734, 0.734
+		}
+		PROP
+		{
+			name = AltimeterThreeHands
+			position = 0.05, -0.59, -0.35
+			rotation = 0.4281873, -5.258624E-05, -0.01086118, 0.9036247
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AltimeterThreeHands
+			position = -0.291, 0.278, -0.65
+			rotation = 0.5705047, -0.01139102, -0.01697673, 0.8210399
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AtmosphereDepth
+			position = -0.1558822, -0.5166169, -0.4331783
+			rotation = 0.310603, 0.6385247, 0.2949068, 0.6394076
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AtmosphereDepth
+			position = -0.285, 0.4456999, -0.727
+			rotation = 0.3618197, 0.5429892, 0.428165, 0.6252392
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AxisIndicatorPitch
+			position = -0.209, -0.534, -0.42
+			rotation = -0.01337008, -0.9035877, -0.4281611, -0.005351045
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AxisIndicatorPitch
+			position = -0.2295212, 0.4180083, -0.7069302
+			rotation = -0.07072796, 0.8145782, 0.5695488, 0.08410811
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AxisIndicatorRoll
+			position = -0.156, -0.536, -0.412
+			rotation = -0.279288, 0.6426917, 0.2917638, -0.6510142
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AxisIndicatorRoll
+			position = -0.287, 0.417, -0.715
+			rotation = -0.4536572, 0.6022108, 0.3961868, -0.5239974
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AxisIndicatorYaw
+			position = -0.157, -0.556, -0.395
+			rotation = -0.2951375, 0.6388916, 0.3104817, -0.6389933
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AxisIndicatorYaw
+			position = -0.287, 0.391, -0.705
+			rotation = -0.4639159, 0.5562974, 0.4476282, -0.5243513
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = Compass
+			position = -0.03, -0.64, -0.32
+			rotation = -0.2958596, 0.6373949, 0.3097606, -0.6405023
+			scale = 0.5, 0.5, 0.5
+		}
+		PROP
+		{
+			name = Compass
+			position = -0.38, 0.261, -0.654
+			rotation = -0.3678612, 0.6089225, 0.3667482, -0.5994891
+			scale = 0.415, 0.415, 0.415
+		}
+		PROP
+		{
+			name = IndicatorPanel
+			position = -0.508, 0.318, -0.659
+			rotation = 0.5449474, -0.0193059, 0.01196059, 0.8381626
+			scale = 1.141, 1.141, 1.141
+		}
+		PROP
+		{
+			name = NavBall
+			position = -0.0285337, -0.5998321, -0.3599214
+			rotation = 0.4281873, -5.258624E-05, -0.01086118, 0.9036247
+			scale = 1.415, 1.415, 1.415
+		}
+		PROP
+		{
+			name = NavBall
+			position = -0.376, 0.319, -0.676
+			rotation = 0.5552447, -1.246676E-05, -0.007153196, 0.8316563
+			scale = 1.415, 1.415, 1.415
+		}
+		PROP
+		{
+			name = throttle
+			position = -0.59, 0.306, -0.679
+			rotation = 0.6108826, -0.01242803, -0.009612965, 0.7915653
+			scale = 0.734, 0.7340001, 0.734
+		}
+		PROP
+		{
+			name = throttle
+			position = 0.13, -0.61, -0.35
+			rotation = 0.4281854, 0.0001053321, -0.01093601, 0.9036247
+			scale = 0.786, 0.786, 0.786
+		}
+		PROP
+		{
+			name = VSI
+			position = 0.05, -0.54, -0.4
+			rotation = 0.428211, -5.213628E-05, -0.01086083, 0.9036136
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = VSI
+			position = -0.287, 0.341, -0.675
+			rotation = 0.5949845, -0.002738691, -0.02555979, 0.803326
+			scale = 1, 1, 1
+		}
+	}
+}
+UrlConfig
+{
+	name = crewCabinInternals
+	type = INTERNAL
+	parentUrl = Squad/Spaces/crewCabinInternals/internal
+	url = Squad/Spaces/crewCabinInternals/internal/crewCabinInternals
+	INTERNAL
+	{
+		name = crewCabinInternals
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat1
+			allowCrewHelmet = false
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat2
+			allowCrewHelmet = false
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat3
+			allowCrewHelmet = false
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = Seat4
+			allowCrewHelmet = false
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = Window1FocusPoint
+			cameraTransformName = Window1EyeTransform
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = Window2FocusPoint
+			cameraTransformName = Window2EyeTransform
+		}
+	}
+}
+UrlConfig
+{
+	name = cupolaInternal
+	type = INTERNAL
+	parentUrl = Squad/Spaces/cupolaInternal/internal
+	url = Squad/Spaces/cupolaInternal/internal/cupolaInternal
+	INTERNAL
+	{
+		name = cupolaInternal
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = pilot_seat
+			portraitCameraName = pilot_camera
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = collider_window_center
+			cameraTransformName = transform_window_center
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = collider_window_n
+			cameraTransformName = transform_window_n
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = collider_window_ne
+			cameraTransformName = transform_window_ne
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = collider_window_nw
+			cameraTransformName = transform_window_nw
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = collider_window_se
+			cameraTransformName = transform_window_se
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = collider_window_sw
+			cameraTransformName = transform_window_sw
+		}
+		PROP
+		{
+			name = AltimeterThreeHands
+			position = -0.2137297, -0.2671343, -0.4750004
+			rotation = -0.7071068, -3.090862E-08, 3.090862E-08, -0.7071068
+			scale = 1.200001, 1.2, 1.2
+		}
+		PROP
+		{
+			name = AtmosphereDepth
+			position = 0.5476023, -0.2028794, -0.2078271
+			rotation = 0, 0, 0.7071068, 0.7071068
+			scale = 1.1, 1, 1.3
+		}
+		PROP
+		{
+			name = AxisIndicatorPitch
+			position = -0.001454057, -0.3999284, -0.5500053
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AxisIndicatorRoll
+			position = -0.1237296, -0.151666, -0.4800003
+			rotation = 0.5, 0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AxisIndicatorYaw
+			position = 0.1227971, -0.1516262, -0.4800003
+			rotation = 0.5, 0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ButtonSquare
+			position = -0.5350576, -0.274754, -0.1997484
+			rotation = -0.002419838, 0.003057017, 0.7071028, -0.7071001
+			scale = 0.9, 1, 1
+		}
+		PROP
+		{
+			name = ButtonSquare
+			position = 0.3249548, -0.3800003, -0.2237041
+			rotation = 0, 1, 0, -4.371139E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ButtonSquare
+			position = 0.3249548, -0.3800003, -0.1837041
+			rotation = 0, 1, 0, -4.371139E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ButtonSquare
+			position = 0.2838163, -0.3800003, -0.1837041
+			rotation = -3.684595E-15, 1, -8.42937E-08, -4.371139E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ButtonSquare
+			position = -0.5350577, -0.3119523, -0.1997147
+			rotation = -0.002419838, 0.003057017, 0.7071028, -0.7071001
+			scale = 0.9, 1, 1
+		}
+		PROP
+		{
+			name = ButtonSquare
+			position = 0.5675811, 0.3381009, -0.2398425
+			rotation = -0.7071068, 0.7071068, 3.090862E-08, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ButtonSquare
+			position = 0.324955, -0.3800003, -0.1413539
+			rotation = 0, 1, 0, -4.371139E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ButtonSquare
+			position = 0.5675807, 0.3381009, -0.1656069
+			rotation = -0.7071068, 0.7071068, 3.090862E-08, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ButtonSquare
+			position = 0.2838162, -0.3800003, -0.2237041
+			rotation = 0, 1, 0, -4.371139E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ButtonSquare
+			position = 0.283816, -0.3800003, -0.1413539
+			rotation = 0, 1, 0, -4.371139E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ButtonSquare
+			position = -0.535058, -0.3491441, -0.199681
+			rotation = -0.002419838, 0.003057017, 0.7071028, -0.7071001
+			scale = 0.9, 1, 1
+		}
+		PROP
+		{
+			name = ButtonSquare
+			position = 0.5675811, 0.3381009, -0.202287
+			rotation = -0.7071068, 0.7071068, 3.090862E-08, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = circularButton
+			position = 0.304621, -0.3813593, -0.09994683
+			rotation = -3.684595E-15, 1, -8.42937E-08, -4.371139E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = Compass
+			position = 0, -0.3637415, -0.4843188
+			rotation = -0.5, 0.5, 0.5, -0.5
+			scale = 0.7, 0.7, 0.7000002
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = 0.2167977, -0.2088383, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = 0.544847, -0.053803, -0.05585346
+			rotation = 0.5, -0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = -0.2171713, -0.2088376, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = -0.1888271, -0.2088377, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = 0.5448467, -0.05380317, 0.01373252
+			rotation = 0.5, -0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = 0.1884526, -0.2088383, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = IndicatorPanel
+			position = -0.1237296, -0.2425348, -0.4750004
+			rotation = -0.7071068, -3.090862E-08, 3.090862E-08, -0.7071068
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ledPanelSpeed
+			position = 0, -0.10327, -0.4368551
+			rotation = -0.7071068, -3.090862E-08, 3.090862E-08, -0.7071068
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = NavBall
+			position = 0, -0.1758259, -0.4504113
+			rotation = -0.7071068, -3.090862E-08, 3.090862E-08, -0.7071068
+			scale = 1.700001, 1.7, 1.7
+		}
+		PROP
+		{
+			name = pullSwitch
+			position = -0.11532, -0.3649464, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = pullSwitch
+			position = -0.1623341, -0.3649464, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = pullSwitch
+			position = 0.1161671, -0.3649464, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = pullSwitch
+			position = 0.1631563, -0.3649464, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = pullSwitch
+			position = 0.2101703, -0.3649464, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = pullSwitch
+			position = -0.2093231, -0.3649464, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = RadarAltimeter
+			position = 0.1227971, -0.2056892, -0.4750004
+			rotation = -0.7071068, -3.090862E-08, 3.090862E-08, -0.7071068
+			scale = 1.200001, 1.2, 1.2
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.1481605, -0.2921246, -0.4756292
+			rotation = 0.7071068, 0, 0, 0.7071068
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.097791, -0.2621858, -0.475629
+			rotation = 0.7071068, 0, 0, 0.7071068
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.1226377, -0.292125, -0.475629
+			rotation = 0.7071068, 0, 0, 0.7071068
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.0977913, -0.292125, -0.475629
+			rotation = 0.7071068, 0, 0, 0.7071068
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.122638, -0.2621858, -0.475629
+			rotation = 0.7071068, 0, 0, 0.7071068
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.5670769, 0.08873919, 0.009802967
+			rotation = 0.5, -0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.567077, 0.08873902, -0.08584943
+			rotation = 0.5, -0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.14816, -0.2621858, -0.475629
+			rotation = 0.7071068, 0, 0, 0.7071068
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.567077, 0.08873902, -0.03652668
+			rotation = 0.5, -0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switch
+			position = 0.5667698, 0.3376798, 0.009949833
+			rotation = -0.5, 0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switch
+			position = 0.5470535, -0.1556602, -0.1694855
+			rotation = -0.5, 0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switch
+			position = 0.5667701, 0.2362801, 0.02008948
+			rotation = -0.5, 0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switch
+			position = 0.547054, -0.15566, -0.2074492
+			rotation = -0.5, 0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switch
+			position = 0.547054, -0.15566, -0.2456088
+			rotation = -0.5, 0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switch
+			position = 0.5667701, 0.2367173, -0.02070355
+			rotation = -0.5, 0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchGuard
+			position = -0.138846, -0.3649464, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchGuard
+			position = 0.139644, -0.3649464, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchGuard
+			position = -0.2328461, -0.3649464, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchGuard
+			position = 0.233644, -0.3649464, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchGuard
+			position = 0.186644, -0.3649464, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchGuard
+			position = -0.09184601, -0.3649464, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchGuard
+			position = -0.1858461, -0.3649464, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchGuard
+			position = 0.092644, -0.3649464, -0.4750004
+			rotation = 3.090862E-08, 0.7071068, 0.7071068, -3.090862E-08
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = throttle
+			position = -0.3052907, -0.4100003, -0.1650002
+			rotation = -1.887379E-15, -4.371139E-08, -4.371139E-08, -1
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = VSI
+			position = 0.2127971, -0.2671343, -0.4750004
+			rotation = -0.7071068, -3.090862E-08, 3.090862E-08, -0.7071068
+			scale = 1.200001, 1.2, 1.2
+		}
+	}
+}
+UrlConfig
+{
+	name = landerCabinInternals
+	type = INTERNAL
+	parentUrl = Squad/Spaces/landerCabinInternals/internal
+	url = Squad/Spaces/landerCabinInternals/internal/landerCabinInternals
+	INTERNAL
+	{
+		name = landerCabinInternals
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = CenterSeat
+		}
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = LeftSeat
+		}
+		PROP
+		{
+			name = NavBall
+			position = 0, -1.298121, -0.3041687
+			rotation = 0, 0, 0, 0
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = RadarAltimeter
+			position = 0.06373091, -1.276448, -0.3041687
+			rotation = 0.2248853, 0, 0, -0.9743853
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = VSI
+			position = -0.06373091, -1.276448, -0.3041687
+			rotation = 0.2248853, 0, 0, -0.9743853
+			scale = 1, 1, 1
+		}
+	}
+}
+UrlConfig
+{
+	name = landerCabinSmallInternal
+	type = INTERNAL
+	parentUrl = Squad/Spaces/landerCabinSmallInternal/internal
+	url = Squad/Spaces/landerCabinSmallInternal/internal/landerCabinSmallInternal
+	INTERNAL
+	{
+		name = landerCabinSmallInternal
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = pilot
+			portraitCameraName = camera_pilot
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = collider_window_upper
+			cameraTransformName = transform_window_upper
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = collider_window_lower
+			cameraTransformName = transform_window_lower
+		}
+		PROP
+		{
+			name = AltimeterThreeHands
+			position = -0.2780569, -0.6006569, -0.02849852
+			rotation = 0, 0, -0.190809, 0.9816272
+			scale = 1.5, 1.2, 1.5
+		}
+		PROP
+		{
+			name = AtmosphereDepth
+			position = 0.2794099, -0.6034113, 0.1037839
+			rotation = 0.1349224, -0.6941153, -0.1349224, -0.6941153
+			scale = 1.2, 1.2, 1.2
+		}
+		PROP
+		{
+			name = AxisIndicatorPitch
+			position = 0.1249481, -0.6192902, -0.0926076
+			rotation = 0.3826835, 0, 0, 0.9238796
+			scale = 1.5, 1.5, 1.5
+		}
+		PROP
+		{
+			name = AxisIndicatorRoll
+			position = -0.1260331, -0.6192902, -0.0926076
+			rotation = 0.3826835, 0, 0, 0.9238796
+			scale = 1.5, 1.5, 1.5
+		}
+		PROP
+		{
+			name = AxisIndicatorYaw
+			position = 0.2801622, -0.6042804, 0.05720528
+			rotation = 0.1349224, -0.6941153, 0.1349224, 0.6941153
+			scale = 1.2, 1, 1.2
+		}
+		PROP
+		{
+			name = circularButton
+			position = 0.3221635, -0.3651838, 0.3703527
+			rotation = 0.5735765, 0, 0, -0.8191521
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = 0.1258331, -0.5583142, -0.1476862
+			rotation = 0.3826835, 0, 0, 0.9238796
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = -0.1254815, -0.5578972, -0.1481028
+			rotation = 0.3826829, 0, 0, 0.9238797
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = -0.4854893, -0.3745706, 0.1637302
+			rotation = -0.2705981, 0.2705981, -0.6532815, 0.6532815
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = -0.4549859, -0.374571, 0.1942331
+			rotation = -0.2705978, 0.2705978, -0.6532816, 0.6532816
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = 0.5369698, -0.4321369, -0.1846917
+			rotation = 0, 0, 0.7071068, 0.7071068
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = 0.53697, -0.3862338, -0.184692
+			rotation = 0, 0, 0.7071068, 0.7071068
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = IndicatorPanel
+			position = -0.275569, -0.5963919, 0.1638915
+			rotation = 0, 0, -0.190809, 0.9816272
+			scale = 1.2, 1.2, 1.2
+		}
+		PROP
+		{
+			name = ledPanelSpeed
+			position = 0.007619729, -0.5575718, -0.1464558
+			rotation = 0.3826835, 0, 0, 0.9238796
+			scale = 1.2, 1.2, 1.2
+		}
+		PROP
+		{
+			name = NavBall
+			position = 8.996066E-09, -0.616695, -0.09291898
+			rotation = 0.258819, 1.286208E-07, -3.446384E-08, 0.9659258
+			scale = 2, 2, 2
+		}
+		PROP
+		{
+			name = RadarAltimeter
+			position = 0.2783177, -0.6006864, 0.189725
+			rotation = 0, 0, 0.190809, 0.9816272
+			scale = 1.5, 1.2, 1.5
+		}
+		PROP
+		{
+			name = squareButton
+			position = -0.2778853, -0.6031111, 0.055
+			rotation = 0, 0, -0.190809, 0.9816272
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = squareButton
+			position = -0.3100235, -0.5901328, 0.055
+			rotation = 0, 0, -0.190809, 0.9816272
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = squareButton
+			position = -0.2478573, -0.6151688, 0.055
+			rotation = 0, 0, -0.190809, 0.9816272
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = squareButton
+			position = 0.3442051, -0.4850036, 0.3223784
+			rotation = 0.5735765, 0, 0, -0.8191521
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = squareButton
+			position = 0.2995508, -0.4850036, 0.3223786
+			rotation = 0.5735762, 0, 0, -0.8191522
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = squareButton
+			position = 0.299551, -0.4437972, 0.3373771
+			rotation = 0.5735762, 0, 0, -0.8191522
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = squareButton
+			position = 0.344205, -0.4437972, 0.3373761
+			rotation = 0.5735762, 0, 0, -0.8191522
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = squareButton
+			position = 0.344205, -0.4021291, 0.3525419
+			rotation = 0.5735762, 0, 0, -0.8191522
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = squareButton
+			position = 0.299551, -0.4021291, 0.3525429
+			rotation = 0.5735762, 0, 0, -0.8191522
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = squareButton
+			position = -0.4522775, -0.4343513, 0.1923043
+			rotation = -0.2704675, 0.2733768, -0.6542933, 0.6511626
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = squareButton
+			position = -0.4207961, -0.4345951, 0.2235314
+			rotation = -0.2704675, 0.2733768, -0.6542933, 0.6511626
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = squareButton
+			position = -0.48341, -0.43411, 0.161423
+			rotation = -0.2704675, 0.2733768, -0.6542933, 0.6511626
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.08095609, -0.5593126, -0.14886
+			rotation = 0.3826835, 0, 0, 0.9238796
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.080956, -0.6132184, -0.0949544
+			rotation = 0.3826829, 0, 0, 0.9238797
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.080956, -0.6489936, -0.05917933
+			rotation = 0.3826829, 0, 0, 0.9238797
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.080956, -0.5770909, -0.1310821
+			rotation = 0.3826829, 0, 0, 0.9238797
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.080956, -0.6311265, -0.07704636
+			rotation = 0.3826829, 0, 0, 0.9238797
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.080956, -0.5952168, -0.1129563
+			rotation = 0.3826829, 0, 0, 0.9238797
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = -0.08132994, -0.595217, -0.112956
+			rotation = 0.3826829, 0, 0, 0.9238797
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = -0.08132994, -0.631127, -0.077046
+			rotation = 0.3826829, 0, 0, 0.9238797
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = -0.08132994, -0.577091, -0.131082
+			rotation = 0.3826829, 0, 0, 0.9238797
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = -0.08132994, -0.648994, -0.059179
+			rotation = 0.3826829, 0, 0, 0.9238797
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = -0.08132994, -0.613218, -0.094954
+			rotation = 0.3826829, 0, 0, 0.9238797
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = -0.08132994, -0.559313, -0.14886
+			rotation = 0.3826829, 0, 0, 0.9238797
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switch
+			position = 0.5390903, -0.1844511, -0.1849193
+			rotation = 0, 0, 0.7071068, 0.7071068
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switch
+			position = 0.53909, -0.184451, -0.09398615
+			rotation = 0, 0, 0.7071068, 0.7071068
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switch
+			position = 0.53909, -0.184451, 0.01971347
+			rotation = 0, 0, 0.7071068, 0.7071068
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switch
+			position = 0.5010625, -0.4059355, 0.148921
+			rotation = -0.2705981, -0.2705981, 0.6532815, 0.6532815
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switch
+			position = 0.501062, -0.4448726, 0.148921
+			rotation = -0.2705978, -0.2705978, 0.6532816, 0.6532816
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switch
+			position = 0.501062, -0.3649698, 0.148921
+			rotation = -0.2705978, -0.2705978, 0.6532816, 0.6532816
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = 0.5365335, -0.3534006, -0.09408252
+			rotation = 0.5, -0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = 0.536533, -0.3955121, -0.094083
+			rotation = 0.5, -0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = 0.536533, -0.4401003, -0.094083
+			rotation = 0.5, -0.5, 0.5, 0.5
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = throttle
+			position = -0.32, -0.4268568, 0.3584234
+			rotation = -0.5735762, 0, 0, 0.8191522
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = VSI
+			position = 0.2781939, -0.6007282, -0.02830147
+			rotation = 0, 0, 0.190809, 0.9816272
+			scale = 1.5, 1.2, 1.5
+		}
+	}
+}
+UrlConfig
+{
+	name = mk1CockpitInternal
+	type = INTERNAL
+	parentUrl = Squad/Spaces/mk1CockpitInternal/internal
+	url = Squad/Spaces/mk1CockpitInternal/internal/mk1CockpitInternal
+	INTERNAL
+	{
+		name = mk1CockpitInternal
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = CenterSeat
+			portraitCameraName = CockpitCam
+			allowCrewHelmet = false
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = focusCanopy
+			cameraTransformName = CanopyEyeTransform
+		}
+		PROP
+		{
+			name = ButtonSquare
+			position = -0.1184633, 0.2851815, -0.9793196
+			rotation = 0.5576651, 0, 0, 0.8300661
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob2
+			position = 0.1415246, 0.3691107, -1.013589
+			rotation = 0.5576652, 0, 0, 0.830066
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ledPanelSpeed
+			position = 0, 0.3890861, -1.014563
+			rotation = 0.5576652, 0, 0, 0.830066
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AxisIndicatorPitch
+			position = 0.1358635, 0.3265584, -0.9962139
+			rotation = 2.081698E-08, 0.8333066, 0.5528113, -3.843617E-08
+			scale = 0.5, 0.5, 0.5
+		}
+		PROP
+		{
+			name = AxisIndicatorRoll
+			position = 0.1634097, 0.3319612, -0.9984202
+			rotation = 0.3805535, -0.595969, -0.3805535, 0.595969
+			scale = 0.5, 0.5, 0.5
+		}
+		PROP
+		{
+			name = AxisIndicatorYaw
+			position = 0.1634097, 0.3185025, -0.9929256
+			rotation = 0.3805535, -0.595969, -0.3805535, 0.595969
+			scale = 0.5, 0.5, 0.5
+		}
+		PROP
+		{
+			name = IndicatorPanel
+			position = 0.0752, 0.3351225, -0.994267
+			rotation = 0.5547278, 0, 0, 0.832032
+			scale = 0.75, 0.75, 0.75
+		}
+		PROP
+		{
+			name = AltimeterThreeHands
+			position = -0.1029768, 0.3211913, -0.987247
+			rotation = 0.5693183, 0, 0, 0.8221173
+			scale = 0.75, 0.75, 0.75
+		}
+		PROP
+		{
+			name = AtmosphereDepth
+			position = -0.1674645, 0.3527832, -1.006922
+			rotation = 0.3908966, 0.5892367, 0.3908966, 0.5892367
+			scale = 0.6, 0.6, 0.6
+		}
+		PROP
+		{
+			name = Compass
+			position = 0, 0.273, -0.974
+			rotation = 0.3805538, -0.5959688, -0.3805538, 0.5959688
+			scale = 0.4, 0.4, 0.4
+		}
+		PROP
+		{
+			name = NavBall
+			position = -0.000333786, 0.3283074, -0.9969287
+			rotation = 0.5576652, 0, 0, 0.830066
+			scale = 1.33, 1.33, 1.33
+		}
+		PROP
+		{
+			name = RadarAltimeter
+			position = -0.1049209, 0.3633999, -1.01154
+			rotation = 0.5576652, 0, 0, 0.830066
+			scale = 0.75, 0.75, 0.75
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.1946828, 0.2584439, -0.8968201
+			rotation = -0.01220831, 0.1293359, 0.7207707, 0.6808913
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.1902411, 0.2537145, -0.9190431
+			rotation = -0.03401771, 0.1068558, 0.7179918, 0.6869589
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switch
+			position = 0.1430016, 0.2953996, -0.9816484
+			rotation = 0.5576651, 0, 0, 0.8300661
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchGuard
+			position = 0.1848326, 0.2948472, -0.9832668
+			rotation = 0.5576651, 0, 0, 0.8300661
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchGuard
+			position = 0.1587298, 0.2951645, -0.9833961
+			rotation = 0.5576651, 0, 0, 0.8300661
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = -0.230449, 0.2591012, -0.9510899
+			rotation = -0.018479, 0.6345649, -0.030337, 0.7720529
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = VSI
+			position = -0.1688075, 0.3212565, -0.9940495
+			rotation = 0.5528113, 0, 0, 0.8333066
+			scale = 0.75, 0.75, 0.75
+		}
+		PROP
+		{
+			name = switchWithGuards
+			position = -0.2001622, 0.2588217, -0.9446726
+			rotation = -0.01847891, 0.6345652, -0.03033708, 0.7720527
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ButtonSquare
+			position = -0.09225798, 0.2851814, -0.9793196
+			rotation = 0.5576652, 0, 0, 0.830066
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = circularButton
+			position = -0.1468208, 0.2854227, -0.9794178
+			rotation = 0.5576652, 0, 0, 0.830066
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = -0.2136493, 0.268221, -0.876173
+			rotation = -0.02046479, -0.0619312, -0.03525103, 0.9972478
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob2
+			position = 0.167, 0.365, -1.012
+			rotation = 0.5576653, 0, 0, 0.8300659
+			scale = 0.612, 0.612, 0.612
+		}
+		PROP
+		{
+			name = pullSwitch
+			position = -0.1748199, 0.2856328, -0.9795036
+			rotation = 0.5576652, 0, 0, 0.830066
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = standingSwitch
+			position = 0.200089, 0.263459, -0.8729463
+			rotation = -0.01274299, 0.1320612, 0.7025979, 0.6991092
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switch
+			position = 0.1701257, 0.2953994, -0.9816489
+			rotation = 0.5576652, 0, 0, 0.830066
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = switchGuard
+			position = 0.1253459, 0.2943485, -0.9830632
+			rotation = 0.5576652, 0, 0, 0.830066
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = throttle
+			position = -0.227, 0.261, -0.804
+			rotation = 0.004244888, 0.07983384, 0.05310115, -0.9953837
+			scale = 0.5, 0.5, 0.5
+		}
+	}
+}
+UrlConfig
+{
+	name = mk1PodCockpit
+	type = INTERNAL
+	parentUrl = Squad/Spaces/mk1PodCockpit/internal
+	url = Squad/Spaces/mk1PodCockpit/internal/mk1PodCockpit
+	INTERNAL
+	{
+		name = mk1PodCockpit
+		MODULE
+		{
+			name = InternalSeat
+			seatTransformName = pilotSeat
+		}
+		MODULE
+		{
+			name = InternalCameraSwitch
+			colliderTransformName = WindowFocusPoint
+			cameraTransformName = WindowEyeTransform
+		}
+		PROP
+		{
+			name = AltimeterThreeHands
+			position = -0.07556272, 0.1159766, -0.1933374
+			rotation = 0.5224234, -0.02259917, 0.01240638, 0.8522964
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AtmosphereDepth
+			position = 0.09715462, 0.1835504, -0.2329795
+			rotation = -0.3883636, -0.5775291, -0.4094696, -0.5898886
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AxisIndicatorPitch
+			position = 0.04695153, 0.1676569, -0.226972
+			rotation = -0.01451988, 0.8539876, 0.5199118, 0.01363798
+			scale = 0.7576665, 0.7576665, 0.7576665
+		}
+		PROP
+		{
+			name = AxisIndicatorRoll
+			position = 0.09650087, 0.1583266, -0.2199712
+			rotation = 0.3788908, -0.6118522, -0.3563156, 0.5959178
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = AxisIndicatorYaw
+			position = 0.09583187, 0.1325848, -0.20669
+			rotation = 0.3762259, -0.6162743, -0.3591281, 0.5913435
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = circularButton
+			position = -0.1307082, 0.06822944, -0.1836638
+			rotation = 0.5339533, -0.004270034, 0.009300488, 0.8454521
+			scale = 0.73, 0.73, 0.73
+		}
+		PROP
+		{
+			name = circularButton
+			position = -0.06026793, 0.01436901, -0.153614
+			rotation = 0.5483797, 0, 0, 0.8362295
+			scale = 0.75, 0.75, 0.75
+		}
+		PROP
+		{
+			name = circularButton
+			position = -0.08825064, 0.01436901, -0.153614
+			rotation = 0.5483798, 0, 0, 0.8362294
+			scale = 0.75, 0.75, 0.75
+		}
+		PROP
+		{
+			name = circularButton
+			position = -0.1196415, 0.01605415, -0.1543463
+			rotation = 0.5483798, 0, 0, 0.8362294
+			scale = 0.75, 0.75, 0.75
+		}
+		PROP
+		{
+			name = Compass
+			position = -0.002447128, 0.0224905, -0.1540784
+			rotation = 0.3760241, -0.6166065, -0.3593395, 0.590997
+			scale = 0.3725889, 0.3725889, 0.3725889
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = -0.05956459, 0.1560383, -0.2256418
+			rotation = 0.5198569, -0.01060819, 0.01636428, 0.8540308
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob
+			position = -0.05953217, 0.1822026, -0.2391694
+			rotation = 0.5198569, -0.010608, 0.016364, 0.8540308
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob2
+			position = -0.1233451, 0.1288049, -0.2143644
+			rotation = 0.5190617, -0.01480024, 0.01376122, 0.8544978
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = directionalKnob2
+			position = -0.1236727, 0.1023681, -0.2006405
+			rotation = 0.5190619, -0.0148, 0.013761, 0.8544978
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = IndicatorPanel
+			position = 0.09509754, 0.06577349, -0.1620018
+			rotation = 0.5199545, -0.016311, 0.01289243, 0.8539409
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = ledPanelSpeed
+			position = 0.009328842, 0.1286502, -0.2084537
+			rotation = 0.5349815, -0.009351482, 0.006512722, 0.8447869
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = NavBall
+			position = 0, 0.0752089, -0.1812306
+			rotation = 0.519961, -0.01674504, 0.01262825, 0.8539326
+			scale = 1.45, 1.45, 1.45
+		}
+		PROP
+		{
+			name = RadarAltimeter
+			position = -0.0889442, 0.05221152, -0.1732453
+			rotation = 0.5199315, -0.01483751, 0.01378958, 0.8539678
+			scale = 1, 1, 1
+		}
+		PROP
+		{
+			name = throttle
+			position = -0.2037261, 0.1435351, -0.2052736
+			rotation = 0.5409075, 0.1184557, -0.2935839, 0.7792277
+			scale = 0.5974331, 0.5974331, 0.5974331
+		}
+		PROP
+		{
+			name = VSI
+			position = -0.1136143, 0.1695364, -0.2349952
+			rotation = 0.5199462, -0.01576281, 0.0132262, 0.8539512
+			scale = 1, 1, 1
+		}
+	}
+}
+UrlConfig
+{
 	name = Finances
 	type = STRATEGY_DEPARTMENT
 	parentUrl = Squad/Strategies/Departments
@@ -31975,8 +32011,8 @@ UrlConfig
 		ReplaceStockAppTimeOut = 20
 		AppLauncherSetTrueTimeOut = 6
 		DailyVersionCheck = True
-		VersionCheckDate_AttemptStored = 2015-03-27
-		VersionCheckDate_SuccessStored = 2015-03-27
+		VersionCheckDate_AttemptStored = 2015-04-08
+		VersionCheckDate_SuccessStored = 2015-04-08
 		ShowWindowOnResourceMonitor = True
 		VersionWeb = 2.6.3.0
 		WindowPositionStored
@@ -32158,6 +32194,38 @@ UrlConfig
 			{
 				id = -1714321982
 				name = MJPropellant
+				IsSeparator = False
+				Visibility = AlwaysOn
+				AlarmEnabled = False
+				HideWhenEmpty = False
+				HideWhenFull = False
+				MonitorDirection = Low
+				MonitorWarningLevel = 20
+				MonitorAlertLevel = 10
+				SplitLastStage = True
+				ShowReserveLevels = False
+				DisplayValueAs = Units
+			}
+			Item
+			{
+				id = 986007199
+				name = AblativeShielding
+				IsSeparator = False
+				Visibility = AlwaysOn
+				AlarmEnabled = False
+				HideWhenEmpty = False
+				HideWhenFull = False
+				MonitorDirection = Low
+				MonitorWarningLevel = 20
+				MonitorAlertLevel = 10
+				SplitLastStage = True
+				ShowReserveLevels = False
+				DisplayValueAs = Units
+			}
+			Item
+			{
+				id = -1513611001
+				name = LeadBallast
 				IsSeparator = False
 				Visibility = AlwaysOn
 				AlarmEnabled = False
